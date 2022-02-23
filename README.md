@@ -1,5 +1,5 @@
-# open-source-starter
-starter template for CZI open source projects
+# napari Segmentation Workshop
+workshop materials for biologists performing cell segmentation in napari
 
 
 
