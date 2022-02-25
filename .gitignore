@@ -71,7 +71,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-napari_segmentation_course/_build
+content/_build
 
 # PyBuilder
 target/
