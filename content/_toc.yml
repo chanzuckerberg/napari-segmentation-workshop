@@ -1,9 +1,30 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
+
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: new_example
+parts:
+- caption: Stage I: Onboard to napari
+  chapters:
+  - file: onboard/lesson1
+  - file: onboard/lesson2
+  - file: onboard/lesson3
+  - file: onboard/lesson4
+      sections:
+    - file: onboard/exercise1
+    
+- caption: Stage II: Select plugins from the hub
+  chapters:
+  - file: plugins/lesson1
+  - file: plugins/lesson2
+  - file: plugins/lesson3
+      sections:
+    - file: plugins/exercise2
+    
+- caption: Stage III: Complete workflow on data
+  chapters:
+  - file: workflow/lesson1
+  - file: workflow/lesson2
+  - file: workflow/lesson3
+  - file: workflow/lesson4
