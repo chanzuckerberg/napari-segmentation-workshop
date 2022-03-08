@@ -11,7 +11,7 @@ parts:
   - file: onboard/lesson2
   - file: onboard/lesson3
   - file: onboard/lesson4
-      sections:
+    sections:
     - file: onboard/exercise1
 
 - caption: "Stage II: Select plugins from the hub"
@@ -19,7 +19,7 @@ parts:
   - file: plugins/lesson1
   - file: plugins/lesson2
   - file: plugins/lesson3
-      sections:
+    sections:
     - file: plugins/exercise2
 
 - caption: "Stage III: Complete workflow on data"
