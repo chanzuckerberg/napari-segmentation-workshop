@@ -2,6 +2,8 @@
 
 Course materials for biologists performing cell segmentation in napari
 
+Site here: https://chanzuckerberg.github.io/napari-segmentation-workshop/
+
 ## Usage
 
 ### Building the book
