@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson 1 &#8212; napari Segmentation Course</title>
+    <title>Lesson 1: Introduction to napari (for research biologists) &#8212; napari Segmentation Course</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -106,7 +106,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Lesson 1
+   Lesson 1: Introduction to napari (for research biologists)
   </a>
  </li>
  <li class="toctree-l1">
@@ -295,43 +295,70 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-1">
-   Section 1
+  <a class="reference internal nav-link" href="#introduction-to-napari">
+   Introduction to napari
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-1-1">
-     Section 1.1
+    <a class="reference internal nav-link" href="#what-is-napari">
+     What is napari?
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-1-2">
-     Section 1.2
+    <a class="reference internal nav-link" href="#the-napari-viewer">
+     The napari viewer
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-2">
-   Section 2
+  <a class="reference internal nav-link" href="#what-can-napari-do">
+   What can napari do?
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-2-1">
-     Section 2.1
+    <a class="reference internal nav-link" href="#overview-of-napari">
+     Overview of napari
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-2-2">
-     Section 2.2
+    <a class="reference internal nav-link" href="#napari-layers">
+     napari layers
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-2-3">
-     Section 2.3
+    <a class="reference internal nav-link" href="#napari-console">
+     napari console
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#widgets-and-plugins">
+     Widgets and plugins
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-use-napari">
+   Why use napari?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#interoperability-with-other-platforms">
+     Interoperability with other platforms
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#use-cases-for-napari">
+     Use cases for napari
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#closeout">
+   Closeout
+  </a>
  </li>
 </ul>
 
@@ -344,7 +371,7 @@ const thebe_selector_output = ".output, .cell_output"
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>
-Lesson 1</h1>
+Lesson 1: Introduction to napari (for research biologists)</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -365,43 +392,70 @@ Lesson 1</h1>
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-1">
-   Section 1
+  <a class="reference internal nav-link" href="#introduction-to-napari">
+   Introduction to napari
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-1-1">
-     Section 1.1
+    <a class="reference internal nav-link" href="#what-is-napari">
+     What is napari?
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-1-2">
-     Section 1.2
+    <a class="reference internal nav-link" href="#the-napari-viewer">
+     The napari viewer
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-2">
-   Section 2
+  <a class="reference internal nav-link" href="#what-can-napari-do">
+   What can napari do?
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-2-1">
-     Section 2.1
+    <a class="reference internal nav-link" href="#overview-of-napari">
+     Overview of napari
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-2-2">
-     Section 2.2
+    <a class="reference internal nav-link" href="#napari-layers">
+     napari layers
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#section-2-3">
-     Section 2.3
+    <a class="reference internal nav-link" href="#napari-console">
+     napari console
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#widgets-and-plugins">
+     Widgets and plugins
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-use-napari">
+   Why use napari?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#interoperability-with-other-platforms">
+     Interoperability with other platforms
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#use-cases-for-napari">
+     Use cases for napari
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#closeout">
+   Closeout
+  </a>
  </li>
 </ul>
 
@@ -412,9 +466,9 @@ Lesson 1</h1>
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="picture-of-art-installation-of-networked-cables-lesson-1">
+  <div class="tex2jax_ignore mathjax_ignore section" id="picture-of-art-installation-of-networked-cables-lesson-1-introduction-to-napari-for-research-biologists">
 <h1><img alt="Picture of art installation of networked cables" src="../_images/header_small.jpeg" />
-Lesson 1<a class="headerlink" href="#picture-of-art-installation-of-networked-cables-lesson-1" title="Permalink to this headline">¶</a></h1>
+Lesson 1: Introduction to napari (for research biologists)<a class="headerlink" href="#picture-of-art-installation-of-networked-cables-lesson-1-introduction-to-napari-for-research-biologists" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -444,80 +498,30 @@ Lesson 1<a class="headerlink" href="#picture-of-art-installation-of-networked-ca
 </ul>
 </div>
 <hr class="docutils" />
-<div class="section" id="section-1">
-<h2>Section 1<a class="headerlink" href="#section-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introduction-to-napari">
+<h2>Introduction to napari<a class="headerlink" href="#introduction-to-napari" title="Permalink to this headline">¶</a></h2>
 <p>Pellentesque sit amet porttitor eget dolor. Sit amet nisl suscipit adipiscing bibendum est ultricies. Malesuada fames ac turpis egestas maecenas pharetra. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus.</p>
-<div class="tabbed-set docutils">
-<input checked="checked" id="d40e786e-900f-4fbc-8dee-072911123bd9" name="da116ef2-3d0a-407e-975c-7af8fee6e616" type="radio">
-</input><label class="tabbed-label" for="d40e786e-900f-4fbc-8dee-072911123bd9">
-c++</label><div class="tabbed-content docutils">
-<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">**</span><span class="n">argv</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-</pre></div>
-</div>
-</div>
-<input id="889a7a13-ef55-48f5-b3c7-dbda6b7c75a8" name="da116ef2-3d0a-407e-975c-7af8fee6e616" type="radio">
-</input><label class="tabbed-label" for="889a7a13-ef55-48f5-b3c7-dbda6b7c75a8">
-python</label><div class="tabbed-content docutils">
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-    <span class="k">return</span>
-</pre></div>
-</div>
-</div>
-<input id="ae100092-4747-4988-80d0-92165301ca4d" name="da116ef2-3d0a-407e-975c-7af8fee6e616" type="radio">
-</input><label class="tabbed-label" for="ae100092-4747-4988-80d0-92165301ca4d">
-java</label><div class="tabbed-content docutils">
-<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">Main</span> <span class="p">{</span>
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
-<input id="7366261c-daab-4a66-90ce-c349e5fc15bf" name="da116ef2-3d0a-407e-975c-7af8fee6e616" type="radio">
-</input><label class="tabbed-label" for="7366261c-daab-4a66-90ce-c349e5fc15bf">
-julia</label><div class="tabbed-content docutils">
-<div class="highlight-julia notranslate"><div class="highlight"><pre><span></span><span class="k">function</span> <span class="n">main</span><span class="p">()</span>
-<span class="k">end</span>
-</pre></div>
-</div>
-</div>
-<input id="7bc89e54-7148-4ece-a3b9-1f8b21c0cdbc" name="da116ef2-3d0a-407e-975c-7af8fee6e616" type="radio">
-</input><label class="tabbed-label" for="7bc89e54-7148-4ece-a3b9-1f8b21c0cdbc">
-fortran</label><div class="tabbed-content docutils">
-<div class="highlight-fortran notranslate"><div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">main</span><span class="w"></span>
-<span class="k">END PROGRAM </span><span class="n">main</span><span class="w"></span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="section" id="section-1-1">
-<h3>Section 1.1<a class="headerlink" href="#section-1-1" title="Permalink to this headline">¶</a></h3>
-<p>Facilisi cras fermentum odio eu feugiat pretium nibh. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Justo nec ultrices dui sapien eget. Ac ut consequat semper viverra nam libero justo. Laoreet id donec ultrices tincidunt. Consectetur adipiscing elit duis tristique sollicitudin nibh sit.</p>
+<div class="section" id="what-is-napari">
+<h3>What is napari?<a class="headerlink" href="#what-is-napari" title="Permalink to this headline">¶</a></h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>At animi commodi aut dignissimos laudantium et voluptatem eveniet id deleniti voluptatibus dolorem quidem aut error repellat sed velit dolor. Est laudantium consectetur id nihil nostrum sed ducimus laudantium eos porro voluptate qui facere illum id debitis earum ut adipisci soluta.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Morbi tincidunt ornare massa eget. Sit amet mattis vulputate enim nulla aliquet porttitor. Et netus et malesuada fames ac. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare.</p>
 </div>
 </div>
-<div class="section" id="section-1-2">
-<h3>Section 1.2<a class="headerlink" href="#section-1-2" title="Permalink to this headline">¶</a></h3>
-<p>(Sem nulla pharetra diam sit amet. Dolor sit amet consectetur adipiscing elit. Sit amet risus nullam eget felis. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit.)</p>
-<p>Ultricies mi eget mauris pharetra et ultrices neque ornare:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">skimage</span> <span class="kn">import</span> <span class="n">data</span>
-<span class="kn">import</span> <span class="nn">napari</span>
-
-<span class="n">viewer</span> <span class="o">=</span> <span class="n">napari</span><span class="o">.</span><span class="n">view_image</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">cells3d</span><span class="p">(),</span> <span class="n">channel_axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ndisplay</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-</pre></div>
-</div>
+<div class="section" id="the-napari-viewer">
+<h3>The napari viewer<a class="headerlink" href="#the-napari-viewer" title="Permalink to this headline">¶</a></h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sFvZcUeShoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Et harum quisquam in consectetur quae accusantium cumque ut consequatur Quis et facere maxime qui quisquam unde. Sit optio natus in sunt pariatur ad magni distinctio. Non accusamus ratione non veniam nesciunt cum autem temporibus id quis quia vel dolore inventore ut nihil quia.</p>
 <p><img alt="image" src="../_images/napari-viewer.png" /></p>
 </div>
 </div>
-<div class="section" id="section-2">
-<h2>Section 2<a class="headerlink" href="#section-2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="what-can-napari-do">
+<h2>What can napari do?<a class="headerlink" href="#what-can-napari-do" title="Permalink to this headline">¶</a></h2>
 <p>Ultricies mi eget mauris pharetra et. Lectus vestibulum mattis ullamcorper velit sed. Pellentesque habitant morbi tristique senectus et netus et malesuada.Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet venenatis urna cursus eget. Sit amet purus gravida quis blandit turpis cursus in hac.</p>
-<div class="section" id="section-2-1">
-<h3>Section 2.1<a class="headerlink" href="#section-2-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="overview-of-napari">
+<h3>Overview of napari<a class="headerlink" href="#overview-of-napari" title="Permalink to this headline">¶</a></h3>
 <p>Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nunc non blandit massa enim. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Amet consectetur adipiscing elit ut.</p>
 <dl class="glossary simple">
 <dt id="term-Term-one">Term one<a class="headerlink" href="#term-Term-one" title="Permalink to this term">¶</a></dt><dd><p>An indented explanation of term 1</p>
@@ -526,8 +530,8 @@ fortran</label><div class="tabbed-content docutils">
 </dd>
 </dl>
 </div>
-<div class="section" id="section-2-2">
-<h3>Section 2.2<a class="headerlink" href="#section-2-2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="napari-layers">
+<h3>napari layers<a class="headerlink" href="#napari-layers" title="Permalink to this headline">¶</a></h3>
 <p>Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nunc non blandit massa enim. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Amet consectetur adipiscing elit ut.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -535,11 +539,41 @@ fortran</label><div class="tabbed-content docutils">
 Erat nam at lectus urna. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci.</p>
 </div>
 </div>
-<div class="section" id="section-2-3">
-<h3>Section 2.3<a class="headerlink" href="#section-2-3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="napari-console">
+<h3>napari console<a class="headerlink" href="#napari-console" title="Permalink to this headline">¶</a></h3>
 <p>Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vel pretium lectus quam id leo in vitae. Sit amet dictum sit amet justo donec.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">skimage</span> <span class="kn">import</span> <span class="n">data</span>
+<span class="kn">import</span> <span class="nn">napari</span>
+
+<span class="n">viewer</span> <span class="o">=</span> <span class="n">napari</span><span class="o">.</span><span class="n">view_image</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">cells3d</span><span class="p">(),</span> <span class="n">channel_axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ndisplay</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
 </div>
+</div>
+<div class="section" id="widgets-and-plugins">
+<h3>Widgets and plugins<a class="headerlink" href="#widgets-and-plugins" title="Permalink to this headline">¶</a></h3>
+<p>Est omnis adipisci est commodi provident aut dignissimos excepturi a delectus quia aut delectus fugiat qui nisi blanditiis a omnis dolore. At iure enim in voluptate unde At adipisci facere sit nesciunt iusto.</p>
+<p>Ea assumenda dolorum et quaerat earum aut cumque culpa et dolores corrupti. Eos modi inventore est esse perferendis sed iste aliquid eum quia consequatur?</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_Zo2sR75To" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="section" id="why-use-napari">
+<h2>Why use napari?<a class="headerlink" href="#why-use-napari" title="Permalink to this headline">¶</a></h2>
+<p>Et distinctio quisquam quo nemo dolorem cum distinctio dignissimos a natus inventore aut rerum deserunt. Sed fugit molestiae non iste voluptatem et laborum error et placeat quia. Hic quisquam sunt in sunt dolorem ut recusandae amet sit excepturi incidunt qui sequi tenetur sed odio autem a reprehenderit minima. Et quisquam laudantium quo illum sint a blanditiis quod eum aperiam officia.</p>
+<div class="section" id="interoperability-with-other-platforms">
+<h3>Interoperability with other platforms<a class="headerlink" href="#interoperability-with-other-platforms" title="Permalink to this headline">¶</a></h3>
+<p>Sed dolores fugiat id ullam molestiae corrupti nostrum et quia ipsam eum velit quaerat vel labore ipsum id voluptas incidunt. Et dicta quis est adipisci nobis non corporis quia qui distinctio deserunt ad sunt eius eum voluptatum totam eum quasi consequuntur. Est iste dolore quo aliquam quia id dicta culpa et delectus aliquam eum soluta nesciunt id reiciendis eligendi.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VgvDSq5aCDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="section" id="use-cases-for-napari">
+<h3>Use cases for napari<a class="headerlink" href="#use-cases-for-napari" title="Permalink to this headline">¶</a></h3>
+<p>Qui accusantium voluptatem quo mollitia beatae ab sequi consequatur in inventore dignissimos non suscipit suscipit? Ut aspernatur iusto ad galisum facere quo deserunt similique et animi similique.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dzej2YDQM6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="section" id="closeout">
+<h2>Closeout<a class="headerlink" href="#closeout" title="Permalink to this headline">¶</a></h2>
+<p>Sed doloremque voluptatibus eum quia facere est possimus illo ab quae facere qui asperiores dolorem sed nulla quasi ad tempore adipisci. Qui omnis beatae et esse minima ut nostrum dolorem et aliquam amet. Non enim maxime qui optio quia aut velit excepturi quo inventore laudantium.</p>
+<p>Non placeat officia cum tempore officiis sit voluptate saepe ut magnam galisum sit quas consequatur. Ut asperiores cupiditate a aperiam dolorem est voluptatum molestiae a aliquid eveniet.</p>
 </div>
 </div>
 

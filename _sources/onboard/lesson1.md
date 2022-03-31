@@ -1,5 +1,5 @@
 ![Picture of art installation of networked cables](images/header_small.jpeg)
-Lesson 1
+Lesson 1: Introduction to napari (for research biologists)
 =======================
 
 ## Overview
@@ -19,86 +19,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-## Section 1
+## Introduction to napari
 
 Pellentesque sit amet porttitor eget dolor. Sit amet nisl suscipit adipiscing bibendum est ultricies. Malesuada fames ac turpis egestas maecenas pharetra. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus.
 
-````{tabbed} c++
+### What is napari? 
 
-```{code-block} c++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-int main(const int argc, const char **argv) {
-  return 0;
-}
-```
-````
-
-````{tabbed} python
-
-```{code-block} python
-
-def main():
-    return
-```
-````
-
-````{tabbed} java
-
-```{code-block} java
-
-class Main {
-    public static void main(String[] args) {
-    }
-}
-```
-````
-
-````{tabbed} julia
-
-```{code-block} julia
-
-function main()
-end
-```
-````
-
-````{tabbed} fortran
-
-```{code-block} fortran
-
-PROGRAM main
-END PROGRAM main
-```
-````
-
-### Section 1.1
-
-Facilisi cras fermentum odio eu feugiat pretium nibh. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Justo nec ultrices dui sapien eget. Ac ut consequat semper viverra nam libero justo. Laoreet id donec ultrices tincidunt. Consectetur adipiscing elit duis tristique sollicitudin nibh sit.
+At animi commodi aut dignissimos laudantium et voluptatem eveniet id deleniti voluptatibus dolorem quidem aut error repellat sed velit dolor. Est laudantium consectetur id nihil nostrum sed ducimus laudantium eos porro voluptate qui facere illum id debitis earum ut adipisci soluta.
 
 :::{tip}
 Morbi tincidunt ornare massa eget. Sit amet mattis vulputate enim nulla aliquet porttitor. Et netus et malesuada fames ac. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare.
 :::
 
-### Section 1.2
+### The napari viewer
 
-(Sem nulla pharetra diam sit amet. Dolor sit amet consectetur adipiscing elit. Sit amet risus nullam eget felis. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit.)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sFvZcUeShoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Ultricies mi eget mauris pharetra et ultrices neque ornare:
-
-```python
-from skimage import data
-import napari
-
-viewer = napari.view_image(data.cells3d(), channel_axis=1, ndisplay=3)
-```
+Et harum quisquam in consectetur quae accusantium cumque ut consequatur Quis et facere maxime qui quisquam unde. Sit optio natus in sunt pariatur ad magni distinctio. Non accusamus ratione non veniam nesciunt cum autem temporibus id quis quia vel dolore inventore ut nihil quia.
 
 ![image](images/napari-viewer.png)
 
-## Section 2
+## What can napari do? 
 
 Ultricies mi eget mauris pharetra et. Lectus vestibulum mattis ullamcorper velit sed. Pellentesque habitant morbi tristique senectus et netus et malesuada.Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet venenatis urna cursus eget. Sit amet purus gravida quis blandit turpis cursus in hac.
 
-### Section 2.1
+### Overview of napari
 
 Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nunc non blandit massa enim. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Amet consectetur adipiscing elit ut.
 
@@ -110,7 +57,7 @@ A second term
   An indented explanation of term2
 ```
 
-### Section 2.2
+### napari layers
 
 Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nunc non blandit massa enim. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Amet consectetur adipiscing elit ut.
 
@@ -118,8 +65,44 @@ Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nun
 Maecenas sed enim ut sem viverra aliquet. Facilisis volutpat est velit egestas dui id. 
 Erat nam at lectus urna. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci.
 ```
-### Section 2.3
+
+### napari console
 
 Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vel pretium lectus quam id leo in vitae. Sit amet dictum sit amet justo donec. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```python
+from skimage import data
+import napari
+
+viewer = napari.view_image(data.cells3d(), channel_axis=1, ndisplay=3)
+```
+
+### Widgets and plugins
+
+Est omnis adipisci est commodi provident aut dignissimos excepturi a delectus quia aut delectus fugiat qui nisi blanditiis a omnis dolore. At iure enim in voluptate unde At adipisci facere sit nesciunt iusto.
+
+Ea assumenda dolorum et quaerat earum aut cumque culpa et dolores corrupti. Eos modi inventore est esse perferendis sed iste aliquid eum quia consequatur?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_Zo2sR75To" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Why use napari? 
+
+Et distinctio quisquam quo nemo dolorem cum distinctio dignissimos a natus inventore aut rerum deserunt. Sed fugit molestiae non iste voluptatem et laborum error et placeat quia. Hic quisquam sunt in sunt dolorem ut recusandae amet sit excepturi incidunt qui sequi tenetur sed odio autem a reprehenderit minima. Et quisquam laudantium quo illum sint a blanditiis quod eum aperiam officia.
+
+### Interoperability with other platforms
+
+Sed dolores fugiat id ullam molestiae corrupti nostrum et quia ipsam eum velit quaerat vel labore ipsum id voluptas incidunt. Et dicta quis est adipisci nobis non corporis quia qui distinctio deserunt ad sunt eius eum voluptatum totam eum quasi consequuntur. Est iste dolore quo aliquam quia id dicta culpa et delectus aliquam eum soluta nesciunt id reiciendis eligendi.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VgvDSq5aCDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Use cases for napari 
+
+Qui accusantium voluptatem quo mollitia beatae ab sequi consequatur in inventore dignissimos non suscipit suscipit? Ut aspernatur iusto ad galisum facere quo deserunt similique et animi similique.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dzej2YDQM6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Closeout
+
+Sed doloremque voluptatibus eum quia facere est possimus illo ab quae facere qui asperiores dolorem sed nulla quasi ad tempore adipisci. Qui omnis beatae et esse minima ut nostrum dolorem et aliquam amet. Non enim maxime qui optio quia aut velit excepturi quo inventore laudantium.
+
+Non placeat officia cum tempore officiis sit voluptate saepe ut magnam galisum sit quas consequatur. Ut asperiores cupiditate a aperiam dolorem est voluptatum molestiae a aliquid eveniet.
