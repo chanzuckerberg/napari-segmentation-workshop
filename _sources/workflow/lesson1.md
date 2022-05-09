@@ -53,7 +53,7 @@ viewer = napari.view_image(data.cells3d(), channel_axis=1, ndisplay=3)
 
 ![image](images/napari-viewer.png)
 
-## Processing steps in segmentation
+## Processing steps (basic and in-depth)
 
 Ultricies mi eget mauris pharetra et. Lectus vestibulum mattis ullamcorper velit sed. Pellentesque habitant morbi tristique senectus et netus et malesuada.Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet venenatis urna cursus eget. Sit amet purus gravida quis blandit turpis cursus in hac.
 
