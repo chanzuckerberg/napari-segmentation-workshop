@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | Stage II: [Deep learning or A.I in image analysis](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson4.html) | Helpful  |   | |
 | Stage II: [Bit depth](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson4.html) | Helpful  |     | |
 
-After learning what napari is, how to install it, and the basic concepts of image analysis, you're now ready to tackle the "segmentation problem" as we call it, and all the different options for solving it (with napari). 
+After learning [what napari is](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson1.html), [how to install it on your machine](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html), and some of the [fundamentals of image analysis](https://chanzuckerberg.github.io/napari-segmentation-workshop/primer/lesson1.html), you're now ready to tackle the "segmentation problem" as we like to call it. 
 
 ---
 
