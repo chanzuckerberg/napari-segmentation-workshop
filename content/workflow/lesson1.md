@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-## Section 1: Defining the "segmentation problem" to solve
+## Defining the "segmentation problem" to solve
 
 Pellentesque sit amet porttitor eget dolor. Sit amet nisl suscipit adipiscing bibendum est ultricies. Malesuada fames ac turpis egestas maecenas pharetra. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus.
 
@@ -51,7 +51,7 @@ viewer = napari.view_image(data.cells3d(), channel_axis=1, ndisplay=3)
 
 ![image](images/napari-viewer.png)
 
-## Section 2: Processing steps 
+## Processing steps 
 
 Ultricies mi eget mauris pharetra et. Lectus vestibulum mattis ullamcorper velit sed. Pellentesque habitant morbi tristique senectus et netus et malesuada.Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet venenatis urna cursus eget. Sit amet purus gravida quis blandit turpis cursus in hac.
 
@@ -131,7 +131,7 @@ A second term
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sFvZcUeShoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Section 3: Writing loops in Python
+## Writing loops in Python
 
 Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vel pretium lectus quam id leo in vitae. Sit amet dictum sit amet justo donec. 
 
