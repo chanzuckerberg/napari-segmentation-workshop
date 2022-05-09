@@ -182,7 +182,7 @@ PROGRAM main
 END PROGRAM main
 ```
 ````
-# Lesson I: "Introduction to cell segmentation" Glossary
+# Lesson Glossary
 
 ```{glossary}
 Threshold
