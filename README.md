@@ -1,4 +1,4 @@
-# napari Segmentation course 
+# napari Segmentation learning course 
 
 Course materials for biologists performing cell segmentation in napari
 
