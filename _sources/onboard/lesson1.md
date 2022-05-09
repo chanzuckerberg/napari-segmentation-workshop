@@ -1,5 +1,5 @@
 ![Picture of art installation of networked cables](images/header_small.jpeg)
-Lesson 1: Introduction to napari (for research biologists)
+Lesson I: Introduction to napari 
 =======================
 
 ## Overview
