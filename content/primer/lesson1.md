@@ -1,5 +1,5 @@
 ![Picture of art installation of networked cables](images/header_small.jpeg)
-Lesson 1
+Lesson 1: Primer to image analysis 
 =======================
 
 ## Overview
