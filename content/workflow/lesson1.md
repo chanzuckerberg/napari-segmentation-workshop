@@ -22,6 +22,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | Stage II: [Deep learning or A.I in image analysis](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson4.html) | Helpful  |   | |
 | Stage II: [Bit depth](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson4.html) | Helpful  |     | |
 
+After learning what napari is, how to install it, and the basic concepts of image analysis, you're now ready to tackle the "segmentation problem" as we call it, and all the different options for solving it (with napari). 
+
 ---
 
 ## Defining the "segmentation problem" to solve
