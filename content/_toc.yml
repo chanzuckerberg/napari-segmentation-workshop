@@ -16,11 +16,8 @@ parts:
 
 - caption: "Stage II: Primer to image analysis"
   chapters:
-  - file: plugins/lesson1
-  - file: plugins/lesson2
-  - file: plugins/lesson3
-    sections:
-    - file: plugins/exercise2
+  - file: primer/lesson1
+  - file: primer/lesson2
 
 - caption: "Stage III: Segmentation workflows"
   chapters:
