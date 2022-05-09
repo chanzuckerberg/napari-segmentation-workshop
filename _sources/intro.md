@@ -1,4 +1,4 @@
-# A curated introduction to napari, and its applications for cell segmentation
+# Understanding napari, and how to apply it toward cell segmentation
 
 This is a small sample book to give you a feel for how book content is
 structured.
