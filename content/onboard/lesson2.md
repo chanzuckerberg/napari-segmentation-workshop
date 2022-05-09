@@ -1,2 +1,2 @@
-Lesson II
+Lesson II: Why use napari?
 =======================
