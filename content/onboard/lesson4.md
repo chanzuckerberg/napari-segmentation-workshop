@@ -1,2 +1,2 @@
-Lesson IV
+Lesson IV: napari plugins
 =======================
