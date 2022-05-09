@@ -182,7 +182,7 @@ PROGRAM main
 END PROGRAM main
 ```
 ````
-# Lesson Glossary
+## Lesson Glossary
 
 ```{glossary}
 Threshold
@@ -222,3 +222,6 @@ Digital image
   An indented explanation of term2  
   ```
   
+## Further Readings
+
+## Next Steps 
