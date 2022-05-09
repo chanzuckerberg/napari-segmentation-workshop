@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | Stage II: [Deep learning or A.I in image analysis](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson4.html) | Helpful  |   | |
 | Stage II: [Bit depth](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson4.html) | Helpful  |     | |
 
-After learning [what napari is](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson1.html), [how to install it on your machine](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html), and some of the [fundamentals of image analysis](https://chanzuckerberg.github.io/napari-segmentation-workshop/primer/lesson1.html), you're now ready to tackle the "segmentation problem" as we like to call it. 
+After learning [what napari is](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson1.html) and what it can do, [how to install it on your machine](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html), and some of the [fundamentals of image analysis](https://chanzuckerberg.github.io/napari-segmentation-workshop/primer/lesson1.html), you're now ready to tackle the "segmentation problem" as we like to call it. 
 
 ---
 
@@ -53,7 +53,7 @@ viewer = napari.view_image(data.cells3d(), channel_axis=1, ndisplay=3)
 
 ![image](images/napari-viewer.png)
 
-## Processing steps 
+## Processing steps in segmentation
 
 Ultricies mi eget mauris pharetra et. Lectus vestibulum mattis ullamcorper velit sed. Pellentesque habitant morbi tristique senectus et netus et malesuada.Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet venenatis urna cursus eget. Sit amet purus gravida quis blandit turpis cursus in hac.
 
