@@ -3,6 +3,6 @@ Overview
 
 ## Topics
 
-- [Lesson I: ](lesson1): 
-- [Lesson II: ](lesson2): 
+- [Lesson I ](lesson1): 
+- [Lesson II ](lesson2): 
 
