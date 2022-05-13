@@ -6,8 +6,8 @@ format: jb-book
 root: intro
 parts:
 - caption: "Stage I: Onboarding to napari"
-  file: onboard/landing
   chapters:
+  - file: onboard/landing
   - file: onboard/lesson1
   - file: onboard/lesson2
   - file: onboard/lesson3
@@ -16,14 +16,14 @@ parts:
     - file: onboard/exercise1
 
 - caption: "Stage II: Primer to image analysis"
-  file: primer/landing
   chapters:
+  - file: primer/landing
   - file: primer/lesson1
   - file: primer/lesson2
 
 - caption: "Stage III: Segmentation workflows"
-  file: workflow/landing
   chapters:
+  - file: workflow/landing
   - file: workflow/lesson1
   - file: workflow/lesson2
   - file: workflow/lesson3
