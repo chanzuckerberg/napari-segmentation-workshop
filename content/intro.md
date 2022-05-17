@@ -24,6 +24,4 @@ Header C
 Body C
 ````
 
-##
-
 
