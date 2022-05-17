@@ -5,6 +5,10 @@
 format: jb-book
 root: intro
 parts:
+- caption: "Preface"
+  chapters:
+  - file: preface/landing
+  
 - caption: "Stage I: Onboarding to napari"
   chapters:
   - file: onboard/landing
@@ -12,8 +16,6 @@ parts:
   - file: onboard/lesson2
   - file: onboard/lesson3
   - file: onboard/lesson4
-    sections:
-    - file: onboard/exercise1
 
 - caption: "Stage II: Primer to image analysis"
   chapters:
