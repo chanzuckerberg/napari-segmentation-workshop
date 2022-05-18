@@ -22,31 +22,33 @@ By **[Stage III](workflow/landing.md)**, we're focused on the terminology behind
 ````{panels}
 :column: col-4
 :card: border-2
-** Relevant terms **
+[b] Relevant terms [/b]
 ^^^
-Segmentation
-Classification
-Colocalization
-Intensify measurement
-Filament tracking
-Image modality
-Supported data
-Operating system
-Workflow step
+- Segmentation
+- Classification
+- Colocalization
+- Intensify measurement
+- Filament tracking
+- Image modality
+- Supported data
+- Operating system
+- Workflow step
 ---
-** Notable topics **
+[b] Notable topics [/b]
 ^^^
-How to ensure you've accessed the same virtual environment in Jupyter Notebook
-Installing the latest version of napari with minimal coding
-Napari segmentation workflow: Classical segmentation with PartSeg 
-Napari segmentation workflow: Cellpose
-Napari segmentation workflow: Allen Cell Segmenter
+<ul>
+<li>How to ensure you've accessed the same virtual environment in Jupyter Notebook
+<li>Installing the latest version of napari with minimal coding
+<li>Napari segmentation workflow: Classical segmentation with PartSeg 
+<li>Napari segmentation workflow: Cellpose
+<li>Napari segmentation workflow: Allen Cell Segmenter
+</ul>
 ---
-** Related links **
+[b] Related links [/b]
 ^^^
-Napari.org community and developer site.
-The napari hub for the latest segmentation plugins
-Image.sc thread on the napari segmentation course
+- Napari.org community and developer site](https://napari.org).
+- The napari hub for the latest segmentation plugins
+- Image.sc thread on the napari segmentation course
 
 ````
 
