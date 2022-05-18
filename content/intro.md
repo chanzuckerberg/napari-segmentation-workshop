@@ -16,7 +16,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 
 1. Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.<br>
 
-2. Progressing further into **[Stage II](primer/landing.md)**, we give you a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully.<br>
+2. Progressing further into **[Stage II](primer/landing.md)**, we give a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully.<br>
 
 3. By **[Stage III](workflow/landing.md)**, we're focused on the terminology behind segmentation, and three case studies that illustrate how napari can be used to perform a cell segmentation workflow from start to finish, and the plugins behind them.<br>
 
