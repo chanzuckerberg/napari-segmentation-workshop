@@ -25,7 +25,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 We see this napari segmentation course as belonging to the greater image tech ecosystem, and we welcome any and all feedback, even contributions as you make your way through these stages and lessons. We intend these learning materials to be reproducible, and adaptable, much like napari itself. 
 
 :::{hint}
-When you reach the end of a lesson, you'll see a field where you can leave a comment. We encourage you to share your thoughts on these lessons, both the videos and text, and the general intelligiblity of them. 
+When you reach the end of a lesson, you'll see a field where you can sign-in and leave a comment. We encourage you to share your thoughts on these lessons, the videos and text, regarding their accessibility, intelligibility and length. 
 :::
 <br>
 
@@ -35,21 +35,21 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 **Relevant terms**
 ^^^
 - Segmentation
-  <br>
+
 - Classification
-  <br>
+
 - Colocalization
-  <br>
+
 - Intensify measurement
-  <br>
+
 - Filament tracking
-  <br>
+
 - Image modality
-  <br>
+
 - Supported data
-  <br>
+
 - Operating system
-  <br>
+
 - Workflow step
 ---
 **Notable lessons**
@@ -69,11 +69,11 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 **Supporting links**
 ^^^
 - [Napari.org community and developer site](https://napari.org).
-  <br>
+ 
 - [The napari hub for the latest segmentation plugins](https://napari-hub.org)
-  <br>
+ 
 - Official Bravo Cohort plugin collection page
-  <br>
+  
 - Image.sc thread on the napari segmentation course
 
 ````
