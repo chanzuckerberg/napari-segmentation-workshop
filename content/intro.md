@@ -10,7 +10,7 @@ While anyone can follow along, this course has been created with **research biol
 
 ## Instructions
 
-We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [members of our cohort](preface/landing.md), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. 
+We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [members of our cohort])(preface/landing.md), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. 
 
 **1.** Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.<br>
 
@@ -20,7 +20,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 
 ## Feedback and Contributing
 
-We see this napari segmentation course as belonging to the greater image tech ecosystem, and we welcome any and all feedback, even contributions as you make your way through these stages and lessons. We intended these learning materials to be reproducible, and adaptable, much like napari itself. 
+We see this napari segmentation course as belonging to the greater image tech ecosystem, and we welcome any and all feedback, even contributions as you make your way through these stages and lessons. We intend these learning materials to be reproducible, and adaptable, much like napari itself. 
 
 :::{admonition}
 When you reach the end of a lesson, you'll see a comment field at the bottom of the page. We encourage you to leave your thoughts on these lessons, their intelligiblity, and even their length (all anonymously, if you prefer). 
