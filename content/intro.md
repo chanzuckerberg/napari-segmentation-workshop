@@ -75,7 +75,7 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 
 - Bravo Cohort plugin collection page   
 
-- Image.sc thread on the napari segmentation course  
+- Image.sc sticky thread on the napari segmentation course  
 
 ````
 
