@@ -276,6 +276,19 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#instructions">
+   Instructions
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -288,6 +301,19 @@ const thebe_selector_output = ".output, .cell_output"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#instructions">
+   Instructions
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -302,35 +328,56 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="admonition-title">Note</p>
 <p>While anyone can follow along, this course has been created with <strong>research biologists, microscopy</strong>, and <strong>experimental design</strong> in mind. If you have a broader interest in napari, we invite you to browse the range of uses for the platform <a class="reference external" href="https://www.napari.org/gallery.html">here</a>, as well as the <a class="reference external" href="https://www.napari-hub.com">napari hub</a>.</p>
 </div>
+<div class="section" id="instructions">
+<h2>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h2>
+<p>We’ve designed this course into three stages (requiring <strong>at least 8 hours of your time</strong> to fully complete), each consisting of small snippets of narrated video (recorded by <a class="reference internal" href="preface/landing.html"><span class="doc std std-doc">members of our cohort</span></a>, accompained by text explanations, a glossary of relevant terms, sample data, and exercises.</p>
+<p>Beginning at <strong>[Stage I]</strong>(onboard/landing.md), you’ll learn more about what napari is, and how it compares to other imaging platforms. We guide you through the installation of the latest version of napari, and how we enhance its functionality with plugins.</p>
+<p>Progressing further into <strong>[Stage II]</strong>(primer/landing.md), we give you a primer on image analysis, and then explain how the napari viewer’s different tools pertain to performing segmentation successfully.</p>
+<p>By <strong><a class="reference internal" href="workflow/landing.html"><span class="doc std std-doc">Stage III</span></a></strong>, we focus on the logic behind segmentation, and explore three case studies that illustrate how you can perform your own cell segmentation workflow with data that is reproducible.</p>
 <div class="sphinx-bs container pb-4 docutils">
 <div class="row docutils">
 <div class="d-flex col-4 docutils">
 <div class="card w-100 border-2 docutils">
 <div class="card-header docutils">
-<p class="card-text">Header A</p>
+<p class="card-text">** Relevant terms **</p>
 </div>
 <div class="card-body docutils">
-<p class="card-text">Body A</p>
+<p class="card-text">Segmentation
+Classification
+Colocalization
+Intensify measurement
+Filament tracking
+Image modality
+Supported data
+Operating system
+Workflow step</p>
 </div>
 </div>
 </div>
 <div class="d-flex col-4 docutils">
 <div class="card w-100 border-2 docutils">
 <div class="card-header docutils">
-<p class="card-text">Header B</p>
+<p class="card-text">** Notable topics **</p>
 </div>
 <div class="card-body docutils">
-<p class="card-text">Body B</p>
+<p class="card-text">How to ensure you’ve accessed the same virtual environment in Jupyter Notebook
+Installing the latest version of napari with minimal coding
+Napari segmentation workflow: Classical segmentation with PartSeg
+Napari segmentation workflow: Cellpose
+Napari segmentation workflow: Allen Cell Segmenter</p>
 </div>
 </div>
 </div>
 <div class="d-flex col-4 docutils">
 <div class="card w-100 border-2 docutils">
 <div class="card-header docutils">
-<p class="card-text">Header C</p>
+<p class="card-text">** Related links **</p>
 </div>
 <div class="card-body docutils">
-<p class="card-text">Body C</p>
+<p class="card-text"><a class="reference external" href="http://Napari.org">Napari.org</a> community and developer site.
+The napari hub for the latest segmentation plugins
+<a class="reference external" href="http://Image.sc">Image.sc</a> thread on the napari segmentation course</p>
+</div>
 </div>
 </div>
 </div>
