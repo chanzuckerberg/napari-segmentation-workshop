@@ -18,7 +18,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 
 2. Progressing further into **[Stage II](primer/landing.md)**, we give a primer on image analysis, and then explain how the napari viewer's different tools and functions relate to performing segmentation.  
 
-3. By **[Stage III](workflow/landing.md)**, we focus on the terminology behind segmentation, and three case studies that illustrate how to perform a cell segmentation workflow from start to finish using sample data, or your own.  
+3. By **[Stage III](workflow/landing.md)**, we focus on the terminology behind segmentation, and three case studies that illustrate how to perform a cell segmentation workflow from start to finish in napari, using sample data (or your own). 
 
 ## Feedback and Contributing
 
