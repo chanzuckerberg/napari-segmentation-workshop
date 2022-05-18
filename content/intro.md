@@ -55,7 +55,7 @@ When you reach the end of a lesson, you'll see a field where you can sign-in and
 **Notable lessons**
 ^^^
 <ul>
-<li>How to ensure you've accessed the same virtual environment in Jupyter Notebook
+<li>All about virtual environments, Python and napari
   <br>
 <li>Installing the latest version of napari with minimal coding
   <br>
