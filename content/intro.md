@@ -12,17 +12,26 @@ While anyone can follow along, this course has been created with **research biol
 
 We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [members of our cohort](preface/landing.md), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. 
 
-1. Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.<br>
+**1.** Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.<br>
 
-2. Progressing further into **[Stage II](primer/landing.md)**, we give you a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully.<br>
+**2.** Progressing further into **[Stage II](primer/landing.md)**, we give you a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully.<br>
 
-3. By **[Stage III](workflow/landing.md)**, we're focused on the terminology behind segmentation, and three case studies that illustrate how napari can be used to perform a cell segmentation workflow from start to finish, and the plugins behind them. 
+**3.** By **[Stage III](workflow/landing.md)**, we're focused on the terminology behind segmentation, and three case studies that illustrate how napari can be used to perform a cell segmentation workflow from start to finish, and the plugins behind them.<br>
 
+## Feedback and Contributing
+
+We see this napari segmentation course as belonging to the greater image tech ecosystem, and we welcome any and all feedback, even contributions as you make your way through these stages and lessons. We intended these learning materials to be reproducible, and adaptable, much like napari itself. 
+
+:::{admonition}
+When you reach the end of a lesson, you'll see a comment field at the bottom of the page. We encourage you to leave your thoughts on these lessons, their intelligiblity, and even their length (all anonymously, if you prefer). 
+
+<b>
+:::
 
 ````{panels}
 :column: col-4
 :card: border-2
-*Relevant terms*
+**Relevant terms**
 ^^^
 - Segmentation
 - Classification
@@ -34,7 +43,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 - Operating system
 - Workflow step
 ---
-*Notable topics*
+**Notable lessons**
 ^^^
 <ul>
 <li>How to ensure you've accessed the same virtual environment in Jupyter Notebook
@@ -44,10 +53,11 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 <li>Napari segmentation workflow: Allen Cell Segmenter
 </ul>
 ---
-[b] Related links [/b]
+**Supporting links**
 ^^^
 - [Napari.org community and developer site](https://napari.org).
 - [The napari hub for the latest segmentation plugins](https://napari-hub.org)
+- Official Bravo Cohort plugin collection page
 - Image.sc thread on the napari segmentation course
 
 ````
