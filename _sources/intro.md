@@ -1,6 +1,6 @@
 # Welcome to the napari cell segmentation course!
 
-**By [the Bravo Cohort]](https://chanzuckerberg.com/science/programs-resources/imaging/)ðŸš€**
+**By [the Bravo Cohort](https://chanzuckerberg.com/science/programs-resources/imaging/)ðŸš€**
 
 <br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> <br>
 
