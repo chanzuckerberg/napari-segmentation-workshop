@@ -22,11 +22,10 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 
 We see this napari segmentation course as belonging to the greater image tech ecosystem, and we welcome any and all feedback, even contributions as you make your way through these stages and lessons. We intend these learning materials to be reproducible, and adaptable, much like napari itself. 
 
-:::{admonition}
+:::{hint}
 When you reach the end of a lesson, you'll see a comment field at the bottom of the page. We encourage you to leave your thoughts on these lessons, their intelligiblity, and even their length (all anonymously, if you prefer). 
-
-<b>
 :::
+<br>
 
 ````{panels}
 :column: col-4
