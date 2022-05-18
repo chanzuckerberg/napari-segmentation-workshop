@@ -22,7 +22,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 ````{panels}
 :column: col-4
 :card: border-2
-[b] Relevant terms [/b]
+*Relevant terms*
 ^^^
 - Segmentation
 - Classification
@@ -34,7 +34,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 - Operating system
 - Workflow step
 ---
-[b] Notable topics [/b]
+*Notable topics*
 ^^^
 <ul>
 <li>How to ensure you've accessed the same virtual environment in Jupyter Notebook
@@ -46,8 +46,8 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 ---
 [b] Related links [/b]
 ^^^
-- Napari.org community and developer site](https://napari.org).
-- The napari hub for the latest segmentation plugins
+- [Napari.org community and developer site](https://napari.org).
+- [The napari hub for the latest segmentation plugins](https://napari-hub.org)
 - Image.sc thread on the napari segmentation course
 
 ````
