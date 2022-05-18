@@ -5,18 +5,18 @@
 If you've arrived on this Jupyter Book, that means you likely have an interest in **cell biology, imaging analysis**, and all the applications of the [**open-source napari platform**](https://www.napari.org)! By following this course, you'll learn everything you need to know to perform cell segmentation within napari, and all that with *only minimal coding* or use of a command prompt/terminal. 
 
 :::{note}
-While anyone can follow along, this course has been created with **research biologists, microscopy**, and **experimental design** in mind. If you have a broader interest in napari, we invite you to browse the [range of uses for the platform](https://www.napari.org/gallery.html), as well as the [napari hub](https://www.napari-hub.com).
+While anyone can follow along, this course has been created with **research biologists, microscopy**, and **experimental design** in mind. If you have a broader interest in napari, we invite you to browse the [range of uses](https://www.napari.org/gallery.html) for the platform, as well as the [napari hub](https://www.napari-hub.com).
 :::
 
 ## Instructions
 
 We've designed this course into three stages (requiring **at least 8 hours of your time** to fully complete), each consisting of small snippets of narrated video (recorded by [members of our cohort](preface/landing.md), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. 
 
-Beginning at **[Stage I]**(onboard/landing.md), you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through the installation of the latest version of napari, and how we enhance its functionality with plugins. 
+Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through the installation of the latest version of napari, and how we enhance its functionality with plugins. 
 
-Progressing further into **[Stage II]**(primer/landing.md), we give you a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully. 
+Progressing further into **[Stage II](primer/landing.md)**, we give you a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully. 
 
-By **[Stage III](workflow/landing.md)**, we focus on the logic behind segmentation, and explore three case studies that illustrate how you can perform your own reproducible cell segmentation workflow in napari. 
+By **[Stage III](workflow/landing.md)**, we're focused on the terminology behind segmentation, and three case studies that illustrate how napari can be used to perform a cell segmentation workflow from start to finish, and the plugins behind them. 
 
 
 ````{panels}
