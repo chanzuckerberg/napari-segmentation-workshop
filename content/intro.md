@@ -25,7 +25,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 We see this napari segmentation course as belonging to the greater image tech ecosystem, and we welcome any and all feedback, even contributions as you make your way through these stages and lessons. We intend these learning materials to be reproducible, and adaptable, much like napari itself. 
 
 :::{hint}
-When you reach the end of a lesson, you'll see a field where you can leave a comment. We encourage you to share your thoughts on these materials, both the videos and text.
+When you reach the end of a lesson, you'll see a field where you can leave a comment. We encourage you to share your thoughts on these materials, both the videos and text, regarding their accessibility and intelligibility to you. 
 :::
  
 <br>
@@ -60,11 +60,11 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
   
 - Installing the latest version of napari with minimal coding 💽  
 
-- Napari segmentation workflow: *Classical segmentation with PartSeg*   
+- Napari segmentation workflow: *Classical segmentation with PartSeg* ⚙️
   
-- Napari segmentation workflow: *Cellpose*  
+- Napari segmentation workflow: *Cellpose* ⚙️
   
-- Napari segmentation workflow: *Allen Cell Segmenter*  
+- Napari segmentation workflow: *Allen Cell Segmenter* ⚙️
   
 ---
 **Supporting links**
