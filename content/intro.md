@@ -14,10 +14,10 @@ While anyone can follow along, this course has been created with **research biol
 
 We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [the Bravo Cohort](preface/landing.md)), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. 
 
-1. Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.  
-
+1. Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.    
+  <br>
 2. Progressing further into **[Stage II](primer/landing.md)**, we give a primer on image analysis, and then explain how the napari viewer's different tools and functions relate to performing segmentation.  
-
+  <br>
 3. By **[Stage III](workflow/landing.md)**, we focus on the terminology behind segmentation, and three case studies that illustrate how to perform a cell segmentation workflow from start to finish in napari, using sample data (or your own). 
 
 ## Feedback and Contributing
@@ -25,7 +25,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 We see this napari segmentation course as belonging to the greater image tech ecosystem, and we welcome any and all feedback, even contributions as you make your way through these stages and lessons. We intend these learning materials to be reproducible, and adaptable, much like napari itself. 
 
 :::{hint}
-When you reach the end of a lesson, you'll see a field where you can leave a comment. We encourage you to share your thoughts on these materials, both the videos and text, regarding their accessibility, length, and general intelligibility. 
+When you reach the end of a lesson, you'll see a field where you can leave a comment. We encourage you to share your thoughts on these materials, both the videos and text, regarding their accessibility, length, and general quality. 
 :::
  
 <br>
