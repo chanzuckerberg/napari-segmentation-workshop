@@ -69,13 +69,13 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 ---
 **Supporting links**
 ^^^
-- [Napari.org community and developer site](https://napari.org)   
+- [Napari.org](https://napari.org) community and developer site
 
-- [The napari hub for the latest segmentation plugins](https://napari-hub.org)   
+- [The napari hub](https://napari-hub.org) for the latest plugins
 
 - Bravo Cohort plugin collection page   
 
-- Image.sc sticky thread on the napari segmentation course  
+- Image.sc forum thread on the napari segmentation course  
 
 ````
 
