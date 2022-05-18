@@ -59,11 +59,11 @@ When you reach the end of a lesson, you'll see a field where you can sign-in and
   <br>
 <li>Installing the latest version of napari with minimal coding
   <br>
-<li>Napari segmentation workflow: Classical segmentation with PartSeg 
+<li>Napari segmentation workflow: <i>Classical segmentation with PartSeg </i>
   <br>
-<li>Napari segmentation workflow: Cellpose
+<li>Napari segmentation workflow: <i>Cellpose </i>
   <br>
-<li>Napari segmentation workflow: Allen Cell Segmenter
+<li>Napari segmentation workflow: <i>Allen Cell Segmenter</i>
 </ul>
 ---
 **Supporting links**
