@@ -56,9 +56,9 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 ---
 **Notable lessons**
 ^^^
-🐍 All about virtual environments, Python and napari  
+- All about virtual environments, Python and napari 🐍
   
-💽 Installing the latest version of napari with minimal coding  
+- Installing the latest version of napari with minimal coding 💽  
 
 - Napari segmentation workflow: *Classical segmentation with PartSeg*   
   
@@ -69,10 +69,13 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 ---
 **Supporting links**
 ^^^
-  [Napari.org community and developer site](https://napari.org)   
-  [The napari hub for the latest segmentation plugins](https://napari-hub.org)   
-  Bravo Cohort plugin collection page   
-  Image.sc thread on the napari segmentation course  
+- [Napari.org community and developer site](https://napari.org)   
+
+- [The napari hub for the latest segmentation plugins](https://napari-hub.org)   
+
+- Bravo Cohort plugin collection page   
+
+- Image.sc thread on the napari segmentation course  
 
 ````
 
