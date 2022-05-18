@@ -12,11 +12,11 @@ While anyone can follow along, this course has been created with **research biol
 
 We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [members of our cohort])(preface/landing.md), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. 
 
-**1.** Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.<br>
+1. Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.<br>
 
-**2.** Progressing further into **[Stage II](primer/landing.md)**, we give you a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully.<br>
+2. Progressing further into **[Stage II](primer/landing.md)**, we give you a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully.<br>
 
-**3.** By **[Stage III](workflow/landing.md)**, we're focused on the terminology behind segmentation, and three case studies that illustrate how napari can be used to perform a cell segmentation workflow from start to finish, and the plugins behind them.<br>
+3. By **[Stage III](workflow/landing.md)**, we're focused on the terminology behind segmentation, and three case studies that illustrate how napari can be used to perform a cell segmentation workflow from start to finish, and the plugins behind them.<br>
 
 ## Feedback and Contributing
 
@@ -34,30 +34,45 @@ When you reach the end of a lesson, you'll see a comment field at the bottom of 
 **Relevant terms**
 ^^^
 - Segmentation
+  <br>
 - Classification
+  <br>
 - Colocalization
+  <br>
 - Intensify measurement
+  <br>
 - Filament tracking
+  <br>
 - Image modality
+  <br>
 - Supported data
+  <br>
 - Operating system
+  <br>
 - Workflow step
 ---
 **Notable lessons**
 ^^^
 <ul>
 <li>How to ensure you've accessed the same virtual environment in Jupyter Notebook
+  <br>
 <li>Installing the latest version of napari with minimal coding
+  <br>
 <li>Napari segmentation workflow: Classical segmentation with PartSeg 
+  <br>
 <li>Napari segmentation workflow: Cellpose
+  <br>
 <li>Napari segmentation workflow: Allen Cell Segmenter
 </ul>
 ---
 **Supporting links**
 ^^^
 - [Napari.org community and developer site](https://napari.org).
+  <br>
 - [The napari hub for the latest segmentation plugins](https://napari-hub.org)
+  <br>
 - Official Bravo Cohort plugin collection page
+  <br>
 - Image.sc thread on the napari segmentation course
 
 ````
