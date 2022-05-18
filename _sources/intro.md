@@ -35,47 +35,44 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 :card: border-2
 **Relevant terms**
 ^^^
-- Segmentation 
+- Segmentation  
   
-- Classification
+- Classification  
   
-- Colocalization
+- Colocalization  
   
-- Intensify measurement
+- Intensify measurement   
   
-- Filament tracking
+- Filament tracking  
   
-- Image modality
+- Image modality   
   
-- Supported data
+- Supported data  
   
-- Operating system
+- Operating system  
   
-- Workflow step
+- Workflow step  
   
 ---
 **Notable lessons**
 ^^^
-- All about virtual environments, Python and napari
+🐍 All about virtual environments, Python and napari  
   
-- Installing the latest version of napari with minimal coding
+💽 Installing the latest version of napari with minimal coding  
 
-- Napari segmentation workflow: *Classical segmentation with PartSeg*
+- Napari segmentation workflow: *Classical segmentation with PartSeg*   
   
-- Napari segmentation workflow: *Cellpose*
+- Napari segmentation workflow: *Cellpose*  
   
-- Napari segmentation workflow: *Allen Cell Segmenter*
+- Napari segmentation workflow: *Allen Cell Segmenter*  
   
 ---
 **Supporting links**
 ^^^
-- [Napari.org community and developer site](https://napari.org).
- 
-- [The napari hub for the latest segmentation plugins](https://napari-hub.org)
- 
-- Official Bravo Cohort plugin collection page
-  
-- Image.sc thread on the napari segmentation course
+  [Napari.org community and developer site](https://napari.org)   
+  [The napari hub for the latest segmentation plugins](https://napari-hub.org)   
+  Official Bravo Cohort plugin collection page   
+  Image.sc thread on the napari segmentation course  
 
 ````
 
