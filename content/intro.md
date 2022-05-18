@@ -5,7 +5,7 @@
 If you've arrived on this Jupyter Book, that means you likely have an interest in **cell biology, imaging analysis**, and all the applications of the [**open-source napari platform**](https://www.napari.org)! By following this course, you'll learn everything you need to know to perform cell segmentation within napari, and all that with *only minimal coding* or use of a command prompt/terminal. 
 
 :::{note}
-While anyone can follow along, this course has been created with **research biologists, microscopy**, and **experimental design** in mind. If you have a broader interest in napari, we invite you to browse the range of uses for the platform [here](https://www.napari.org/gallery.html), as well as the [napari hub](https://www.napari-hub.com).
+While anyone can follow along, this course has been created with **research biologists, microscopy**, and **experimental design** in mind. If you have a broader interest in napari, we invite you to browse the [range of uses for the platform](https://www.napari.org/gallery.html), as well as the [napari hub](https://www.napari-hub.com).
 :::
 
 ## Instructions
@@ -16,7 +16,7 @@ Beginning at **[Stage I]**(onboard/landing.md), you'll learn more about what nap
 
 Progressing further into **[Stage II]**(primer/landing.md), we give you a primer on image analysis, and then explain how the napari viewer's different tools pertain to performing segmentation successfully. 
 
-By **[Stage III](workflow/landing.md)**, we focus on the logic behind segmentation, and explore three case studies that illustrate how you can perform your own cell segmentation workflow with data that is reproducible. 
+By **[Stage III](workflow/landing.md)**, we focus on the logic behind segmentation, and explore three case studies that illustrate how you can perform your own reproducible cell segmentation workflow in napari. 
 
 
 ````{panels}
