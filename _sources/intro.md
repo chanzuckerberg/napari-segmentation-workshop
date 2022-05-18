@@ -71,7 +71,7 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 ^^^
   [Napari.org community and developer site](https://napari.org)   
   [The napari hub for the latest segmentation plugins](https://napari-hub.org)   
-  Official Bravo Cohort plugin collection page   
+  Bravo Cohort plugin collection page   
   Image.sc thread on the napari segmentation course  
 
 ````
