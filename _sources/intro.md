@@ -10,7 +10,7 @@ While anyone can follow along, this course has been created with **research biol
 
 ## Instructions
 
-We've designed this course into three stages (requiring **at least 8 hours of your time** to fully complete), each consisting of small snippets of narrated video (recorded by [members of our cohort](preface/landing.md), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. 
+We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [members of our cohort](preface/landing.md), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. 
 
 Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through the installation of the latest version of napari, and how we enhance its functionality with plugins. 
 
