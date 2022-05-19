@@ -18,14 +18,14 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
   <br>
 2. Progressing further into **[Stage II](primer/landing.md)**, we give a primer on image analysis, and then explain how the napari viewer's different tools and functions relate to performing segmentation.  
   <br>
-3. By **[Stage III](workflow/landing.md)**, we focus on the terminology behind segmentation, and three case studies that illustrate how to perform a cell segmentation workflow from start to finish in napari, using sample data (or your own). 
+3. By **[Stage III](workflow/landing.md)**, we focus on the terminology behind segmentation, then dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish in napari, using sample data (or your own). 
 
 ## Feedback and Contributing
 
 We see this napari segmentation course as belonging to the greater image tech ecosystem, and [we welcome any and all feedback](https://github.com/chanzuckerberg/napari-segmentation-workshop), even contributions as you make your way through these stages and lessons. We intend these learning materials to be reproducible, and adaptable, much like napari itself. 
 
 :::{hint}
-When you reach the end of a lesson, you'll see a field where you can leave a comment. We encourage you to share your thoughts on these materials regarding their accessibility and general intelligibility. 
+When you reach the end of a lesson, you'll see a field where you can leave a comment. We encourage you to share your thoughts on these materials—their accessibility, quality, and general intelligibility. 
 :::
  
 <br>
@@ -71,9 +71,9 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 ^^^
 - [Napari.org](https://napari.org) community and developer site
 
-- [The napari hub](https://napari-hub.org) for the latest plugins
+- The [napari hub](https://napari-hub.org) for the latest plugins
 
-- Bravo Cohort plugin collection page   
+- Official Bravo Cohort plugin collection page   
 
 - Image.sc forum thread on the napari segmentation course  
 
