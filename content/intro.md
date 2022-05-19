@@ -18,7 +18,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
   <br>
 2. Progressing further into **[Stage II](primer/landing.md)**, we give a primer on image analysis, and then explain how the napari viewer's different tools and functions relate to performing segmentation.  
   <br>
-3. By **[Stage III](workflow/landing.md)**, we focus on the terminology behind segmentation, then dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish in napari, using sample data (or your own). 
+3. By **[Stage III](workflow/landing.md)**, we focus on the terminology behind segmentation, then dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own). 
 
 ## Feedback and Contributing
 
@@ -75,7 +75,7 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 
 - Official Bravo Cohort plugin collection page   
 
-- Image.sc forum thread on the napari segmentation course  
+- Image.sc forum sticky thread on the napari segmentation course  
 
 ````
 
