@@ -63,23 +63,7 @@ Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nun
 
 #### Basic explanation
 
-```{glossary}
-Term one
-  An indented explanation of term 1
-
-A second term
-  An indented explanation of term2
-```
-
 #### In-depth explanation
-
-```{glossary}
-Term one
-  An indented explanation of term 1
-
-A second term
-  An indented explanation of term2
-```
 
 ### Section 2.2
 
@@ -87,22 +71,7 @@ Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nun
 
 #### Basic explanation
 
-```{glossary}
-Term one
-  An indented explanation of term 1
-
-A second term
-  An indented explanation of term2
-```
 #### In-depth explanation
-
-```{glossary}
-Term one
-  An indented explanation of term 1
-
-A second term
-  An indented explanation of term2
-```
 
 ```{warning}
 Maecenas sed enim ut sem viverra aliquet. Facilisis volutpat est velit egestas dui id. 
@@ -114,22 +83,7 @@ Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus
 
 #### Basic explanation
 
-```{glossary}
-Term one
-  An indented explanation of term 1
-
-A second term
-  An indented explanation of term2
-```
 #### In-depth explanation
-
-```{glossary}
-Term one
-  An indented explanation of term 1
-
-A second term
-  An indented explanation of term2
-```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sFvZcUeShoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -225,5 +179,17 @@ Digital image
   ```
   
 ## Further Readings
+
+### Basics of Bioimage Analysis
+
+<br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/1xo4vi6Ub4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+### Introduction to Bioimage Analysis 
+
+[Jupyter Book by Peter Bankhead](https://bioimagebook.github.io/README.html)
+
+### Introduction to Image Segmentation
+
+[ImageJ Community Wiki](https://imagej.net/imaging/segmentation)
 
 ## Next Steps 
