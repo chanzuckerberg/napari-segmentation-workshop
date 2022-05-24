@@ -26,7 +26,7 @@ After learning [what napari is](https://chanzuckerberg.github.io/napari-segmenta
 
 ---
 
-## Defining the "segmentation problem" to solve
+## Section 1: Defining the "segmentation problem" to solve
 
 Pellentesque sit amet porttitor eget dolor. Sit amet nisl suscipit adipiscing bibendum est ultricies. Malesuada fames ac turpis egestas maecenas pharetra. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus.
 
@@ -53,7 +53,7 @@ viewer = napari.view_image(data.cells3d(), channel_axis=1, ndisplay=3)
 
 ![image](images/napari-viewer.png)
 
-## Processing steps (basic and in-depth)
+## Section 2: Processing steps to segmentation
 
 Ultricies mi eget mauris pharetra et. Lectus vestibulum mattis ullamcorper velit sed. Pellentesque habitant morbi tristique senectus et netus et malesuada.Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet venenatis urna cursus eget. Sit amet purus gravida quis blandit turpis cursus in hac.
 
@@ -63,7 +63,11 @@ Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nun
 
 #### Basic explanation
 
+Parturient montes nascetur ridiculus mus mauris vitae ultricies. Elementum curabitur vitae nunc sed velit dignissim. Odio ut sem nulla pharetra diam. Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc.
+
 #### In-depth explanation
+
+Nisl rhoncus mattis rhoncus urna neque viverra justo. Ultrices neque ornare aenean euismod elementum. Ac felis donec et odio pellentesque diam volutpat. Lobortis elementum nibh tellus molestie. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Massa eget egestas purus viverra accumsan in. Phasellus vestibulum lorem sed risus. Cum sociis natoque penatibus et magnis dis parturient montes. Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
 
 ### Section 2.2
 
@@ -71,7 +75,11 @@ Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nun
 
 #### Basic explanation
 
+Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Praesent elementum facilisis leo vel. Integer quis auctor elit sed vulputate mi. At tellus at urna condimentum mattis. Eget dolor morbi non arcu risus. 
+
 #### In-depth explanation
+
+Neque laoreet suspendisse interdum consectetur libero id. Amet facilisis magna etiam tempor orci eu. Eu augue ut lectus arcu. Id eu nisl nunc mi ipsum. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Bibendum ut tristique et egestas quis. Sapien pellentesque habitant morbi tristique. Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc. Sodales ut eu sem integer vitae justo. 
 
 ```{warning}
 Maecenas sed enim ut sem viverra aliquet. Facilisis volutpat est velit egestas dui id. 
@@ -83,7 +91,11 @@ Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus
 
 #### Basic explanation
 
+In nulla posuere sollicitudin aliquam ultrices sagittis. Adipiscing at in tellus integer feugiat scelerisque varius morbi. Magna fermentum iaculis eu non diam. Cras pulvinar mattis nunc sed blandit libero. Nunc id cursus metus aliquam. Etiam tempor orci eu lobortis elementum. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Augue mauris augue neque gravida.
+
 #### In-depth explanation
+
+Eros in cursus turpis massa tincidunt dui. Porttitor eget dolor morbi non arcu risus quis varius quam. Libero nunc consequat interdum varius sit amet mattis vulputate enim. Est ullamcorper eget nulla facilisi. Sociis natoque penatibus et magnis dis. Pellentesque nec nam aliquam sem.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sFvZcUeShoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
