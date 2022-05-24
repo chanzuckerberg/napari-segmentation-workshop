@@ -26,11 +26,11 @@ After learning [what napari is](https://chanzuckerberg.github.io/napari-segmenta
 
 ---
 
-## Section 1: Defining the "segmentation problem" to solve
+## Defining the "segmentation problem" to solve
 
 Pellentesque sit amet porttitor eget dolor. Sit amet nisl suscipit adipiscing bibendum est ultricies. Malesuada fames ac turpis egestas maecenas pharetra. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus.
 
-### Section 1.1: Inputs and Outputs
+### Inputs and Outputs
 
 Facilisi cras fermentum odio eu feugiat pretium nibh. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Justo nec ultrices dui sapien eget. Ac ut consequat semper viverra nam libero justo. Laoreet id donec ultrices tincidunt. Consectetur adipiscing elit duis tristique sollicitudin nibh sit.
 
@@ -53,11 +53,11 @@ viewer = napari.view_image(data.cells3d(), channel_axis=1, ndisplay=3)
 
 ![image](images/napari-viewer.png)
 
-## Section 2: Processing steps to segmentation
+## Processing steps to segmentation
 
 Ultricies mi eget mauris pharetra et. Lectus vestibulum mattis ullamcorper velit sed. Pellentesque habitant morbi tristique senectus et netus et malesuada.Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet venenatis urna cursus eget. Sit amet purus gravida quis blandit turpis cursus in hac.
 
-### Section 2.1
+### Step 1
 
 Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nunc non blandit massa enim. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Amet consectetur adipiscing elit ut.
 
@@ -69,7 +69,7 @@ Parturient montes nascetur ridiculus mus mauris vitae ultricies. Elementum curab
 
 Nisl rhoncus mattis rhoncus urna neque viverra justo. Ultrices neque ornare aenean euismod elementum. Ac felis donec et odio pellentesque diam volutpat. Lobortis elementum nibh tellus molestie. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Massa eget egestas purus viverra accumsan in. Phasellus vestibulum lorem sed risus. Cum sociis natoque penatibus et magnis dis parturient montes. Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
 
-### Section 2.2
+### Step 2
 
 Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nunc non blandit massa enim. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Amet consectetur adipiscing elit ut.
 
@@ -85,7 +85,7 @@ Neque laoreet suspendisse interdum consectetur libero id. Amet facilisis magna e
 Maecenas sed enim ut sem viverra aliquet. Facilisis volutpat est velit egestas dui id. 
 Erat nam at lectus urna. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci.
 ```
-### Section 2.3
+### Step 3
 
 Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vel pretium lectus quam id leo in vitae. Sit amet dictum sit amet justo donec. 
 
@@ -194,7 +194,7 @@ Digital image
 
 ### Basics of Bioimage Analysis
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/1xo4vi6Ub4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/1xo4vi6Ub4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 ### Introduction to Bioimage Analysis 
 
