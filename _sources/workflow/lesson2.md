@@ -16,6 +16,6 @@ In this lesson, you'll how to use the Cellpose plugin for napari, coupled with F
 
 | Technical requirements                                                                      | Importance | Notes |
 | -------------------------------------------------------------------------------- | ---------- | ----- |
-| [napari v 0.4.14](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, you can verify that you have the latest version by clicking on the **Help** menu, then **napari info**. | |
+| [napari v 0.4.14](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, you can verify your version of napari by clicking on the **Help** menu, then **napari info**. | |
 
 ## 
