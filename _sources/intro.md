@@ -62,7 +62,7 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 
 - Napari segmentation workflow: *Classical segmentation with PartSeg* ⚙️
   
-- Napari segmentation workflow: *Cellpose* ⚙️
+- [Napari segmentation workflow: *Cellpose*](workflow/lesson2.md) ⚙️
   
 - Napari segmentation workflow: *Allen Cell Segmenter* ⚙️
   
