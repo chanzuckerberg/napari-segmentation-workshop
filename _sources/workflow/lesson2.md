@@ -17,6 +17,4 @@ In this lesson, you'll learn how to use the Cellpose plugin for napari, paired w
 | -------------------------------------------------------------------------------- | ---------- | ----- |
 | Stage I, Lesson III: [Getting started with napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | (You installed napari successfully) | |
 
---
-
 ## 
