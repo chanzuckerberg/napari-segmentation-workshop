@@ -13,8 +13,8 @@ In this lesson, you'll learn how to use the Cellpose plugin for napari, paired w
 
 ## Prerequisites
 
-| Napari segmentation course                                                                        | Importance | Notes |
+| Technical requirements                                                                      | Importance | Notes |
 | -------------------------------------------------------------------------------- | ---------- | ----- |
-| Stage I, Lesson III: [Getting started with napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | (You installed napari successfully) | |
+| [napari v 0.4.14](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, you can verify that you have the latest version by clicking on the **Help** menu, then **napari info**. | |
 
 ## 
