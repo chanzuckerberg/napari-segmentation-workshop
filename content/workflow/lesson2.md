@@ -6,7 +6,7 @@ Napari segmentation workflow: Cellpose + FIJI
 
 In this lesson, you'll how to use the Cellpose plugin for napari, coupled with FIJI, to complete a segmentation workflow.
 
-1.  Installing Cellpose for napari
+1.  Installing the Cellpose plugin for napari
 2.  Understanding and adjusting parameters in Cellpose
 3.  Segmenting and exporting your image's mask in FIJI 
 
