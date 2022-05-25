@@ -1,13 +1,14 @@
 ![Picture of art installation of networked cables](images/header_small.jpeg)
-Lesson II: Cellpose workflow for napari
+Napari segmentation workflow: Cellpose + FIJI
 =======================
 
-## Overview & Learning Objectives
+## Learning Objectives
 
-In this lesson, you'll learn how to use the Cellpose plugin for napari, paired with FIJI, to perform segmentation on an image. Subjects covered include: 
+In this lesson, you'll how to use the Cellpose plugin for napari, coupled with FIJI, to complete a segmentation workflow.
 
-1.  Adjusting and understanding parameters in Cellpose
-2.  Segmenting and exporting your image's mask in FIJI 
+1.  Installing Cellpose for napari
+2.  Understanding and adjusting parameters in Cellpose
+3.  Segmenting and exporting your image's mask in FIJI 
 
 - **Time to learn**: 20 minutes
 
