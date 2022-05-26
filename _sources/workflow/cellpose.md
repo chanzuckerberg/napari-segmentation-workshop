@@ -27,7 +27,7 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 
 ## What does this plugin do?
 
-*Cellpose-napari* utilizes a generalist algorithm for cell and nucleus segmentation. It allows you to perform segmentation of cell bodies, membranes and nuclei from microscopy images. It also has deep-learning built-in, allowing it to segment many types of cells without requiring parameter adjustments, new training data or further model retraining. Because of its versatility, it supports a wide variety of microscopy modalities and fluorescent markers.
+*Cellpose-napari* utilizes a generalist algorithm for cell and nucleus segmentation. It allows you to perform segmentation workflows on **cell bodies**, **membranes** and **nuclei** from microscopy images. It also has deep-learning built-in, allowing it to segment many types of cells without requiring parameter adjustments, new training data or further model retraining. Because of its versatility, it supports a wide variety of microscopy modalities and fluorescent markers.
 
 ## Supporting materials
 
