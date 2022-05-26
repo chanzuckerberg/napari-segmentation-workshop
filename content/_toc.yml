@@ -29,5 +29,8 @@ parts:
   - file: workflow/landing
   - file: workflow/lesson1
   - file: workflow/cellpose
+    chapters:
+      - file: workflow/cellpose-1
+      - file: workflow/cellpose-2
   - file: workflow/partseg
   - file: workflow/allencell
