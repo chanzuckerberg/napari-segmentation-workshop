@@ -1,2 +1,2 @@
-Napari segmentation workflow: Allen Cell Segmenter
+Allen Cell Segmenter
 =======================
