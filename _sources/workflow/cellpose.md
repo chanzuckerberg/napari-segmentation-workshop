@@ -25,6 +25,9 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 | Multiplane images | *Optional*  | Required image shape: (**nZ x nY x nX**)  | |
 | Multichannel images, like multi-Z tiffs | *Optional*  | The expected format: (**nZ x nC x nY x nX**) | |
 
+# What does this plugin do?
+
+Cellpose takes advantage of a generalist algorithm for cell and nucleus segmentation. It allows you to perform segmentation of cell bodies, membranes and nuclei from microscopy images. It also has deep-learning built-in, and the abiity to segment many types of cells without requiring parameter adjustments, new training data or further model retraining. Because of its versatility, it supports a variety of microscopy modalities and fluorescent markers.
 
 ## Supporting materials
 
