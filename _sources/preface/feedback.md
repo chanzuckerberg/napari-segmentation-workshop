@@ -1,4 +1,4 @@
-# Feedback and Contributing
+# Feedback and contributing
 
 We see this napari segmentation course as belonging to the greater image tech ecosystem, and [we welcome any and all feedback](https://github.com/chanzuckerberg/napari-segmentation-workshop), even contributions as you make your way through these stages and lessons. We intend these learning materials to be reproducible, and adaptable, much like napari itself. 
 
