@@ -29,7 +29,7 @@ parts:
   - file: workflow/landing
   - file: workflow/lesson1
   - file: workflow/cellpose
-    chapters:
+    sections:
       - file: workflow/cellpose-parameters
       - file: workflow/cellpose-FIJI
   - file: workflow/partseg
