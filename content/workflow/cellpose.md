@@ -25,12 +25,9 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 | Multiplane images | *Optional*  | Required image shape: (**nZ x nY x nX**)  | |
 | Multichannel images, like multi-Z tiffs | *Optional*  | The expected format: (**nZ x nC x nY x nX**) | |
 
-````{panels}
-:column: col-4
-:card: border-2
 
-**Supporting materials**
-^^^
+## Supporting materials**
+
 - [Cellpose documentation site](https://cellpose.readthedocs.io/en/latest/)
 
 - [Image J profile for Trackmate-Cellpose](https://imagej.net/plugins/trackmate/trackmate-cellpose)
@@ -38,5 +35,3 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 - [Github page for Cellpose](https://github.com/mouseland/cellpose)
 
 - ["Cellpose: a generalist algorithm for cellular segmentation" from Nature](https://www.nature.com/articles/s41592-020-01018-x.epdf?)
-
-````
