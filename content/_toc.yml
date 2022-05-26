@@ -17,13 +17,13 @@ parts:
   - file: onboard/lesson3
   - file: onboard/lesson4
 
-- caption: "Stage II: Primer to image analysis"
+- caption: "Interim Stage: Primer to image analysis"
   chapters:
   - file: primer/landing
   - file: primer/lesson1
   - file: primer/lesson2
 
-- caption: "Stage III: Segmentation workflows"
+- caption: "Stage II: Segmentation workflows"
   chapters:
   - file: workflow/landing
   - file: workflow/lesson1
