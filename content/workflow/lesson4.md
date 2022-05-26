@@ -1,2 +1,2 @@
-Lesson IV
+Napari segmentation workflow: Allen Cell Segmenter
 =======================
