@@ -288,8 +288,8 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#technical-requirements">
-   Technical Requirements
+  <a class="reference internal nav-link" href="#prerequisites">
+   Prerequisites
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -323,8 +323,8 @@ Cellpose-napari + FIJI</h1>
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#technical-requirements">
-   Technical Requirements
+  <a class="reference internal nav-link" href="#prerequisites">
+   Prerequisites
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -355,11 +355,11 @@ Cellpose-napari + FIJI<a class="headerlink" href="#samples-of-images-segmented-b
 <li><p><strong>Time to learn</strong>: 1 hour</p></li>
 </ul>
 </div>
-<div class="section" id="technical-requirements">
-<h2>Technical Requirements<a class="headerlink" href="#technical-requirements" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
 <thead>
-<tr class="row-odd"><th class="head"><p>Napari version and plugins</p></th>
+<tr class="row-odd"><th class="head"><p>Napari version, plugins, and image inputs</p></th>
 <th class="head"><p>Importance</p></th>
 <th class="head"><p>Notes</p></th>
 </tr>
@@ -375,21 +375,25 @@ Cellpose-napari + FIJI<a class="headerlink" href="#samples-of-images-segmented-b
 </tr>
 <tr class="row-even"><td><p><a class="reference external" href="https://imagej.net/software/fiji/">FIJI</a></p></td>
 <td><p>Mandatory</p></td>
-<td><p>Installing from the ImageJ site will ensure you have the latest version</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p>tiffs, JPEGs or PNGs</p></td>
+<tr class="row-odd"><td><p>——————————————————————————–</p></td>
+<td><p>———-</p></td>
+<td><p>—–</p></td>
+</tr>
+<tr class="row-even"><td><p>tiffs, JPEGs or PNGs</p></td>
 <td><p>Mandatory</p></td>
 <td><p>Any of these three file types will be supported</p></td>
 </tr>
-<tr class="row-even"><td><p>Single plane images</p></td>
+<tr class="row-odd"><td><p>Single plane images</p></td>
 <td><p>Optional</p></td>
 <td><p>Can be read as: <strong>nY x nX x</strong> or <strong>x nY x nX</strong> channels</p></td>
 </tr>
-<tr class="row-odd"><td><p>Multiplane images</p></td>
+<tr class="row-even"><td><p>Multiplane images</p></td>
 <td><p>Optional</p></td>
 <td><p>Required image shape: <strong>nZ x nY x nX</strong></p></td>
 </tr>
-<tr class="row-even"><td><p>Multichannel images, like multi-Z tiffs</p></td>
+<tr class="row-odd"><td><p>Multichannel images, like multi-Z tiffs</p></td>
 <td><p>Optional</p></td>
 <td><p>The expected format: <strong>nZ x nC x nY x nX</strong></p></td>
 </tr>
