@@ -4,7 +4,7 @@ Cellpose-napari + FIJI
 
 ## Learning Objectives
 
-In this lesson, you'll learn how to use the Cellpose plugin for napari, coupled with FIJI, to complete a segmentation workflow.
+In this lesson, you'll learn how to use and configure the Cellpose plugin for napari, coupled with FIJI, to complete a segmentation workflow.
 
 1.  Loading an image correctly in *Cellpose-napari*
 2.  Understanding and adjusting parameters in Cellpose
