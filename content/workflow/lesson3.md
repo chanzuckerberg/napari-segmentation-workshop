@@ -1,2 +1,2 @@
-Napari segmentation workflow: Classical Segmentation and PartSeg
+Napari segmentation workflow: Classical segmentation with PartSeg
 =======================
