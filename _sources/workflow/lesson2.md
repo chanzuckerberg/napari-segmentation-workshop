@@ -21,9 +21,9 @@ In this lesson, you'll learn how to use the Cellpose plugin for napari, coupled 
 | [FIJI](https://imagej.net/software/fiji/) | Mandatory  | | |
 | <center>**Image inputs**</center> |  |  |
 | tiffs, JPEGs or PNGs | Mandatory  | Any of these three file types will be supported | |
-| Single plane images | *Optional*  | Channels can be read as: **nY x nX x** or **x nY x nX**| |
-| Multiplane images | *Optional*  | Required image shape: **nZ x nY x nX**  | |
-| Multichannel images, like multi-Z tiffs | *Optional*  | The expected format: **nZ x nC x nY x nX** | |
+| Single plane images | *Optional*  | Channels can be read as: (**nY x nX x**) or (**x nY x nX**)| |
+| Multiplane images | *Optional*  | Required image shape: (**nZ x nY x nX**)  | |
+| Multichannel images, like multi-Z tiffs | *Optional*  | The expected format: (**nZ x nC x nY x nX**) | |
 
 
 ## 
