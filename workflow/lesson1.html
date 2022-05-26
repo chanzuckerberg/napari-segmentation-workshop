@@ -185,10 +185,27 @@ const thebe_selector_output = ".output, .cell_output"
    Introduction to cell segmentation
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="cellpose.html">
    Cellpose-napari + FIJI
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="cellpose-parameters.html">
+     Understanding and adjusting parameters
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="cellpose-FIJI.html">
+     Segmenting in FIJI
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="partseg.html">
@@ -688,8 +705,8 @@ Erat nam at lectus urna. Lobortis scelerisque fermentum dui faucibus in ornare q
 <h2>Bonus: Writing loops in Python<a class="headerlink" href="#bonus-writing-loops-in-python" title="Permalink to this headline">¶</a></h2>
 <p>Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vel pretium lectus quam id leo in vitae. Sit amet dictum sit amet justo donec.</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="6b874a56-1459-4de5-8517-2dbd7eca2b4d" name="69f78063-a300-4507-9850-328156c503eb" type="radio">
-</input><label class="tabbed-label" for="6b874a56-1459-4de5-8517-2dbd7eca2b4d">
+<input checked="checked" id="c094823f-58a4-4bc7-ac93-e45a8672649c" name="2c5e5881-8d3e-4aa3-aba3-514f6281e0bf" type="radio">
+</input><label class="tabbed-label" for="c094823f-58a4-4bc7-ac93-e45a8672649c">
 c++</label><div class="tabbed-content docutils">
 <div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">**</span><span class="n">argv</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
@@ -697,16 +714,16 @@ c++</label><div class="tabbed-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="ac9fab48-eb16-4907-b207-da274b480f2b" name="69f78063-a300-4507-9850-328156c503eb" type="radio">
-</input><label class="tabbed-label" for="ac9fab48-eb16-4907-b207-da274b480f2b">
+<input id="812761b6-ed09-48d2-a85e-24705c8b299e" name="2c5e5881-8d3e-4aa3-aba3-514f6281e0bf" type="radio">
+</input><label class="tabbed-label" for="812761b6-ed09-48d2-a85e-24705c8b299e">
 python</label><div class="tabbed-content docutils">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
     <span class="k">return</span>
 </pre></div>
 </div>
 </div>
-<input id="46f72628-2ec7-4991-a0d0-b879cc43cc34" name="69f78063-a300-4507-9850-328156c503eb" type="radio">
-</input><label class="tabbed-label" for="46f72628-2ec7-4991-a0d0-b879cc43cc34">
+<input id="37eda71b-9760-4c66-96b3-0f0f53ef1a62" name="2c5e5881-8d3e-4aa3-aba3-514f6281e0bf" type="radio">
+</input><label class="tabbed-label" for="37eda71b-9760-4c66-96b3-0f0f53ef1a62">
 java</label><div class="tabbed-content docutils">
 <div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
@@ -715,16 +732,16 @@ java</label><div class="tabbed-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="7778d8ce-81e7-4a1f-8f27-1005fa2634da" name="69f78063-a300-4507-9850-328156c503eb" type="radio">
-</input><label class="tabbed-label" for="7778d8ce-81e7-4a1f-8f27-1005fa2634da">
+<input id="4383f802-c644-49b5-a6d6-ff91c0c4399e" name="2c5e5881-8d3e-4aa3-aba3-514f6281e0bf" type="radio">
+</input><label class="tabbed-label" for="4383f802-c644-49b5-a6d6-ff91c0c4399e">
 julia</label><div class="tabbed-content docutils">
 <div class="highlight-julia notranslate"><div class="highlight"><pre><span></span><span class="k">function</span><span class="w"> </span><span class="n">main</span><span class="p">()</span><span class="w"></span>
 <span class="k">end</span><span class="w"></span>
 </pre></div>
 </div>
 </div>
-<input id="1f025ca5-0132-4771-adeb-d8391026c304" name="69f78063-a300-4507-9850-328156c503eb" type="radio">
-</input><label class="tabbed-label" for="1f025ca5-0132-4771-adeb-d8391026c304">
+<input id="0df1120e-f22d-4aec-bcff-88fd045cc659" name="2c5e5881-8d3e-4aa3-aba3-514f6281e0bf" type="radio">
+</input><label class="tabbed-label" for="0df1120e-f22d-4aec-bcff-88fd045cc659">
 fortran</label><div class="tabbed-content docutils">
 <div class="highlight-fortran notranslate"><div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">main</span><span class="w"></span>
 <span class="k">END PROGRAM </span><span class="n">main</span><span class="w"></span>
