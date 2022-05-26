@@ -1,6 +1,6 @@
 # Welcome to the napari cell segmentation course!
 
-**By [the Bravo Cohort](https://chanzuckerberg.com/science/programs-resources/imaging/) 🔬**
+**By [the Bravo Cohort](preface/landing.md) 🔬**
 
 <br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> <br>
 
@@ -19,14 +19,6 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 2. Progressing further into **[Stage II](primer/landing.md)**, we give a primer on image analysis, and then explain how the napari viewer's different tools and functions relate to performing segmentation.  
   <br>
 3. By **[Stage III](workflow/landing.md)**, we focus on the terminology behind segmentation, then dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own). 
-
-## Feedback and Contributing
-
-We see this napari segmentation course as belonging to the greater image tech ecosystem, and [we welcome any and all feedback](https://github.com/chanzuckerberg/napari-segmentation-workshop), even contributions as you make your way through these stages and lessons. We intend these learning materials to be reproducible, and adaptable, much like napari itself. 
-
-:::{hint}
-When you reach the end of a lesson, you'll see a field where you can leave a comment. We encourage you to share your thoughts on these materials—their accessibility, quality, and general intelligibility. 
-:::
  
 <br>
 
@@ -62,7 +54,7 @@ When you reach the end of a lesson, you'll see a field where you can leave a com
 
 - Napari segmentation workflow: *Classical segmentation with PartSeg* ⚙️
   
-- [Napari segmentation workflow: *Cellpose*](workflow/lesson2.md) ⚙️
+- [Napari segmentation workflow: *Cellpose*](workflow/cellpose.md) ⚙️
   
 - Napari segmentation workflow: *Allen Cell Segmenter* ⚙️
   
