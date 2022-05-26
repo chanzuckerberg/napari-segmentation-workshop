@@ -26,7 +26,7 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 | Multichannel images, like multi-Z tiffs | *Optional*  | The expected format: (**nZ x nC x nY x nX**) | |
 
 
-## Supporting materials**
+## Supporting materials
 
 - [Cellpose documentation site](https://cellpose.readthedocs.io/en/latest/)
 
