@@ -9,7 +9,7 @@ parts:
   chapters:
   - file: preface/landing
   
-- caption: "Stage I: Onboarding to napari"
+- caption: "Onboarding to napari"
   chapters:
   - file: onboard/landing
   - file: onboard/lesson1
@@ -17,16 +17,16 @@ parts:
   - file: onboard/lesson3
   - file: onboard/lesson4
 
-- caption: "Interim Stage: Primer to image analysis"
+- caption: "Primer to image analysis"
   chapters:
   - file: primer/landing
   - file: primer/lesson1
   - file: primer/lesson2
 
-- caption: "Stage II: Segmentation workflows"
+- caption: "Segmentation workflows"
   chapters:
   - file: workflow/landing
   - file: workflow/lesson1
-  - file: workflow/lesson2
-  - file: workflow/lesson3
-  - file: workflow/lesson4
+  - file: workflow/cellpose
+  - file: workflow/partseg
+  - file: workflow/allencell
