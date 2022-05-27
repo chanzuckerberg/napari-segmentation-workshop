@@ -527,12 +527,12 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="model-type-pretrained-model">
 <h3>Model type, pretrained model:<a class="headerlink" href="#model-type-pretrained-model" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>* the **“cyto”** model (“Cytoplasm”), to segment cells stained for their cytoplasm.
-* the **“nuclei”** model (“Nuclei”) to segment cell nuclei.
-* the **“cyto2”** model (“Cytoplasm 2.0”), which is the cyto model augmented with user-submitted images.
-* the **“Custom”** model, which let you specify a custom model you would have trained or downloaded. You may select this under: **“custom model path”** &gt; **“select file”**
-</pre></div>
-</div>
+<ul class="simple">
+<li><p>the <strong>“cyto”</strong> model (“Cytoplasm”), to segment cells stained for their cytoplasm.</p></li>
+<li><p>the <strong>“nuclei”</strong> model (“Nuclei”) to segment cell nuclei.</p></li>
+<li><p>the <strong>“cyto2”</strong> model (“Cytoplasm 2.0”), which is the cyto model augmented with user-submitted images.</p></li>
+<li><p>the <strong>“Custom”</strong> model, which let you specify a custom model you would have trained or downloaded. You may select this under: <strong>“custom model path”</strong> &gt; <strong>“select file”</strong></p></li>
+</ul>
 </div>
 <div class="section" id="channel-to-segment">
 <h3>Channel to segment:<a class="headerlink" href="#channel-to-segment" title="Permalink to this headline">¶</a></h3>
@@ -540,20 +540,20 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="segmentation-of-rgb-images">
 <h3>Segmentation of RGB images:<a class="headerlink" href="#segmentation-of-rgb-images" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>* &#39;0’ means that cellpose will run on a grayscale combination of all channels.
-* ‘1’ stands for the first channel, corresponding to the red channel in a RGB image.
-* Similarly, for ‘2’ and ‘3’, the second and third channel, corresponding to the green and blue channels in a RGB image.
-</pre></div>
-</div>
+<ul class="simple">
+<li><p>‘0’ means that cellpose will run on a grayscale combination of all channels.</p></li>
+<li><p>‘1’ stands for the first channel, corresponding to the red channel in a RGB image.</p></li>
+<li><p>Similarly, for ‘2’ and ‘3’, the second and third channel, corresponding to the green and blue channels in a RGB image.</p></li>
+</ul>
 </div>
 <div class="section" id="segmentation-of-multi-channel-image">
 <h3>Segmentation of multi-channel image:<a class="headerlink" href="#segmentation-of-multi-channel-image" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>* Ignore the ‘red’, ‘green’, blue’ labels and rely on channel order (found under the image, near the slider).
-</pre></div>
-</div>
-<p>OR
-* Isolate the channel of interest: <strong>“right click”</strong> on the layer &gt; <strong>“Split Stack”</strong>
-* Select it on the <strong>“Image layer option”</strong>, channel to segment: “0”</p>
+<ul class="simple">
+<li><p>Ignore the ‘red’, ‘green’, blue’ labels and rely on channel order (found under the image, near the slider).
+OR</p></li>
+<li><p>Isolate the channel of interest: <strong>“right click”</strong> on the layer &gt; <strong>“Split Stack”</strong></p></li>
+<li><p>Select it on the <strong>“Image layer option”</strong>, channel to segment: “0”</p></li>
+</ul>
 </div>
 <div class="section" id="optional-nuclear-channel">
 <h3>Optional nuclear channel:<a class="headerlink" href="#optional-nuclear-channel" title="Permalink to this headline">¶</a></h3>
