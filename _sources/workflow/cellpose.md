@@ -6,9 +6,9 @@ Cellpose-napari + FIJI
 
 In this lesson, you'll learn how to use and configure the Cellpose plugin for napari, in conjunction with FIJI, to complete a segmentation workflow.
 
-1.  [Loading an image correctly in *Cellpose-napari*](workflow/cellpose-parameters.md)
-2.  [Understanding and adjusting parameters in Cellpose](workflow/cellpose-parameters.md)
-3.  [Segmenting and exporting your image's mask in FIJI](workflow/cellpose-FIJI.md)
+1.  [Loading an image correctly in *Cellpose-napari*](cellpose-parameters.md)
+2.  [Understanding and adjusting parameters in Cellpose](cellpose-parameters.md)
+3.  [Segmenting and exporting your image's mask in FIJI](cellpose-FIJI.md)
 
 - **Time to learn**: 1 hour
 
