@@ -53,6 +53,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Cellpose-napari + FIJI" href="cellpose.html" />
+    <link rel="prev" title="Overview of final stage" href="landing.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -172,10 +174,15 @@ const thebe_selector_output = ".output, .cell_output"
   Segmentation workflows
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="landing.html">
    Overview of final stage
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Introduction to cell segmentation
   </a>
  </li>
  <li class="toctree-l1 has-children">
@@ -698,8 +705,8 @@ Erat nam at lectus urna. Lobortis scelerisque fermentum dui faucibus in ornare q
 <h2>Bonus: Writing loops in Python<a class="headerlink" href="#bonus-writing-loops-in-python" title="Permalink to this headline">¶</a></h2>
 <p>Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vel pretium lectus quam id leo in vitae. Sit amet dictum sit amet justo donec.</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="b7ce5760-5486-4043-ab38-9553c06c1fdf" name="6c6abf22-60c8-4e49-8987-74dc398a94db" type="radio">
-</input><label class="tabbed-label" for="b7ce5760-5486-4043-ab38-9553c06c1fdf">
+<input checked="checked" id="ae559e3f-4407-41c9-9691-be62a87b1140" name="4592bf5a-a020-4176-afa8-4426d1af971b" type="radio">
+</input><label class="tabbed-label" for="ae559e3f-4407-41c9-9691-be62a87b1140">
 c++</label><div class="tabbed-content docutils">
 <div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">**</span><span class="n">argv</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
@@ -707,16 +714,16 @@ c++</label><div class="tabbed-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="8e7c55c0-8d72-4d9d-8cb4-0f7574a32db4" name="6c6abf22-60c8-4e49-8987-74dc398a94db" type="radio">
-</input><label class="tabbed-label" for="8e7c55c0-8d72-4d9d-8cb4-0f7574a32db4">
+<input id="e0bfd6e9-ee51-4a34-b060-9b3271d4b949" name="4592bf5a-a020-4176-afa8-4426d1af971b" type="radio">
+</input><label class="tabbed-label" for="e0bfd6e9-ee51-4a34-b060-9b3271d4b949">
 python</label><div class="tabbed-content docutils">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
     <span class="k">return</span>
 </pre></div>
 </div>
 </div>
-<input id="bff29dc5-2917-43ab-bb75-462bb716b53e" name="6c6abf22-60c8-4e49-8987-74dc398a94db" type="radio">
-</input><label class="tabbed-label" for="bff29dc5-2917-43ab-bb75-462bb716b53e">
+<input id="1297edf6-40f7-42a3-b764-d7005cb7e6b9" name="4592bf5a-a020-4176-afa8-4426d1af971b" type="radio">
+</input><label class="tabbed-label" for="1297edf6-40f7-42a3-b764-d7005cb7e6b9">
 java</label><div class="tabbed-content docutils">
 <div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
@@ -725,16 +732,16 @@ java</label><div class="tabbed-content docutils">
 </pre></div>
 </div>
 </div>
-<input id="5773b582-bf88-4d65-a4af-dedf33666cfa" name="6c6abf22-60c8-4e49-8987-74dc398a94db" type="radio">
-</input><label class="tabbed-label" for="5773b582-bf88-4d65-a4af-dedf33666cfa">
+<input id="30521c71-f515-4d9e-8681-3dbf9ee7ffad" name="4592bf5a-a020-4176-afa8-4426d1af971b" type="radio">
+</input><label class="tabbed-label" for="30521c71-f515-4d9e-8681-3dbf9ee7ffad">
 julia</label><div class="tabbed-content docutils">
 <div class="highlight-julia notranslate"><div class="highlight"><pre><span></span><span class="k">function</span><span class="w"> </span><span class="n">main</span><span class="p">()</span><span class="w"></span>
 <span class="k">end</span><span class="w"></span>
 </pre></div>
 </div>
 </div>
-<input id="f648bec8-583f-473c-8c3c-4da2f72ebe74" name="6c6abf22-60c8-4e49-8987-74dc398a94db" type="radio">
-</input><label class="tabbed-label" for="f648bec8-583f-473c-8c3c-4da2f72ebe74">
+<input id="83b19959-b10c-403e-ab48-343cac1e75c4" name="4592bf5a-a020-4176-afa8-4426d1af971b" type="radio">
+</input><label class="tabbed-label" for="83b19959-b10c-403e-ab48-343cac1e75c4">
 fortran</label><div class="tabbed-content docutils">
 <div class="highlight-fortran notranslate"><div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">main</span><span class="w"></span>
 <span class="k">END PROGRAM </span><span class="n">main</span><span class="w"></span>
@@ -816,7 +823,22 @@ fortran</label><div class="tabbed-content docutils">
               
             
                 <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="landing.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Overview of final stage</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="cellpose.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">
+Cellpose-napari + FIJI</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             
         </div>
