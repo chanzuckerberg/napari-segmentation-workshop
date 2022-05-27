@@ -299,6 +299,28 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#opening-the-cellpose-napari-plugin">
+   Opening the
+   <em>
+    Cellpose-napari
+   </em>
+   plugin
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cellpose-parameters">
+   Cellpose parameters
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -311,6 +333,28 @@ const thebe_selector_output = ".output, .cell_output"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#opening-the-cellpose-napari-plugin">
+   Opening the
+   <em>
+    Cellpose-napari
+   </em>
+   plugin
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cellpose-parameters">
+   Cellpose parameters
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -319,6 +363,73 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="understanding-and-adjusting-parameters">
 <h1>Understanding and adjusting parameters<a class="headerlink" href="#understanding-and-adjusting-parameters" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="opening-the-cellpose-napari-plugin">
+<h2>Opening the <em>Cellpose-napari</em> plugin<a class="headerlink" href="#opening-the-cellpose-napari-plugin" title="Permalink to this headline">¶</a></h2>
+<p><img alt="Opening cellpose in the napari menu" src="../_images/cellpose1.png" /></p>
+<p>After you’ve launched the napari viewer, you may open the <em>Cellpose-napari</em> plugin by clicking on the <strong>Plugins</strong> menu on the right side of your screen.</p>
+<p><img alt="Opening cellpose in the napari menu" src="../_images/cellpose2.png" /></p>
+</div>
+<div class="section" id="cellpose-parameters">
+<h2>Cellpose parameters<a class="headerlink" href="#cellpose-parameters" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Image layer</strong>: define the layer / image that will be segmented using cellpose</p></li>
+<li><p><strong>Model type</strong>, pretrained model:</p>
+<ul>
+<li><p>the <strong>“cyto”</strong> model (“Cytoplasm”), to segment cells stained for their cytoplasm.</p></li>
+<li><p>the <strong>“nuclei”</strong> model (“Nuclei”) to segment cell nuclei.</p></li>
+<li><p>the <strong>“cyto2”</strong> model (“Cytoplasm 2.0”), which is the cyto model augmented with user-submitted images.</p></li>
+<li><p>the <strong>“Custom”</strong> model, which let you specify a custom model you would have trained or downloaded. To be selected under: <strong>“custom model path”</strong> &gt; <strong>“select file”</strong></p></li>
+</ul>
+</li>
+<li><p><strong>Channel to segment</strong>: The channel that will be segmented.</p></li>
+</ul>
+<p>If the channel contains cytoplasmic structures, it should be associated with the <strong>“cyto”</strong> and <strong>“cyto2”</strong> pretrained models, or nuclei with the <strong>“nuclei”</strong> model.</p>
+<ul class="simple">
+<li><p><strong>Segmentation of RGB images</strong>:</p>
+<ul>
+<li><p>‘0’ means that cellpose will run on a grayscale combination of all channels.</p></li>
+<li><p>‘1’ stands for the first channel, corresponding to the red channel in a RGB image.</p></li>
+<li><p>Similarly, for ‘2’ and ‘3’, the second and third channel, corresponding to the green and blue channels in a RGB image.</p></li>
+</ul>
+</li>
+<li><p><strong>Segmentation of multi-channel image</strong>:</p>
+<ul>
+<li><p>Ignore the ‘red’, ‘green’, blue’ labels and rely on channel order (found under the image, near the slider).
+OR</p></li>
+<li><p>Isolate the channel of interest: <strong>“right click”</strong> on the layer &gt; <strong>“Split Stack”</strong></p></li>
+<li><p>Select it on the <strong>“Image layer option”</strong>, channel to segment: “0”</p></li>
+</ul>
+</li>
+<li><p><strong>Optional nuclear channel</strong>:</p></li>
+</ul>
+<p>The cytoplasm model in cellpose is trained on two-channel images, where the first channel is the channel to segment, and the second channel is an optional nuclear channel. Here are the options for each: 1. 0=grayscale, 1=red, 2=green, 3=blue, 4 … 2. 0=None (will set to zero), 1=red, 2=green, 3=blue, 4.</p>
+<p>The nuclear model in cellpose is trained on two-channel images, where the first channel is the channel to segment, and the second channel is always set to an array of zeros. Therefore, set the first channel as 0=grayscale, 1=red, 2=green, 3=blue; and set the second channel to 0=None
+* Diameter (in pixel):</p>
+<p>The cellpose models have been trained on images which were rescaled to all have the same diameter (30 pixels in the case of the cyto model and 17 pixels in the case of the nuclei model). Therefore, cellpose needs a user-defined cell diameter (in pixels) as input, or to estimate the object size of an image-by-image basis. If 0 cellpose will estimate for each image, default is 30.</p>
+<ul class="simple">
+<li><p>Click <strong>“compute diameter from image”</strong> to start diameter estimation. However, if this estimate is incorrect, please set the diameter by hand.
+OR</p></li>
+<li><p>You can also get an estimate from clicking on the image: create a napari ‘Shapes’ layer and draw circles or squares. If you click <strong>“compute diameter from shape layer”</strong>, the plugin will set the diameter to the average diameter of the drawn shapes.</p></li>
+</ul>
+<p>Changing the diameter will change the results that the algorithm outputs. When the diameter is set smaller than the true size, cellpose may over-split cells. Similarly, if the diameter is set too big then cellpose may over-merge cells.</p>
+<ul class="simple">
+<li><p><strong>Cell probability threshold (number of masks)</strong>:</p></li>
+</ul>
+<p>Threshold to determine masks. Decrease this threshold if cellpose is not returning as many masks as you’d expect. Similarly, increase this threshold if cellpose is returning too masks particularly from dim areas.</p>
+<ul class="simple">
+<li><p><strong>Model match threshold (Mask quality threshold)</strong>:</p></li>
+</ul>
+<p>To check that the recovered shapes after the flow dynamics step are consistent with real masks, we recompute the flow gradients for these putative predicted masks, and compute the mean squared error between them and the flows predicted by the network.</p>
+<p>The model match threshold parameter is inverse of the maximum allowed error of the flows for each mask. Decrease this threshold if cellpose is not returning as many masks as you’d expect. Similarly, increase this threshold if cellpose is returning too many ill-shaped masks.</p>
+<ul class="simple">
+<li><p><strong>Average 4 nets</strong>:</p></li>
+</ul>
+<p>Option to control network performance vs time. If unchecked, only 1 network will use to process the channel allowing a faster segmentation but less accurate. If checked  an average of 4 network will be used, it will be slower but more accurate</p>
+<ul class="simple">
+<li><p><strong>Resample dynamics</strong>:</p></li>
+</ul>
+<p>If not checked, the processing will be done on a diameter = 30 pixels. If checked, the processing will be done based on the original image. Masks will be smoother.</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
