@@ -40,10 +40,10 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 
 <br>
   
-The above video demonstrates how to open the *Cellpose-napari* plugin, adjust parameters, and finally segment your image. If you would like even more detailed [explanations of each parameter](cellpose-parameters.md), proceed to the next part of this lesson. 
+The above video demonstrates how to open the *Cellpose-napari* plugin, adjust parameters, and finally segment your image. If you would like a detailed [explanation of each parameter](cellpose-parameters.md), proceed to the next part of this lesson. 
   
 :::{note}
-Because napari cannot export an image's mask at this time, we must use FIJI for this. The [final part of this lesson](cellpose-FIJI.md) covers how you segment your image in napari, then use FIJI to refine, export and analyze your image's mask. 
+Because napari cannot export an image's mask at this time, we must use FIJI for this. The final part of this lesson covers how to [segment your image in napari](cellpose-FIJI.md), then use FIJI to refine, export, and analyze your image's mask. 
 :::
 
 ## Supporting materials
