@@ -10,7 +10,9 @@ After you've launched the napari viewer, you may open the *Cellpose-napari* plug
 
 ## Cellpose parameters
 
-* **Image layer**: Define the layer / image that will be segmented using cellpose.
+* **Image layer**: 
+
+Define the layer / image that will be segmented using cellpose.
 
 * **Model type**, pretrained model: 
     * the **“cyto”** model (“Cytoplasm”), to segment cells stained for their cytoplasm.
@@ -74,8 +76,14 @@ To run 3D processing, check **“process stack as 3D”**.
 
 If the 3D segmentation is not working well and there is inhomogeneity in Z, try **stitching masks** using the **“stitch threshold slices”** option instead of checking process stack as 3D. In this setting, cellpose will create masks in 2D on each XY slice and then stitch them across slices if the IoU between the mask on the current slice and the next slice is greater than or equal to the stitch threshold slices.
 
-* **Clear previous results**: If checked, removes the previous data.
+* **Clear previous results**: 
 
-* **Output flows and cellprob**: Show a layer containing the gradient vector field (combination of the predicted horizontal and vertical gradients, as well as whether a pixel belongs to any cell).
+If checked, this removes all previous data.
 
-* **Output outlines**: Show a layer containing cell boundaries.
+* **Output flows and cellprob**: 
+
+Show a layer containing the gradient vector field (combination of the predicted horizontal and vertical gradients, as well as whether a pixel belongs to any cell).
+
+* **Output outlines**: 
+
+Show a layer containing cell boundaries.
