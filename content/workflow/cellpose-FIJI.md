@@ -1,4 +1,4 @@
-# Segmenting in napari, and exporting a mask to FIJI
+# Segmenting in napari, and exporting a mask in FIJI
 
 ## Workflow for 2D Segmentation
 
