@@ -66,3 +66,16 @@ Option to control network performance vs time. If unchecked, only 1 network will
 
 If not checked, the processing will be done on a diameter = 30 pixels. If checked, the processing will be done based on the original image. Masks will be smoother.
 
+* **Process stack as 3D**:
+
+Cellpose can segment 3D and 4D stacks. If there is a channel axis, specify it by labelling it with ‘c’.
+
+To run 3D processing, check **“process stack as 3D”**.
+
+If the 3D segmentation is not working well and there is inhomogeneity in Z, try **stitching masks** using the **“stitch threshold slices”** option instead of checking process stack as 3D. In this setting, cellpose will create masks in 2D on each XY slice and then stitch them across slices if the IoU between the mask on the current slice and the next slice is greater than or equal to the stitch threshold slices.
+
+* **Clear previous results**: If checked, removes the previous data.
+
+* **Output flows and cellprob**: Show a layer containing the gradient vector field (combination of the predicted horizontal and vertical gradients, as well as whether a pixel belongs to any cell).
+
+* **Output outlines**: Show a layer containing cell boundaries.
