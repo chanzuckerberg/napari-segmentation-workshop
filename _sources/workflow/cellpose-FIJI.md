@@ -20,7 +20,7 @@
 
 ## Export mask as TIF
 
-Convert the **“label layer”** into images by right clicking on it and selecting: **“Convert to image”**. Proceed to split it as individual images by right clicking and selecting **“Split Stack”** (3D and time Serie only). Then reconvert each image into a label by right clicking on it and selecting: **“Convert to label”**. Rename them (1 to X). Finally save each label as a tif.
+Convert the **“label layer”** into an image by right clicking on it and selecting: **“Convert to image”**. Proceed to split it as individual images by right clicking and selecting **“Split Stack”** (3D and time Serie only). Then reconvert each image into a label by right clicking on it and selecting: **“Convert to label”**. Rename them as makes sense to you (**e.g.** 1-12). Finally save each label as a tif.
 
 ![Converting your image to a tif in cellpose-napari](images/cellpose3.png)
 
