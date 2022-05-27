@@ -26,7 +26,7 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 | Multiplane images | *Optional*  | Required image shape: (**nZ x nY x nX**)  | |
 | Multichannel images, like multi-Z tiffs | *Optional*  | The expected format: (**nZ x nC x nY x nX**) | |
 | <center>**Sample data**</center> |  |  |
-| [2D data used in lesson](images/napari-Cellpose.tif) | *Optional* | Because this is 2D data, only 2D segmentation may be applied to it. | |
+| [2D data used in lesson](workflow/images/napari-Cellpose.tif) | *Optional* | Because this is 2D data, only 2D segmentation may be applied to it. | |
 
 ## What does this plugin do?
 
@@ -40,7 +40,7 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 
 <br>
   
-The above video demonstrates how to open the *Cellpose-napari* plugin, adjust parameters, and finally segment your image. If you would like a detailed [explanation of each parameter](cellpose-parameters.md), proceed to the next part of this lesson. 
+The above video demonstrates how to open the *Cellpose-napari* plugin, segment your image, and adjust plugin parameters. If you would like a detailed [explanation of each parameter](cellpose-parameters.md), proceed to the next part of this lesson. 
   
 :::{note}
 Because napari cannot export an image's mask at this time, we must use FIJI for this. The final part of this lesson covers [segmenting your image with *cellpose-napari*](cellpose-FIJI.md), then using FIJI to refine, export, and analyze your image's mask. 
