@@ -3,24 +3,24 @@
 ## Workflow for 2D Segmentation
 
 * Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate cellpose parameters (uncheck **“Process stack as 3D”**).
+* Select the appropriate [cellpose parameters](cellpose-parameters.md)(uncheck **“Process stack as 3D”**).
 * Run the segmentation.
 
 ## Workflow for 3D Segmentation
 
 * Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate cellpose parameters (check off **”Process stack as 3D”** OR use the **“stitch threshold slices”** option).
+* Select the appropriate [cellpose parameters](cellpose-parameters.md)(check off **”Process stack as 3D”** OR use the **“stitch threshold slices”** option).
 * Run the segmentation.
 
 ## Workflow for Time segmentation
 
 * Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate cellpose parameters (use the **“stitch threshold slices”** option with value >0).
+* Select the appropriate [cellpose parameters](cellpose-parameters.md)(use the **“stitch threshold slices”** option with value >0).
 * Run the segmentation.
 
-## Export mask as TIF:
+## Export mask as TIF
 
-Convert the **“label layer”** into images by doing right click on it and select: **“Convert to image”**. Then, split it as individual images by right clicking and selecting **“Split Stack”** (3D and time Serie only). Then reconvert each image into a label by right clicking on it and selecting: **“Convert to label”**. Rename them (1 to X). Finally save each label as a tif.
+Convert the **“label layer”** into images by right clicking on it and selecting: **“Convert to image”**. Proceed to split it as individual images by right clicking and selecting **“Split Stack”** (3D and time Serie only). Then reconvert each image into a label by right clicking on it and selecting: **“Convert to label”**. Rename them (1 to X). Finally save each label as a tif.
 
 ![Converting your image to a tif in cellpose-napari](images/cellpose3.png)
 

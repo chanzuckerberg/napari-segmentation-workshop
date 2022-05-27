@@ -316,7 +316,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#export-mask-as-tif">
-   Export mask as TIF:
+   Export mask as TIF
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -371,7 +371,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#export-mask-as-tif">
-   Export mask as TIF:
+   Export mask as TIF
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -404,7 +404,7 @@ const thebe_selector_output = ".output, .cell_output"
 <h2>Workflow for 2D Segmentation<a class="headerlink" href="#workflow-for-2d-segmentation" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Open your image in the napari viewer, with <em>cellpose-napari</em> enabled.</p></li>
-<li><p>Select the appropriate cellpose parameters (uncheck <strong>“Process stack as 3D”</strong>).</p></li>
+<li><p>Select the appropriate <a class="reference internal" href="cellpose-parameters.html"><span class="doc std std-doc">cellpose parameters</span></a>(uncheck <strong>“Process stack as 3D”</strong>).</p></li>
 <li><p>Run the segmentation.</p></li>
 </ul>
 </div>
@@ -412,7 +412,7 @@ const thebe_selector_output = ".output, .cell_output"
 <h2>Workflow for 3D Segmentation<a class="headerlink" href="#workflow-for-3d-segmentation" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Open your image in the napari viewer, with <em>cellpose-napari</em> enabled.</p></li>
-<li><p>Select the appropriate cellpose parameters (check off <strong>”Process stack as 3D”</strong> OR use the <strong>“stitch threshold slices”</strong> option).</p></li>
+<li><p>Select the appropriate <a class="reference internal" href="cellpose-parameters.html"><span class="doc std std-doc">cellpose parameters</span></a>(check off <strong>”Process stack as 3D”</strong> OR use the <strong>“stitch threshold slices”</strong> option).</p></li>
 <li><p>Run the segmentation.</p></li>
 </ul>
 </div>
@@ -420,13 +420,13 @@ const thebe_selector_output = ".output, .cell_output"
 <h2>Workflow for Time segmentation<a class="headerlink" href="#workflow-for-time-segmentation" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Open your image in the napari viewer, with <em>cellpose-napari</em> enabled.</p></li>
-<li><p>Select the appropriate cellpose parameters (use the <strong>“stitch threshold slices”</strong> option with value &gt;0).</p></li>
+<li><p>Select the appropriate <a class="reference internal" href="cellpose-parameters.html"><span class="doc std std-doc">cellpose parameters</span></a>(use the <strong>“stitch threshold slices”</strong> option with value &gt;0).</p></li>
 <li><p>Run the segmentation.</p></li>
 </ul>
 </div>
 <div class="section" id="export-mask-as-tif">
-<h2>Export mask as TIF:<a class="headerlink" href="#export-mask-as-tif" title="Permalink to this headline">¶</a></h2>
-<p>Convert the <strong>“label layer”</strong> into images by doing right click on it and select: <strong>“Convert to image”</strong>. Then, split it as individual images by right clicking and selecting <strong>“Split Stack”</strong> (3D and time Serie only). Then reconvert each image into a label by right clicking on it and selecting: <strong>“Convert to label”</strong>. Rename them (1 to X). Finally save each label as a tif.</p>
+<h2>Export mask as TIF<a class="headerlink" href="#export-mask-as-tif" title="Permalink to this headline">¶</a></h2>
+<p>Convert the <strong>“label layer”</strong> into images by right clicking on it and selecting: <strong>“Convert to image”</strong>. Proceed to split it as individual images by right clicking and selecting <strong>“Split Stack”</strong> (3D and time Serie only). Then reconvert each image into a label by right clicking on it and selecting: <strong>“Convert to label”</strong>. Rename them (1 to X). Finally save each label as a tif.</p>
 <p><img alt="Converting your image to a tif in cellpose-napari" src="../_images/cellpose3.png" /></p>
 <br>
 <p><img alt="Split stack in cellpose-napari" src="../_images/cellpose4.png" /></p>
