@@ -4,7 +4,7 @@
 
 <br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> <br>
 
-If you've arrived on this Jupyter Book, that means you likely have an interest in **cell biology, imaging analysis**, and all the applications of the [**open-source napari platform**](https://www.napari.org)! By following this course, you’ll learn all the fundamentals to performing cell segmentation workflowa within napari. Although napari currently requires *some* Python and command prompt/terminal usage, *we try to keep minimal* in all our lessons. 
+If you've arrived on this Jupyter Book, that means you likely have an interest in **cell biology, imaging analysis**, and all the applications of the [**open-source napari platform**](https://www.napari.org)! By following this course, you’ll learn all the fundamentals to performing cell segmentation workflows within napari. Although napari currently requires *some* Python and command prompt/terminal usage, *we try to keep minimal* in all our lessons. 
 
 :::{note}
 While anyone can follow along, this course has been created with **research biologists, microscopy**, and **experimental design** in mind. If you have a broader interest in napari, we invite you to browse the [range of uses](https://www.napari.org/gallery.html) for the platform, as well as the [napari hub](https://www.napari-hub.com).
@@ -12,7 +12,7 @@ While anyone can follow along, this course has been created with **research biol
 
 ## Instructions
 
-We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [the Bravo Cohort](preface/landing.md)), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. You're invited to complete these stages at your own pace, aiming at a lesson a day. 
+We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [the Bravo Cohort](preface/landing.md)), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. We encourage you to complete this course at your own pace, aiming at a lesson a day. 
 
 1. Beginning at **[Stage I](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.    
   <br>
