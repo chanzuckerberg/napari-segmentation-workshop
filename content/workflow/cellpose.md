@@ -18,7 +18,7 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 | -------------------------------------------------------------------------------- | ---------- | ----- |
 | [napari v 0.4.14](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, verify your version of napari by clicking on the **Help** menu, then **napari info**. | |
 | [cellpose v 0.1.4](https://www.napari-hub.org/plugins/cellpose-napari) | Mandatory  | Install this plugin from within the napari viewer, by going to the **Plugin** menu, then clicking on **Install/uninstall plugins**. Search for *Cellpose-napari* and click **install**. | |
-| [FIJI](https://imagej.net/software/fiji/) | Mandatory  | | |
+| [FIJI](https://imagej.net/software/fiji/) | Mandatory  | After segmenting in napari, we'll create a mask from this image in FIJI| |
 | [Bio Formats for Image J/FIJI](https://imagej.net/formats/bio-formats) | Mandatory  | Allows us to open our image's mask in FIJI.| |
 | <center>**Image inputs**</center> |  |  |
 | tiffs, JPEGs or PNGs | Mandatory  | Any of these three file types will be supported | |
