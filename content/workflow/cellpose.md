@@ -25,12 +25,14 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 | Single plane images | *Optional*  | Channels can be read as: (**nY x nX x**) or (**x nY x nX**)| |
 | Multiplane images | *Optional*  | Required image shape: (**nZ x nY x nX**)  | |
 | Multichannel images, like multi-Z tiffs | *Optional*  | The expected format: (**nZ x nC x nY x nX**) | |
+| <center>**Sample data**</center> |  |  |
+| [2D data used in lesson](napari-Cellpose.tif) | *Optional* | Because this is 2D data, only 2D segmentation may be applied to it. | |
 
 ## What does this plugin do?
 
 *Cellpose-napari* utilizes a generalist algorithm for cell and nucleus segmentation. It allows you to perform segmentation workflows on **cell bodies**, **membranes** and **nuclei** from microscopy images. It also has deep-learning built-in, allowing it to segment many types of cells without requiring parameter adjustments, new training data or further model retraining. Because of its versatility, it supports a wide variety of microscopy modalities and fluorescent markers.
 
-## Segmentation in *Cellpose-napari*
+## Demo of *Cellpose-napari*
 
 <center><script src="https://fast.wistia.com/embed/medias/cjthtdwtyt.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper"</center>
   
