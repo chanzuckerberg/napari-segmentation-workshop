@@ -30,11 +30,11 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 
 *Cellpose-napari* utilizes a generalist algorithm for cell and nucleus segmentation. It allows you to perform segmentation workflows on **cell bodies**, **membranes** and **nuclei** from microscopy images. It also has deep-learning built-in, allowing it to segment many types of cells without requiring parameter adjustments, new training data or further model retraining. Because of its versatility, it supports a wide variety of microscopy modalities and fluorescent markers.
 
-## Walkthrough of *Cellpose-napari*
+## Segmentation in *Cellpose-napari*
 
 <center><script src="https://fast.wistia.com/embed/medias/cjthtdwtyt.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper"</center>
   
-The above video will demonstrate how you open the *Cellpose-napari* plugin, adjust parameters, and finally segment your image. If you would like an even deeper explanation of each parameter, proceed to the [following part](cellpose-parameters.md) of this lesson. 
+The above video demonstrates how you open the *Cellpose-napari* plugin, adjust parameters, and finally segment your image. If you would like an even deeper explanation of each parameter, proceed to the [following part](cellpose-parameters.md) of this lesson. 
   
 :::{hint}
 Because napari cannot export a mask of an image at this time, we must perform this task in FIJI. The [2nd part of this lesson](cellpose-FIJI.md) covers how you segment your image in napari, then use FIJI to refine, export and analyze your image's mask. 
