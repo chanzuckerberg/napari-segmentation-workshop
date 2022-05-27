@@ -3,19 +3,19 @@
 ## Workflow for 2D Segmentation
 
 * Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate [cellpose parameters](cellpose-parameters.md)(uncheck **“Process stack as 3D”**).
+* Select the appropriate [cellpose parameters](cellpose-parameters.md) (uncheck **“Process stack as 3D”**).
 * Run the segmentation.
 
 ## Workflow for 3D Segmentation
 
 * Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate [cellpose parameters](cellpose-parameters.md)(check off **”Process stack as 3D”** OR use the **“stitch threshold slices”** option).
+* Select the appropriate [cellpose parameters](cellpose-parameters.md) (check off **”Process stack as 3D”** OR use the **“stitch threshold slices”** option).
 * Run the segmentation.
 
 ## Workflow for Time segmentation
 
 * Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate [cellpose parameters](cellpose-parameters.md)(use the **“stitch threshold slices”** option with value >0).
+* Select the appropriate [cellpose parameters](cellpose-parameters.md) (use the **“stitch threshold slices”** option with value >0).
 * Run the segmentation.
 
 ## Export mask as TIF
