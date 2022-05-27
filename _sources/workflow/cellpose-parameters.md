@@ -31,7 +31,9 @@ The channel that will be segmented. If the channel contains cytoplasmic structur
 
 ### Segmentation of multi-channel image:
 * Ignore the ‘red’, ‘green’, blue’ labels and rely on channel order (found under the image, near the slider).
+
 OR
+
 * Isolate the channel of interest: **“right click”** on the layer > **“Split Stack”** 
 * Select it on the **“Image layer option”**, channel to segment: “0”
     
@@ -45,7 +47,9 @@ The nuclear model in cellpose is trained on two-channel images, where the first 
 The cellpose models have been trained on images which were rescaled to all have the same diameter (30 pixels in the case of the cyto model and 17 pixels in the case of the nuclei model). Therefore, cellpose needs a user-defined cell diameter (in pixels) as input, or to estimate the object size of an image-by-image basis. If 0 cellpose will estimate for each image, default is 30.
 
 * Click **“compute diameter from image”** to start diameter estimation. However, if this estimate is incorrect, please set the diameter by hand.
+
 OR
+
 * You can also get an estimate from clicking on the image: create a napari ‘Shapes’ layer and draw circles or squares. If you click **“compute diameter from shape layer”**, the plugin will set the diameter to the average diameter of the drawn shapes.
 
 Changing the diameter will change the results that the algorithm outputs. When the diameter is set smaller than the true size, cellpose may over-split cells. Similarly, if the diameter is set too big then cellpose may over-merge cells.
@@ -68,7 +72,7 @@ Option to control network performance vs time. If unchecked, only 1 network will
 
 If not checked, the processing will be done on a diameter = 30 pixels. If checked, the processing will be done based on the original image. Masks will be smoother.
 
-### **Process stack as 3D**:
+### Process stack as 3D:
 
 Cellpose can segment 3D and 4D stacks. If there is a channel axis, specify it by labelling it with ‘c’.
 

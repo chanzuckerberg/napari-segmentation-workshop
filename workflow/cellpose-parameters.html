@@ -370,10 +370,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#process-stack-as-3d">
-     <strong>
-      Process stack as 3D
-     </strong>
-     :
+     Process stack as 3D:
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -479,10 +476,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#process-stack-as-3d">
-     <strong>
-      Process stack as 3D
-     </strong>
-     :
+     Process stack as 3D:
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -549,8 +543,10 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="section" id="segmentation-of-multi-channel-image">
 <h3>Segmentation of multi-channel image:<a class="headerlink" href="#segmentation-of-multi-channel-image" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>Ignore the ‘red’, ‘green’, blue’ labels and rely on channel order (found under the image, near the slider).
-OR</p></li>
+<li><p>Ignore the ‘red’, ‘green’, blue’ labels and rely on channel order (found under the image, near the slider).</p></li>
+</ul>
+<p>OR</p>
+<ul class="simple">
 <li><p>Isolate the channel of interest: <strong>“right click”</strong> on the layer &gt; <strong>“Split Stack”</strong></p></li>
 <li><p>Select it on the <strong>“Image layer option”</strong>, channel to segment: “0”</p></li>
 </ul>
@@ -562,8 +558,10 @@ OR</p></li>
 * Diameter (in pixel):</p>
 <p>The cellpose models have been trained on images which were rescaled to all have the same diameter (30 pixels in the case of the cyto model and 17 pixels in the case of the nuclei model). Therefore, cellpose needs a user-defined cell diameter (in pixels) as input, or to estimate the object size of an image-by-image basis. If 0 cellpose will estimate for each image, default is 30.</p>
 <ul class="simple">
-<li><p>Click <strong>“compute diameter from image”</strong> to start diameter estimation. However, if this estimate is incorrect, please set the diameter by hand.
-OR</p></li>
+<li><p>Click <strong>“compute diameter from image”</strong> to start diameter estimation. However, if this estimate is incorrect, please set the diameter by hand.</p></li>
+</ul>
+<p>OR</p>
+<ul class="simple">
 <li><p>You can also get an estimate from clicking on the image: create a napari ‘Shapes’ layer and draw circles or squares. If you click <strong>“compute diameter from shape layer”</strong>, the plugin will set the diameter to the average diameter of the drawn shapes.</p></li>
 </ul>
 <p>Changing the diameter will change the results that the algorithm outputs. When the diameter is set smaller than the true size, cellpose may over-split cells. Similarly, if the diameter is set too big then cellpose may over-merge cells.</p>
@@ -586,7 +584,7 @@ OR</p></li>
 <p>If not checked, the processing will be done on a diameter = 30 pixels. If checked, the processing will be done based on the original image. Masks will be smoother.</p>
 </div>
 <div class="section" id="process-stack-as-3d">
-<h3><strong>Process stack as 3D</strong>:<a class="headerlink" href="#process-stack-as-3d" title="Permalink to this headline">¶</a></h3>
+<h3>Process stack as 3D:<a class="headerlink" href="#process-stack-as-3d" title="Permalink to this headline">¶</a></h3>
 <p>Cellpose can segment 3D and 4D stacks. If there is a channel axis, specify it by labelling it with ‘c’.</p>
 <p>To run 3D processing, check <strong>“process stack as 3D”</strong>.</p>
 <p>If the 3D segmentation is not working well and there is inhomogeneity in Z, try <strong>stitching masks</strong> using the <strong>“stitch threshold slices”</strong> option instead of checking process stack as 3D. In this setting, cellpose will create masks in 2D on each XY slice and then stitch them across slices if the IoU between the mask on the current slice and the next slice is greater than or equal to the stitch threshold slices.</p>
