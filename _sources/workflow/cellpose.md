@@ -26,7 +26,7 @@ In this lesson, you'll learn how to use and configure the Cellpose plugin for na
 | Multiplane images | *Optional*  | Required image shape: (**nZ x nY x nX**)  | |
 | Multichannel images, like multi-Z tiffs | *Optional*  | The expected format: (**nZ x nC x nY x nX**) | |
 | <center>**Sample data**</center> |  |  |
-| [2D data used in lesson](images/napari-Cellpose.tif) | *Optional* | Because this is 2D data, only 2D segmentation may be applied to it. | |
+| [2D data used in lesson](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/napari-Cellpose.tif)) | *Optional* | Because this is 2D data, only 2D segmentation may be applied to it. | |
 
 ## What does this plugin do?
 
