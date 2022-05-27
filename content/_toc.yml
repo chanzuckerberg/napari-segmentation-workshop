@@ -27,7 +27,7 @@ parts:
 - caption: "Segmentation workflows"
   chapters:
   - file: workflow/landing
-  - file: workflow/lesson1
+  - file: workflow/intro-to-segment
   - file: workflow/cellpose
     sections:
       - file: workflow/cellpose-parameters
