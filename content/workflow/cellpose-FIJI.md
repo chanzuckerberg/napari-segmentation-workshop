@@ -50,10 +50,12 @@ Performing this Binarization step can also correct some segmentation issues that
 
 <br>
 
-In FIJI, you may perform a 3D analysis of the your mask in one of two ways, as shown in the video above: 
+In FIJI, you may perform a 3D analysis of your image's mask in one of two ways, as shown in the video above: 
 
 * Analyze > 3D OC options > select measurements option
 * Analyze > 3D object counter > fine tune if necessary 
+
+<br>
 
 ![3D analysis in FIJI](images/cellpose8.png)
 
