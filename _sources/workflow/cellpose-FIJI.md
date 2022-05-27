@@ -38,9 +38,13 @@ Use the plugin Bio Format importer and select: **”group file with similar name
 
 Navigating to the main menu in FIJI, go to **process > binary > convert to mask > Yen**.
 
+<br>
+
 ![Converting to a mask in FIJI](images/cellpose6.png)
 
 Performing this Binarization step can also correct some segmentation issues that may arise. As we can see in the example above, cells were oversegmented with *cellpose-napari*, but binarization in FIJI corrects this. 
+
+<br>
 
 ![Binarization in FIJI](images/cellpose7.png)
 
