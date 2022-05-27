@@ -10,13 +10,13 @@ After you've launched the napari viewer, you may open the *Cellpose-napari* plug
 
 ## Cellpose parameters
 
-* **Image layer**: define the layer / image that will be segmented using cellpose
+* **Image layer**: Define the layer / image that will be segmented using cellpose.
 
 * **Model type**, pretrained model: 
     * the **“cyto”** model (“Cytoplasm”), to segment cells stained for their cytoplasm.
     * the **“nuclei”** model (“Nuclei”) to segment cell nuclei.
     * the **“cyto2”** model (“Cytoplasm 2.0”), which is the cyto model augmented with user-submitted images.
-    * the **“Custom”** model, which let you specify a custom model you would have trained or downloaded. To be selected under: **“custom model path”** > **“select file”**
+    * the **“Custom”** model, which let you specify a custom model you would have trained or downloaded. You may select this under: **“custom model path”** > **“select file”**
 
 * **Channel to segment**: The channel that will be segmented. 
 
