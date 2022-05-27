@@ -372,7 +372,10 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="section" id="cellpose-parameters">
 <h2>Cellpose parameters<a class="headerlink" href="#cellpose-parameters" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><strong>Image layer</strong>: Define the layer / image that will be segmented using cellpose.</p></li>
+<li><p><strong>Image layer</strong>:</p></li>
+</ul>
+<p>Define the layer / image that will be segmented using cellpose.</p>
+<ul class="simple">
 <li><p><strong>Model type</strong>, pretrained model:</p>
 <ul>
 <li><p>the <strong>“cyto”</strong> model (“Cytoplasm”), to segment cells stained for their cytoplasm.</p></li>
@@ -436,10 +439,17 @@ OR</p></li>
 <p>To run 3D processing, check <strong>“process stack as 3D”</strong>.</p>
 <p>If the 3D segmentation is not working well and there is inhomogeneity in Z, try <strong>stitching masks</strong> using the <strong>“stitch threshold slices”</strong> option instead of checking process stack as 3D. In this setting, cellpose will create masks in 2D on each XY slice and then stitch them across slices if the IoU between the mask on the current slice and the next slice is greater than or equal to the stitch threshold slices.</p>
 <ul class="simple">
-<li><p><strong>Clear previous results</strong>: If checked, removes the previous data.</p></li>
-<li><p><strong>Output flows and cellprob</strong>: Show a layer containing the gradient vector field (combination of the predicted horizontal and vertical gradients, as well as whether a pixel belongs to any cell).</p></li>
-<li><p><strong>Output outlines</strong>: Show a layer containing cell boundaries.</p></li>
+<li><p><strong>Clear previous results</strong>:</p></li>
 </ul>
+<p>If checked, this removes all previous data.</p>
+<ul class="simple">
+<li><p><strong>Output flows and cellprob</strong>:</p></li>
+</ul>
+<p>Show a layer containing the gradient vector field (combination of the predicted horizontal and vertical gradients, as well as whether a pixel belongs to any cell).</p>
+<ul class="simple">
+<li><p><strong>Output outlines</strong>:</p></li>
+</ul>
+<p>Show a layer containing cell boundaries.</p>
 </div>
 </div>
 
