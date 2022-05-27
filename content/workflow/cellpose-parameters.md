@@ -4,7 +4,7 @@
 
 ![Opening cellpose in the napari menu](images/cellpose1.png)
 
-After you've launched the napari viewer, you may open the *Cellpose-napari* plugin by clicking on the **Plugins** menu on the right side of your screen. 
+After you've launched the napari viewer, you may open the *Cellpose-napari* plugin by clicking on the **Plugins** menu on the right side of your screen, then checking the plugin in the list that appears.  
 
 ![Opening cellpose in the napari menu](images/cellpose2.png)
 
