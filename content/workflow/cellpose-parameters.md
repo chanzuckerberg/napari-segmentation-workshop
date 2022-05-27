@@ -15,25 +15,25 @@ After you've launched the napari viewer, you may open the *Cellpose-napari* plug
 Define the layer / image that will be segmented using cellpose.
 
 ### Model type, pretrained model: 
-    * the **“cyto”** model (“Cytoplasm”), to segment cells stained for their cytoplasm.
-    * the **“nuclei”** model (“Nuclei”) to segment cell nuclei.
-    * the **“cyto2”** model (“Cytoplasm 2.0”), which is the cyto model augmented with user-submitted images.
-    * the **“Custom”** model, which let you specify a custom model you would have trained or downloaded. You may select this under: **“custom model path”** > **“select file”**
+* the **“cyto”** model (“Cytoplasm”), to segment cells stained for their cytoplasm.
+* the **“nuclei”** model (“Nuclei”) to segment cell nuclei.
+* the **“cyto2”** model (“Cytoplasm 2.0”), which is the cyto model augmented with user-submitted images.
+* the **“Custom”** model, which let you specify a custom model you would have trained or downloaded. You may select this under: **“custom model path”** > **“select file”**
 
 ### Channel to segment: 
 
 The channel that will be segmented. If the channel contains cytoplasmic structures, it should be associated with the **“cyto”** and **“cyto2”** pretrained models, or nuclei with the **“nuclei”** model. 
    
 ### Segmentation of RGB images: 
-    * '0’ means that cellpose will run on a grayscale combination of all channels.
-    * ‘1’ stands for the first channel, corresponding to the red channel in a RGB image.
-    * Similarly, for ‘2’ and ‘3’, the second and third channel, corresponding to the green and blue channels in a RGB image.
+* '0’ means that cellpose will run on a grayscale combination of all channels.
+* ‘1’ stands for the first channel, corresponding to the red channel in a RGB image.
+* Similarly, for ‘2’ and ‘3’, the second and third channel, corresponding to the green and blue channels in a RGB image.
 
 ### Segmentation of multi-channel image:
-    * Ignore the ‘red’, ‘green’, blue’ labels and rely on channel order (found under the image, near the slider).
+* Ignore the ‘red’, ‘green’, blue’ labels and rely on channel order (found under the image, near the slider).
 OR
-    * Isolate the channel of interest: **“right click”** on the layer > **“Split Stack”** 
-    * Select it on the **“Image layer option”**, channel to segment: “0”
+* Isolate the channel of interest: **“right click”** on the layer > **“Split Stack”** 
+* Select it on the **“Image layer option”**, channel to segment: “0”
     
 ### Optional nuclear channel:
 
