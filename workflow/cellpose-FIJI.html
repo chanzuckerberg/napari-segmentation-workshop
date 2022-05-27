@@ -438,19 +438,20 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="opening-the-mask-in-fiji">
 <h2>Opening the mask in FIJI<a class="headerlink" href="#opening-the-mask-in-fiji" title="Permalink to this headline">¶</a></h2>
-<p>Use the plugin BioFormat importer and select: <strong>”group file with similar name”</strong> (3D and time Serie only). In the pop-up window, select:”pattern”. Open normally for 2D mask. You will be able to display the raw image and the mask image side by side.</p>
+<p>Use the plugin Bio Format importer and select: <strong>”group file with similar name”</strong> (3D and time Serie only). In the pop-up window, select:”pattern”. Open normally for 2D mask. You will be able to display the raw image and the mask image side by side.</p>
 <p><img alt="Using the plugin BioFormat importer" src="../_images/cellpose5.png" /></p>
 </div>
 <div class="section" id="using-the-mask-as-a-mask">
 <h2>Using the mask as a mask<a class="headerlink" href="#using-the-mask-as-a-mask" title="Permalink to this headline">¶</a></h2>
 <p>Navigating to the main menu in FIJI, go to <strong>process &gt; binary &gt; convert to mask &gt; Yen</strong>.</p>
 <p><img alt="Converting to a mask in FIJI" src="../_images/cellpose6.png" /></p>
-<p>Performing this Binarization step can also correct some segmentation issues. As we can see in the example above, cells were over segmented with cellpose in napari, but the binarization in FIJI corrects this.</p>
+<p>Performing this Binarization step can also correct some segmentation issues that may arise. As we can see in the example above, cells were oversegmented with <em>cellpose-napari</em>, but binarization in FIJI corrects this.</p>
 <p><img alt="Binarization in FIJI" src="../_images/cellpose7.png" /></p>
 </div>
 <div class="section" id="performing-a-3d-analysis">
 <h2>Performing a 3D analysis<a class="headerlink" href="#performing-a-3d-analysis" title="Permalink to this headline">¶</a></h2>
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/RCat0ylcSHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br>
 <p>In FIJI, you may perform a 3D analysis of the your mask in one of two ways, as shown in the video above:</p>
 <ul class="simple">
 <li><p>Analyze &gt; 3D OC options &gt; select measurements option</p></li>

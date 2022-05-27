@@ -30,7 +30,7 @@ Convert the **“label layer”** into images by doing right click on it and sel
 
 ## Opening the mask in FIJI
 
-Use the plugin BioFormat importer and select: **”group file with similar name”** (3D and time Serie only). In the pop-up window, select:”pattern”. Open normally for 2D mask. You will be able to display the raw image and the mask image side by side.
+Use the plugin Bio Format importer and select: **”group file with similar name”** (3D and time Serie only). In the pop-up window, select:”pattern”. Open normally for 2D mask. You will be able to display the raw image and the mask image side by side.
 
 ![Using the plugin BioFormat importer](images/cellpose5.png)
 
@@ -40,13 +40,15 @@ Navigating to the main menu in FIJI, go to **process > binary > convert to mask 
 
 ![Converting to a mask in FIJI](images/cellpose6.png)
 
-Performing this Binarization step can also correct some segmentation issues. As we can see in the example above, cells were over segmented with cellpose in napari, but the binarization in FIJI corrects this. 
+Performing this Binarization step can also correct some segmentation issues that may arise. As we can see in the example above, cells were oversegmented with *cellpose-napari*, but binarization in FIJI corrects this. 
 
 ![Binarization in FIJI](images/cellpose7.png)
 
 ## Performing a 3D analysis
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/RCat0ylcSHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<br>
 
 In FIJI, you may perform a 3D analysis of the your mask in one of two ways, as shown in the video above: 
 
