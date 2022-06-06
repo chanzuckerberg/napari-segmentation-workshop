@@ -1,4 +1,4 @@
-Lesson II: Why use napari?
+Getting started with napari
 =======================
 
 ## Why use napari? 
