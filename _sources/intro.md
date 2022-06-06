@@ -19,9 +19,6 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 
 2. By **[the final workflow stage](workflow/landing.md)**, we focus on the terminology behind segmentation, then dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own). 
  
-<br>
-
-
 ````{panels}
 :column: col-4
 :card: border-2
