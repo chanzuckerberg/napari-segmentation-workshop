@@ -1,5 +1,5 @@
 ![Picture of art installation of networked cables](images/header_small.jpeg)
-Lesson I: What is napari?
+What is napari?
 =======================
 
 ## Overview
