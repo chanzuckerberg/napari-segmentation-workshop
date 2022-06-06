@@ -15,8 +15,6 @@ parts:
   - file: onboard/landing
   - file: onboard/lesson1
   - file: onboard/lesson2
-  - file: onboard/lesson3
-  - file: onboard/lesson4
 
 - caption: "Primer to image analysis"
   chapters:
