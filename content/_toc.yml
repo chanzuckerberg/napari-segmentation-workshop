@@ -8,6 +8,7 @@ parts:
 - caption: "Preface"
   chapters:
   - file: preface/landing
+  - file: preface/imageanalysis
   - file: preface/feedback
   
 - caption: "Onboarding to napari"
@@ -15,12 +16,6 @@ parts:
   - file: onboard/landing
   - file: onboard/lesson1
   - file: onboard/lesson2
-
-- caption: "Primer to image analysis"
-  chapters:
-  - file: primer/landing
-  - file: primer/lesson1
-  - file: primer/lesson2
 
 - caption: "Segmentation workflows"
   chapters:
