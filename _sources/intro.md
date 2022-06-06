@@ -22,6 +22,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
  
 <br>
 
+
 ````{panels}
 :column: col-4
 :card: border-2
