@@ -1,4 +1,4 @@
-![Picture of art installation of networked cables](images/header_small.jpeg)
+![Picture of art installation of networked cables](images/napari-viewer.gif)
 What is napari?
 =======================
 

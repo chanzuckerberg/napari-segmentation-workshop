@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; napari Segmentation learning course</title>
+    <title>Quantification of segmented regions &#8212; napari Segmentation learning course</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,6 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Allen Cell Segmenter" href="allencell.html" />
+    <link rel="prev" title="Segmentation of foci" href="partseg-foci.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -160,7 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
   Segmentation workflows
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="landing.html">
    Overview of final stage
@@ -188,10 +190,37 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="partseg.html">
    Classical segmentation with PartSeg
   </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="partseg-primer.html">
+     The Theory of Image Analysis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="partseg-nuclei.html">
+     Segmentation of nuclei
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="partseg-foci.html">
+     Segmentation of foci
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Quantification of segmented regions
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="allencell.html">
@@ -374,7 +403,17 @@ title="Print to PDF"
         <i class="fas fa-list"></i> Contents
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="simple visible nav section-nav flex-column">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#simple-measurements-in-partseg">
+   Simple measurements in PartSeg
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#full-measurements-in-partseg">
+   Full measurements in PartSeg
+  </a>
+ </li>
 </ul>
 
     </nav>
@@ -384,7 +423,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1><no title></h1>
+                <h1>Quantification of segmented regions</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -393,7 +432,17 @@ title="Print to PDF"
                             <h2> Contents </h2>
                         </div>
                         <nav aria-label="Page">
-                            <ul class="simple visible nav section-nav flex-column">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#simple-measurements-in-partseg">
+   Simple measurements in PartSeg
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#full-measurements-in-partseg">
+   Full measurements in PartSeg
+  </a>
+ </li>
 </ul>
 
                         </nav>
@@ -404,7 +453,29 @@ title="Print to PDF"
                 
               <div>
                 
-  
+  <section class="tex2jax_ignore mathjax_ignore" id="quantification-of-segmented-regions">
+<h1>Quantification of segmented regions<a class="headerlink" href="#quantification-of-segmented-regions" title="Permalink to this headline">#</a></h1>
+<p>As we approach the final steps of our workflow, napari gives us several options for quantification of regions based on the segmentation masks. Importantly, you can perform this quantification regardless of how the segmentation mask was created or loaded into the napari viewer.</p>
+<p>If interested in a simple quantification check, check the <strong>Simple Measurement</strong> tool in the PartSeg napari viewer widget.</p>
+<p>For full flexibility of quantifying different classes of objects, check the <strong>Measurement</strong> tool in the PartSeg napari viewer widget.</p>
+<section id="simple-measurements-in-partseg">
+<h2>Simple measurements in PartSeg<a class="headerlink" href="#simple-measurements-in-partseg" title="Permalink to this headline">#</a></h2>
+<script src="https://fast.wistia.com/embed/medias/59hl61l69o.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_59hl61l69o seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/59hl61l69o/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Some of the simple quantification based on segmented regions include the analysis of the shape of the objects (ex. area or sphericity - the measurement of how close to a circle the object is) or the analysis of the signal intensity within the regions (ex. mean or standard deviation of pixel intensities within the objects).</p>
+</div>
+</section>
+<section id="full-measurements-in-partseg">
+<h2>Full measurements in PartSeg<a class="headerlink" href="#full-measurements-in-partseg" title="Permalink to this headline">#</a></h2>
+<script src="https://fast.wistia.com/embed/medias/k0w5y27wiy.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_k0w5y27wiy seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/k0w5y27wiy/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Having segmented more than one class of objects (ex. nuclei and foci within them) we can quantify not only the properties of each class of objects separately, but also the relationships between them. For example, we can count how many foci belong to a given nucleus or combine measurements of the nuclei and foci into a single table of results.</p>
+</div>
+</section>
+</section>
+
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
@@ -432,6 +503,20 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="partseg-foci.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Segmentation of foci</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="allencell.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Allen Cell Segmenter</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             </footer>
         </div>

@@ -1,4 +1,4 @@
-![Samples of images segmented by Cellpose](images/Cellpose-banner.png)
+![Samples of images segmented by Cellpose](images/partseg-banner.png)
 Classical segmentation with PartSeg
 =======================
 
@@ -6,9 +6,10 @@ Classical segmentation with PartSeg
 
 In this lesson, you'll learn how to use and configure the PartSeg plugin in napari to complete a classical segmentation workflow. 
 
-1.  [Understanding the steps behind a classical segmentation](partseg-primer.md)
-2.  [Learning how to perform segmentation using napari and plugins](partseg-nuclei.md)
-3.  [Using elements of PartSeg and Napari-segment-blobs-and-things-with-membranes](partseg-quantification.md)
+1.  [Understanding the theory of classical segmentation](partseg-primer.md)
+2.  [Detecting and segmenting nuclei as individual objects](partseg-nuclei.md)
+3.  [Detecting and segmenting foci as individual objects](partseg-foci.md)
+4.  [Quantifying segmentation regions based on your masks](partseg-quantification.md)
 
 - **Time to learn**: 1 hour
 

@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Segmentation of nuclei &#8212; napari Segmentation learning course</title>
+    <title>Segmentation of foci &#8212; napari Segmentation learning course</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Segmentation of foci" href="partseg-foci.html" />
-    <link rel="prev" title="The Theory of Image Analysis" href="partseg-primer.html" />
+    <link rel="next" title="Quantification of segmented regions" href="partseg-quantification.html" />
+    <link rel="prev" title="Segmentation of nuclei" href="partseg-nuclei.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -205,13 +205,13 @@ const thebe_selector_output = ".output, .cell_output"
      The Theory of Image Analysis
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="partseg-nuclei.html">
      Segmentation of nuclei
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="partseg-foci.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Segmentation of foci
     </a>
    </li>
@@ -317,7 +317,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/chanzuckerberg/napari Segmentation Course/issues/new?title=Issue%20on%20page%20%2Fworkflow/partseg-nuclei.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/chanzuckerberg/napari Segmentation Course/issues/new?title=Issue%20on%20page%20%2Fworkflow/partseg-foci.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -345,7 +345,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/workflow/partseg-nuclei.md"
+        <a href="../_sources/workflow/partseg-foci.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -410,8 +410,13 @@ title="Print to PDF"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#partseg-roi-mask-extraction">
-     PartSeg: ROI mask extraction
+    <a class="reference internal nav-link" href="#napari-segment-blobs-and-things-with-membranes">
+     Napari-segment-blobs-and-things-with-membranes
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#partseg-roi-analysis-extraction">
+     PartSeg: ROI analysis extraction
     </a>
    </li>
   </ul>
@@ -425,7 +430,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Segmentation of nuclei</h1>
+                <h1>Segmentation of foci</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -441,8 +446,13 @@ title="Print to PDF"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#partseg-roi-mask-extraction">
-     PartSeg: ROI mask extraction
+    <a class="reference internal nav-link" href="#napari-segment-blobs-and-things-with-membranes">
+     Napari-segment-blobs-and-things-with-membranes
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#partseg-roi-analysis-extraction">
+     PartSeg: ROI analysis extraction
     </a>
    </li>
   </ul>
@@ -457,22 +467,25 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="segmentation-of-nuclei">
-<h1>Segmentation of nuclei<a class="headerlink" href="#segmentation-of-nuclei" title="Permalink to this headline">#</a></h1>
-<p>Beginning the workflow, we want to start by <strong>detecting cell nuclei</strong> as individual objects. Cell nuclei in a fluorescence image are clearly brighter than the surrounding background so many automated thresholding algorithms will be successful in finding the correct thresholding values. However, we will add several post-processing steps to make sure that the edges of the detected nuclei are smooth and that the small bright particles in the background are not mistakenly classified as nuclei.</p>
-<script src="https://fast.wistia.com/embed/medias/ogftgh3nwb.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ogftgh3nwb seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/ogftgh3nwb/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+  <section class="tex2jax_ignore mathjax_ignore" id="segmentation-of-foci">
+<h1>Segmentation of foci<a class="headerlink" href="#segmentation-of-foci" title="Permalink to this headline">#</a></h1>
+<p>In this second part of our workflow, we want to <strong>detect foci within the nuclei</strong> as individual objects. Foci are much smaller than nuclei and so their brightness is more heterogeneous in nature. Additionally, they belong to nuclei that can be brighter or darker, so this segmentation proves challenging–even more challenging than the segmentation of the nuclei themselves as they all share a relatively dark (i.e. low signal) background.</p>
+<script src="https://fast.wistia.com/embed/medias/2ky32y2rhd.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_2ky32y2rhd seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/2ky32y2rhd/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 <section id="analysis-pipeline-steps">
 <h2>Analysis pipeline steps<a class="headerlink" href="#analysis-pipeline-steps" title="Permalink to this headline">#</a></h2>
-<section id="partseg-roi-mask-extraction">
-<h3>PartSeg: ROI mask extraction<a class="headerlink" href="#partseg-roi-mask-extraction" title="Permalink to this headline">#</a></h3>
+<section id="napari-segment-blobs-and-things-with-membranes">
+<h3>Napari-segment-blobs-and-things-with-membranes<a class="headerlink" href="#napari-segment-blobs-and-things-with-membranes" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
-<li><p>Median filtering (r = 2)</p></li>
-<li><p>Thresholding ‘Otsu’</p></li>
-<li><p>Opening (r = 5)</p></li>
-<li><p>Hill holes (r = 100)</p></li>
-<li><p>Size restriction (&gt;400)</p></li>
-<li><p>Connect by sides</p></li>
-<li><p>Convex hull (r = 1)</p></li>
+<li><p>Gaussian Laplace</p></li>
+</ul>
+</section>
+<section id="partseg-roi-analysis-extraction">
+<h3>PartSeg: ROI analysis extraction<a class="headerlink" href="#partseg-roi-analysis-extraction" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Mask (nuclei)</p></li>
+<li><p>Manual Threshold (-2)</p></li>
+<li><p>Size restriction (&gt;3)</p></li>
+<li><p>Connect by side</p></li>
 </ul>
 </section>
 </section>
@@ -505,17 +518,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="partseg-primer.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="partseg-nuclei.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">The Theory of Image Analysis</p>
+            <p class="prev-next-title">Segmentation of nuclei</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="partseg-foci.html" title="next page">
+    <a class='right-next' id="next-link" href="partseg-quantification.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Segmentation of foci</p>
+        <p class="prev-next-title">Quantification of segmented regions</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
