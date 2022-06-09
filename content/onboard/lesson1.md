@@ -2,9 +2,9 @@
 What is napari?
 =======================
 
-## Overview
+## Learning Objectives
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+In this lesson, you'll learn what [napari](www.napari.org) is, how it works with Python, and some of the advantages of using open-source imaging tech. 
 
 1.  At volutpat diam ut venenatis tellus in metus
 2.  Sed elementum tempus egestas sed sed risus pretium
@@ -17,15 +17,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 - **Time to learn**: 20 minutes
 
+:::{note}
+This is a brief introduction to a new image analysis platform called napari. Although parts of napari are still undergoing development and some kinks are still being ironed out here and there, it can be a very useful tool for your image analysis, especially if you have complex, large, or multi-dimensional datasets.
+:::
+
 ---
 
-## Introduction to napari
+## Processing Multi-Dimensional Imaging Data
 
-Pellentesque sit amet porttitor eget dolor. Sit amet nisl suscipit adipiscing bibendum est ultricies. Malesuada fames ac turpis egestas maecenas pharetra. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus[^mynote].
+Napari is an open-source **graphical user interface**[^mynote], developed specifically for viewing, annotating, and analysing large and multi-dimensional imaging datasets.
 
-[^mynote]: My footnote text.
+In 2022, the increasingly massive datasets that modern imaging technologies (such as time lapse imaging, confocal microscopy, super-resolution microscopy, or light sheet microscopy) generate can be challenging for legacy tech to handle and analyze. More and more, scientists are turning to sophisticated, modern analytical tools and pipelines developed with programming languages such as Python or MatLab. 
 
-### What is napari? 
+The open-source nature of Python means it has been widely adopted, and there is a large and rapidly growing number of libraries of scientific resources and tools available for use with Python. However, these scripting-based approaches can often be difficult to adopt, especially without a graphical user interface and a way to visualize the image analysis processes.
+
+[^mynote]: Any program you can interact with in a separate window, equipped with clickable buttons, tools, and other visual mechanisms. 
+
+## The Power of Python
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
