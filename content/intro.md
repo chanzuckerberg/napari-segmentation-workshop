@@ -1,23 +1,15 @@
-# Welcome to the napari cell segmentation course!
+# napari Cell Segmentation Course
 
 **By [the Bravo Cohort](preface/landing.md) 🔬**
 
 <br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> <br>
 
-If you've arrived on this Jupyter Book, that means you likely have an interest in **cell biology, imaging analysis**, and all the applications of the [**open-source napari platform**](https://www.napari.org)! By following this course, you’ll learn all the fundamentals to performing cell segmentation in napari on your own data. Although napari currently requires *some* Python and command prompt/terminal experience, we try to keep it to *a minimum* in all our lessons. 
-
-:::{note}
-While anyone can follow along, this course has been created with **research biologists, microscopy**, and **experimental design** in mind. If you have a broader interest in napari, we invite you to browse the [range of uses](https://www.napari.org/gallery.html) for the platform, as well as the [napari hub](https://www.napari-hub.com).
-:::
-
-**Instructions**
-
-We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [the Bravo Cohort](preface/landing.md)), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. We encourage you to complete this at your own pace, aiming for a lesson a day. 
-
-1. Beginning at **[the onboarding stage](onboard/landing.md)**, you'll learn more about what napari is, and how it compares to other imaging platforms. We guide you through an installation of the latest version of the napari viewer, and how we enhance its functionality with plugins.    
-  <br>
-
-2. By **[the final workflow stage](workflow/landing.md)**, we focus on the terminology behind segmentation, then dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own). 
+Welcome to the napari Cell Segmentation course! This ~8 hour course will walk you from onboarding to napari to completing your first segmentation workflow using napari and plugins from the napari hub. Although napari currently requires some coding in Python, we designed this course for researchers with no prior coding experience, so we’ll walk you through any steps that require coding.
+ 
+We also want to note that napari is in the alpha stage of development, which means that we are still actively experimenting with napari, and new features, including some core features you may have used on other platforms, are being added all the time. If you encounter any issues, check the [napari Github](https://github.com/napari/napari), the Github page for an individual plugin (linked on the [napari hub](https://www.napari-hub.org/) Plugin page), [image.sc](https://forum.image.sc/tag/napari), or reach out at team@napari-hub.org.
+ 
+## Overview
+This course is split into 3 sections. In the **[preface](preface/landing.md)**, you’ll learn about how this course came to be and find a list of resources for foundational image analysis concepts that may help you get the most out of this course. In the **[onboarding section](onboard/landing.md)**, you’ll learn more about what napari is and be guided through installing napari and plugins on your computer. Finally in the **[workflows module](workflow/landing.md)**, you will dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own), and various napari plugins.
 
 <br>
  
