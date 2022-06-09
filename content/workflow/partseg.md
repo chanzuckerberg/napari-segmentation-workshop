@@ -24,7 +24,7 @@ In this lesson, you'll learn how to use and configure the PartSeg plugin in napa
 
 ## What is a classical segmentation pipeline?
 
-A classical segmentation pipeline is built around a thresholding algorithm to detect objects which intensity vary from the surrounding background. It can be divided into 3 main parts:
+A classical segmentation pipeline is built around a thresholding algorithm to detect objects with intensities that vary from their surrounding background. It can be divided into 3 main parts:
 
 - **preprocessing**: preparation of images for thresholding (ex. filtering to remove noise).
 - **thresholding**: finding an intensity value that separates objects from the background.
