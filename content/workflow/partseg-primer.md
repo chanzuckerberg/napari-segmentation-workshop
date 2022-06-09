@@ -1,4 +1,4 @@
-# The Theory of Image Analysis
+# Theory of image analysis
 
 To fully understand the steps behind the classical segmentation pathway, one has to understand some general algorithms commonly used in image analysis. We've provided these resources to help you understand the theory, as you work through [performing a segmentation with PartSeg](partseg-nuclei.md). 
 
