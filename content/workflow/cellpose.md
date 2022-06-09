@@ -1,6 +1,5 @@
 ![Samples of images segmented by Cellpose](images/Cellpose-banner.png)
-Cellpose-napari + FIJI
-=======================
+# Cellpose-napari + FIJI
 
 ## Learning Objectives
 

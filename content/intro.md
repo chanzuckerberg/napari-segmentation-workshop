@@ -10,7 +10,7 @@ If you've arrived on this Jupyter Book, that means you likely have an interest i
 While anyone can follow along, this course has been created with **research biologists, microscopy**, and **experimental design** in mind. If you have a broader interest in napari, we invite you to browse the [range of uses](https://www.napari.org/gallery.html) for the platform, as well as the [napari hub](https://www.napari-hub.com).
 :::
 
-## Instructions
+**Instructions**
 
 We've designed this course into three stages (requiring **at least 8 hours** to fully complete), each consisting of small snippets of narrated video (recorded by [the Bravo Cohort](preface/landing.md)), accompained by text explanations, a glossary of relevant terms, sample data, and exercises. We encourage you to complete this at your own pace, aiming for a lesson a day. 
 

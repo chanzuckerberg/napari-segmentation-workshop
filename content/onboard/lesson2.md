@@ -1,7 +1,6 @@
-Getting started with napari
-=======================
+# Getting started with napari
 
-## Why use napari? 
+## Why use napari?
 
 Et distinctio quisquam quo nemo dolorem cum distinctio dignissimos a natus inventore aut rerum deserunt. Sed fugit molestiae non iste voluptatem et laborum error et placeat quia. Hic quisquam sunt in sunt dolorem ut recusandae amet sit excepturi incidunt qui sequi tenetur sed odio autem a reprehenderit minima. Et quisquam laudantium quo illum sint a blanditiis quod eum aperiam officia.
 
@@ -11,7 +10,7 @@ Sed dolores fugiat id ullam molestiae corrupti nostrum et quia ipsam eum velit q
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VgvDSq5aCDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Use cases for napari 
+### Use cases for napari
 
 Qui accusantium voluptatem quo mollitia beatae ab sequi consequatur in inventore dignissimos non suscipit suscipit? Ut aspernatur iusto ad galisum facere quo deserunt similique et animi similique.
 

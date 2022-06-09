@@ -1,6 +1,5 @@
 ![Samples of images segmented by Cellpose](images/partseg-banner.png)
-Classical segmentation with PartSeg
-=======================
+# Classical segmentation with PartSeg
 
 ## Learning Objectives
 

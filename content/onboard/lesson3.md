@@ -1,2 +1,1 @@
-Lesson III: Getting started with napari 
-=======================
+# Lesson III: Getting started with napari

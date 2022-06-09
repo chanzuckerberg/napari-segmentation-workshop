@@ -1,6 +1,5 @@
 ![Picture of art installation of networked cables](images/napari-viewer.gif)
-What is napari?
-=======================
+# What is napari?
 
 ## Learning Objectives
 

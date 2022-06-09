@@ -1,2 +1,1 @@
-Allen Cell Segmenter
-=======================
+# Allen Cell Segmenter

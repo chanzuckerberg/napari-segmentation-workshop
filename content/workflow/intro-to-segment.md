@@ -1,6 +1,5 @@
 ![Picture of art installation of networked cables](images/header_small.jpeg)
-Introduction to cell segmentation
-=======================
+# Introduction to cell segmentation
 
 ## Learning Objectives
 
