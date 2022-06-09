@@ -28,5 +28,6 @@ parts:
       sections:
       - file: workflow/partseg-primer
       - file: workflow/partseg-nuclei
+      - file: workflow/partseg-foci
       - file: workflow/partseg-quantification
   - file: workflow/allencell
