@@ -13,7 +13,7 @@ In this lesson, you'll learn what [napari](www.napari.org) is, how it works with
 
 | Concepts                                                                         | Importance | Notes |
 | -------------------------------------------------------------------------------- | ---------- | ----- |
-| [Why Python?](https://foundations.projectpythia.org/foundations/why-python.html) | Helpful    |       |
+| [Why Python?](https://foundations.projectpythia.org/foundations/why-python.html) | *Optional*    |       |
 
 - **Time to learn**: 20 minutes
 
