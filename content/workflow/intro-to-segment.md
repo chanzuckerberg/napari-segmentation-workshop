@@ -103,8 +103,9 @@ Eros in cursus turpis massa tincidunt dui. Porttitor eget dolor morbi non arcu r
 
 Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vel pretium lectus quam id leo in vitae. Sit amet dictum sit amet justo donec. 
 
-````{tabbed} c++
+`````{tab-set} 
 
+````{tab-item} c++
 ```{code-block} c++
 
 int main(const int argc, const char **argv) {
@@ -113,8 +114,7 @@ int main(const int argc, const char **argv) {
 ```
 ````
 
-````{tabbed} python
-
+````{tab-item} python
 ```{code-block} python
 
 def main():
@@ -122,8 +122,7 @@ def main():
 ```
 ````
 
-````{tabbed} java
-
+````{tab-item} java
 ```{code-block} java
 
 class Main {
@@ -133,8 +132,7 @@ class Main {
 ```
 ````
 
-````{tabbed} julia
-
+````{tab-item} julia
 ```{code-block} julia
 
 function main()
@@ -142,53 +140,54 @@ end
 ```
 ````
 
-````{tabbed} fortran
-
+````{tab-item} fortran
 ```{code-block} fortran
 
 PROGRAM main
 END PROGRAM main
 ```
 ````
+`````
+
 ## Lesson Glossary
 
 ```{glossary}
 Threshold
   An indented explanation of term 1
-  
+
 Auto threshold
   An indented explanation of term2   
 
 Pixel
   An indented explanation of term2
-  
+
 Pixel size
   An indented explanation of term2  
-  
+
 Voxel
   An indented explanation of term 1
 
 Mask
   An indented explanation of term2
-  
+
 ROI
   An indented explanation of term 1
-  
+
 Bit depth
   An indented explanation of term 1
 
 Processing filters
   An indented explanation of term2  
-  
+
 Binary filters
   An indented explanation of term2    
-  
+
 Machine learning and deep learning
   An indented explanation of term2   
-  
+
 Digital image
   An indented explanation of term2  
-  ```
+```
   
 ## Further Readings
 

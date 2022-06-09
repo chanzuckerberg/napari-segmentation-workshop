@@ -19,11 +19,12 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 
 2. By **[the final workflow stage](workflow/landing.md)**, we focus on the terminology behind segmentation, then dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own). 
  
-````{panels}
-:column: col-4
-:card: border-2
+````{grid}
+
+```{grid-item-card}
 **Relevant terms**
 ^^^
+
 - Segmentation  
   
 - Classification  
@@ -41,10 +42,12 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 - Operating system  
   
 - Workflow step  
-  
----
+```
+
+```{grid-item-card}
 **Notable lessons**
 ^^^
+
 - All about virtual environments, Python and napari 🐍
   
 - Installing the latest version of napari with minimal coding 💽  
@@ -54,10 +57,12 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 - [Napari segmentation workflow: *Cellpose*](workflow/cellpose.md) ⚙️
   
 - Napari segmentation workflow: *Allen Cell Segmenter* ⚙️
-  
----
+```
+
+```{grid-item-card}
 **Supporting links**
 ^^^
+
 - [Napari.org](https://napari.org) community and developer site
 
 - The [napari hub](https://napari-hub.org) for the latest plugins
@@ -65,5 +70,6 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
 - Official Bravo Cohort plugin collection page   
 
 - Image.sc forum sticky thread on the napari segmentation course  
+```
 
 ````
