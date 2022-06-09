@@ -46,7 +46,7 @@ We've designed this course into three stages (requiring **at least 8 hours** to 
   
 - Installing the latest version of napari with minimal coding 💽  
 
-- [Napari segmentation workflow: *Classical segmentation with PartSeg*](workflow/partseg.md) ⚙️
+- [Classical segmentation with *PartSeg*](workflow/partseg.md) ⚙️
   
 - [Napari segmentation workflow: *Cellpose*](workflow/cellpose.md) ⚙️
   
