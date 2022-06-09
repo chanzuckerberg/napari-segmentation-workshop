@@ -40,6 +40,6 @@ The above video demonstrates...
 
 - [“The Allen Cell Structure Segmenter: a new open source toolkit for segmenting 3D intracellular structures in fluorescence microscopy images”](https://www.biorxiv.org/content/10.1101/491035v1.full#F2)
 
-- [Github documentation for Allen Cell Segmenter](https://github.com/mouseland/cellpose)
+- [Github documentation for Allen Cell Segmenter](https://github.com/AllenCell/napari-allencell-segmenter)
 
 - [A detailed explanation of Allen Cell parameters](https://github.com/AllenCell/aics-segmentation/blob/main/lookup_table_demo/playground_filament3d.ipynb)
