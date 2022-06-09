@@ -4,7 +4,7 @@ What is napari?
 
 ## Learning Objectives
 
-In this lesson, you'll learn what [napari](www.napari.org) is, how it works with Python, and some of the advantages of using open-source imaging tech. 
+In this lesson, you'll learn what [napari](https://www.napari.org) is, its relationship with the Python coding language, and some of the advantages of using open-source imaging tech. 
 
 1.  At volutpat diam ut venenatis tellus in metus
 2.  Sed elementum tempus egestas sed sed risus pretium
@@ -23,7 +23,7 @@ This is a brief introduction to a new image analysis platform called napari. Alt
 
 ---
 
-## Processing Multi-Dimensional Imaging Data
+### Processing multi-dimensional imaging data
 
 Napari is an open-source **graphical user interface**[^mynote], developed specifically for viewing, annotating, and analysing large and multi-dimensional imaging datasets.
 
@@ -33,71 +33,47 @@ The open-source nature of Python means it has been widely adopted, and there is 
 
 [^mynote]: Any program you can interact with in a separate window, equipped with clickable buttons, tools, and other visual mechanisms. 
 
-## The Power of Python
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-At animi commodi aut dignissimos laudantium et voluptatem eveniet id deleniti voluptatibus dolorem quidem aut error repellat sed velit dolor. Est laudantium consectetur id nihil nostrum sed ducimus laudantium eos porro voluptate qui facere illum id debitis earum ut adipisci soluta.
-
-:::{tip}
-Morbi tincidunt ornare massa eget. Sit amet mattis vulputate enim nulla aliquet porttitor. Et netus et malesuada fames ac. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare.
+:::{hint}
+Napari’s utility is certainly not limited to handling large datasets. The Python basis of napari means that many useful packages can be made available for a range of simple or complex data processing and analysis tasks.
 :::
 
-### The napari viewer
+### The power of Python
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sFvZcUeShoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Napari is built on the Python coding language, intending to bridge the gap between the inherently visual nature of image analysis and the computational power available through Python and its libraries. This includes, for example, being able to leverage the speed of GPU-based computing and machine learning for large and complex processes, such as content-aware denoising, handling of light-sheet microscope data, or even challenging segmentation cases! 
 
-Et harum quisquam in consectetur quae accusantium cumque ut consequatur Quis et facere maxime qui quisquam unde. Sit optio natus in sunt pariatur ad magni distinctio. Non accusamus ratione non veniam nesciunt cum autem temporibus id quis quia vel dolore inventore ut nihil quia.
+### Accessibility of napari
 
-![image](images/napari-viewer.png)
+Napari aims to minimize (and eventually eliminate) the amount of coding knowledge needed for its use, making it friendly for life-science based fields, students and educators. However as napari is still being developed and evolving as a platform, the current version (as of June 2022) requires some user understanding of the basics of: **conda**, **python**, and **virtual environments**. Core developers are aiming for a “plug-and-play”, pre-built version that can be downloaded and installed like any desktop app or software you’re accustomed to using. 
 
-## What can napari do? 
+:::{hint}
+Although [this executable](https://napari.org/tutorials/fundamentals/quick_start.html#installation) exists, we recommend against using it if you intend to perform cell segmentations with napari, because it is still in-development and not entirely stable. 
+:::
 
-Ultricies mi eget mauris pharetra et. Lectus vestibulum mattis ullamcorper velit sed. Pellentesque habitant morbi tristique senectus et netus et malesuada.Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet venenatis urna cursus eget. Sit amet purus gravida quis blandit turpis cursus in hac.
+### Open-source adaptability
 
-### Overview of napari
+Napari is free-to-use, **open-source** and **community-developed**. This means that napari’s arsenal of tools will continue to develop in tandem with the needs of its users, and as new technologies and methodologies become available. These tools are made available as **plugins**[^mynote2] – analytical processes or pipelines packaged together as software components that you can download and “add-on” to your napari installation. These pipelines then become available in the napari viewer and they can be enabled and interacted with through its user-friendly GUI.
 
-Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nunc non blandit massa enim. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Amet consectetur adipiscing elit ut.
+[^mynote2]: Installable add-ons for the napari viewer which enhance its image analysis capabilities. Discoverable in napari viewer or the [napari hub](https://www.napari-hub.org). 
 
-```{glossary}
-Term one
-  An indented explanation of term 1
+### Interoperability of napari
 
-A second term
-  An indented explanation of term2
-```
+Napari is also interoperable with other image analysis platforms, such as Fiji - common file formats such as .tiffs and hdf5 are compatible with almost all platforms. These different platforms have a lot of common functionality, but you may also find key differences in some functions availability (or capability). 
 
-### napari layers
+Different platforms may also have different ways of allowing you to interact with the data, that may suit different points in an analysis pipeline. Especially in light of the fact that napari is still in its alpha development stage, there are some functions that are not yet stable or available in napari.
 
-Vulputate enim nulla aliquet porttitor lacus. Elementum nibh tellus molestie nunc non blandit massa enim. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Amet consectetur adipiscing elit ut.
+## Supporting materials
 
-```{warning}
-Maecenas sed enim ut sem viverra aliquet. Facilisis volutpat est velit egestas dui id. 
-Erat nam at lectus urna. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci.
-```
+### Official napari documentation
 
-### napari console
+- [Napari.org 'Quick Start'](https://napari.org/tutorials/fundamentals/quick_start.html)
 
-Lobortis feugiat vivamus at augue eget arcu. Massa placerat duis ultricies lacus sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vel pretium lectus quam id leo in vitae. Sit amet dictum sit amet justo donec. 
+### Community pages for napari
 
-```python
-from skimage import data
-import napari
+- [CZI napari landing page](https://chanzuckerberg.com/napari-a-multi-dimensional-image-viewer-for-python/)
+- [Image.SC forum for napari](https://forum.image.sc/tag/napari)
 
-viewer = napari.view_image(data.cells3d(), channel_axis=1, ndisplay=3)
-```
+### Introduction from core dev
 
-### Widgets and plugins
-
-Est omnis adipisci est commodi provident aut dignissimos excepturi a delectus quia aut delectus fugiat qui nisi blanditiis a omnis dolore. At iure enim in voluptate unde At adipisci facere sit nesciunt iusto.
-
-Ea assumenda dolorum et quaerat earum aut cumque culpa et dolores corrupti. Eos modi inventore est esse perferendis sed iste aliquid eum quia consequatur?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9_Zo2sR75To" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> <br>
 
 
-## Closeout
-
-Sed doloremque voluptatibus eum quia facere est possimus illo ab quae facere qui asperiores dolorem sed nulla quasi ad tempore adipisci. Qui omnis beatae et esse minima ut nostrum dolorem et aliquam amet. Non enim maxime qui optio quia aut velit excepturi quo inventore laudantium.
-
-Non placeat officia cum tempore officiis sit voluptate saepe ut magnam galisum sit quas consequatur. Ut asperiores cupiditate a aperiam dolorem est voluptatum molestiae a aliquid eveniet.
