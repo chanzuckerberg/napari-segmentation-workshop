@@ -1,4 +1,4 @@
-![Samples of images segmented by Cellpose](images/Cellpose-banner.png)
+![Samples of images segmented by Cellpose](images/partseg-banner.png)
 Classical segmentation with PartSeg
 =======================
 
