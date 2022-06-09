@@ -6,7 +6,7 @@ Classical segmentation with PartSeg
 
 In this lesson, you'll learn how to use and configure the PartSeg plugin in napari to complete a classical segmentation workflow. 
 
-1.  [An introduction to PartSeg](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html#short-introductiion-to-classical-segmentation)
+1.  [An introduction to PartSeg](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html#short-introduction-to-classical-segmentation)
 2.  [Understanding the theory of classical segmentation](partseg-primer.md)
 3.  [Detecting and segmenting nuclei as individual objects](partseg-nuclei.md)
 4.  [Detecting and segmenting foci as individual objects](partseg-foci.md)
