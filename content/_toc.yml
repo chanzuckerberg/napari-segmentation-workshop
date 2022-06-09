@@ -13,13 +13,11 @@ parts:
   
 - caption: "Onboarding to napari"
   chapters:
-  - file: onboard/landing
   - file: onboard/lesson1
   - file: onboard/lesson2
 
 - caption: "Segmentation workflows"
   chapters:
-  - file: workflow/landing
   - file: workflow/cellpose
     sections:
       - file: workflow/cellpose-parameters
