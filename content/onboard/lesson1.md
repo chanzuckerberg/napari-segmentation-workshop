@@ -31,7 +31,7 @@ In 2022, the increasingly massive datasets that modern imaging technologies (suc
 
 The open-source nature of Python means it has been widely adopted, and there is a large and rapidly growing number of libraries of scientific resources and tools available for use with Python. However, these scripting-based approaches can often be difficult to adopt, especially without a graphical user interface and a way to visualize the image analysis processes.
 
-[^mynote]: Any program you can interact with in a separate window, equipped with clickable buttons, tools, and other visual mechanisms. 
+[^mynote]: Any program you can interact with in a separate window, equipped with clickable buttons, built-in tools, and other visual mechanisms. 
 
 :::{hint}
 Napari’s utility is certainly not limited to handling large datasets. The Python basis of napari means that many useful packages can be made available for a range of simple or complex data processing and analysis tasks.
