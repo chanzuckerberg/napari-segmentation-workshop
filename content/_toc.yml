@@ -25,4 +25,8 @@ parts:
       - file: workflow/cellpose-parameters
       - file: workflow/cellpose-FIJI
   - file: workflow/partseg
+      sections:
+      - file: workflow/partseg-primer
+      - file: workflow/partseg-nuclei
+      - file: workflow/partseg-quantification
   - file: workflow/allencell
