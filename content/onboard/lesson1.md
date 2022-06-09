@@ -23,7 +23,7 @@ This is a brief introduction to a new image analysis platform called napari. Alt
 
 ---
 
-### Processing multi-dimensional imaging data
+## Processing multi-dimensional imaging data
 
 Napari is an open-source **graphical user interface**[^mynote], developed specifically for viewing, annotating, and analysing large and multi-dimensional imaging datasets.
 
@@ -37,11 +37,11 @@ The open-source nature of Python means it has been widely adopted, and there is 
 Napari’s utility is certainly not limited to handling large datasets. The Python basis of napari means that many useful packages can be made available for a range of simple or complex data processing and analysis tasks.
 :::
 
-### The power of Python
+## The power of Python
 
 Napari is built on the Python coding language, intending to bridge the gap between the inherently visual nature of image analysis and the computational power available through Python and its libraries. This includes, for example, being able to leverage the speed of GPU-based computing and machine learning for large and complex processes, such as content-aware denoising, handling of light-sheet microscope data, or even challenging segmentation cases! 
 
-### Accessibility of napari
+## Accessibility of napari
 
 Napari aims to minimize (and eventually eliminate) the amount of coding knowledge needed for its use, making it friendly for life-science based fields, students and educators. However as napari is still being developed and evolving as a platform, the current version (as of June 2022) requires some user understanding of the basics of: **conda**, **python**, and **virtual environments**. Core developers are aiming for a “plug-and-play”, pre-built version that can be downloaded and installed like any desktop app or software you’re accustomed to using. 
 
@@ -55,7 +55,7 @@ Napari is free-to-use, **open-source** and **community-developed**. This means t
 
 [^mynote2]: Installable add-ons for the napari viewer which enhance its image analysis capabilities. Discoverable in napari viewer or the [napari hub](https://www.napari-hub.org). 
 
-### Interoperability of napari
+## Interoperability of napari
 
 Napari is also interoperable with other image analysis platforms, such as Fiji - common file formats such as .tiffs and hdf5 are compatible with almost all platforms. These different platforms have a lot of common functionality, but you may also find key differences in some functions availability (or capability). 
 
