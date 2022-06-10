@@ -6,7 +6,11 @@
 
 Welcome to the napari Cell Segmentation course! This ~8 hour course will walk you from onboarding to napari to completing your first segmentation workflow using napari and plugins from the napari hub. Although napari currently requires some coding in Python, we designed this course for researchers with no prior coding experience, so we’ll walk you through any steps that require coding.
  
-We also want to note that napari is in the alpha stage of development, which means that we are still actively experimenting with napari, and new features, including some core features you may have used on other platforms, are being added all the time. If you encounter any issues, check the [napari Github](https://github.com/napari/napari), the Github page for an individual plugin (linked on the [napari hub](https://www.napari-hub.org/) Plugin page), [image.sc](https://forum.image.sc/tag/napari), or reach out at team@napari-hub.org.
+We also want to note that napari is in the alpha stage of development, which means that we are still actively experimenting with napari, and new features, including some core features you may have used on other platforms, are being added all the time. 
+
+:::{note} 
+If you encounter any issues, check the [napari Github](https://github.com/napari/napari), the Github page for an individual plugin (linked on the [napari hub](https://www.napari-hub.org/) Plugin page), [image.sc](https://forum.image.sc/tag/napari), or reach out at team@napari-hub.org.
+:::
  
 ## Overview
 This course is split into 3 sections. In the **[preface](preface/landing.md)**, you’ll learn about how this course came to be and find a list of resources for foundational image analysis concepts that may help you get the most out of this course. In the **[onboarding section](onboard/landing.md)**, you’ll learn more about what napari is and be guided through installing napari and plugins on your computer. Finally in the **[workflows module](workflow/landing.md)**, you will dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own), and various napari plugins.
