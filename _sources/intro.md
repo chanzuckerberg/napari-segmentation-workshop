@@ -6,7 +6,7 @@
 
 Welcome to the napari Cell Segmentation course! This ~8 hour course will walk you from onboarding to napari to completing your first segmentation workflow using napari and plugins from the [napari hub](https://www.napari-hub.org). Although napari currently requires some coding in Python, we designed each of the lessons in this course for researchers with no prior coding experience. Whenever coding is needed, we provide detailed instructions for you to follow.
  
-We want to emphasize that the napari platform is in the **alpha stage of development**—meaning we are still actively experimenting with, and expanding napari's functionalities, including some core features you may have used on other analysis platforms.
+We want to emphasize that [napari](https://www.napari.org) itself is in the **alpha stage of development**—meaning we are still actively experimenting with, and expanding napari's functionalities, including some core features you may have used on other analysis platforms.
 
 :::{note} 
 If you encounter any issues, check the [napari Github](https://github.com/napari/napari), the Github page for an individual plugin (linked on the [napari hub](https://www.napari-hub.org/) Plugin page), [image.sc](https://forum.image.sc/tag/napari), or reach out at team@napari-hub.org.
