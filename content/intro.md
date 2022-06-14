@@ -4,7 +4,7 @@
 
 <br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/VXdFOcBCto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> <br>
 
-Welcome to the napari Cell Segmentation course! This ~8 hour course will walk you from onboarding to napari to completing your first segmentation workflow using napari and plugins from the [napari hub](https://www.napari-hub.org). Although napari currently requires some coding in Python, we designed each lesson in this course for researchers with *no prior coding* experience. Whenever coding is needed, we provide detailed instructions for you to follow.
+Welcome to the napari Cell Segmentation course! This ~8 hour course will walk you from onboarding to napari to completing your first segmentation workflow using napari and plugins from the [napari hub](https://www.napari-hub.org). Although napari currently requires some coding in Python, we designed each lesson in this course for researchers with *no prior coding* experience. Whenever coding is needed, we've provided you detailed instructions to follow. 
  
 We want to emphasize that [napari](https://www.napari.org) itself is in the **alpha stage of development**—meaning we are still actively experimenting with, and expanding napari's functionalities, including some core features you may have used on other analysis platforms.
 
