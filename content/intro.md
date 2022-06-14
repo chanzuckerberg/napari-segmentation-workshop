@@ -25,7 +25,7 @@ This course is split into 3 sections. In the **[preface](preface/landing.md)**, 
   
 - Colocalization  
   
-- Intensify measurement   
+- Intensity measurement   
   
 - Filament tracking  
   
@@ -46,7 +46,7 @@ This course is split into 3 sections. In the **[preface](preface/landing.md)**, 
   
 - [Napari segmentation workflow: *Cellpose*](workflow/cellpose.md) ⚙️
   
-- Napari segmentation workflow: *Allen Cell Segmenter* ⚙️
+- [Napari segmentation workflow: *Allen Cell Segmenter*](workflow/allencell.md) ⚙️
 :::
 :::{grid-item-card}  **Supporting links**
 - [Napari.org](https://napari.org) community and developer site
