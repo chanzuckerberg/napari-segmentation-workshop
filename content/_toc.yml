@@ -14,7 +14,7 @@ parts:
 - caption: "Onboarding to napari"
   chapters:
   - file: onboard/whatisnapari
-  - file: onboard/lesson2
+  - file: onboard/gettingstarted
 
 - caption: "Segmentation workflows"
   chapters:
