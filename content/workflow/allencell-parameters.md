@@ -12,7 +12,7 @@ The mean image intensity is calculated for the image; then scaling_param 1 and 2
 
 ![Mean intensity and scaling_parameters of Allen Cell Segmenter](images/allencell-10.png)
 
-![Intensity normalized in Allen Cell Segmenter](images/allencell-11.png)
+![Intensity normalized in Allen Cell Segmenter](images/allencell-original12bit.png)
 
 Parameters here will decide how much of the histogram you want to exclude as being too bright (i.e. too many dead cells), etc, etc. 
 
