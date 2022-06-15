@@ -1,18 +1,29 @@
 Getting started with napari
 =======================
+**By [Bryan Millis](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#bryan-millis) 🔬**
+## Learning Objectives
 
-## Why use napari? 
+In this lesson, you'll learn how to install napari with minimal coding, all the way to launching napari for the first time. 
 
-Et distinctio quisquam quo nemo dolorem cum distinctio dignissimos a natus inventore aut rerum deserunt. Sed fugit molestiae non iste voluptatem et laborum error et placeat quia. Hic quisquam sunt in sunt dolorem ut recusandae amet sit excepturi incidunt qui sequi tenetur sed odio autem a reprehenderit minima. Et quisquam laudantium quo illum sint a blanditiis quod eum aperiam officia.
+1.  [Installing Python distribution](cellpose-parameters.md)
+2.  [Creating a new virtual environment](cellpose-parameters.md)
+3.  [Activating a new virtual environment](cellpose-FIJI.md)
+4.  [Installing napari (into virtual environment](blahblah)
+5.  [Launching napari](blahblah)
 
-### Interoperability with other platforms
+- **Time to learn**: 1 hour
 
-Sed dolores fugiat id ullam molestiae corrupti nostrum et quia ipsam eum velit quaerat vel labore ipsum id voluptas incidunt. Et dicta quis est adipisci nobis non corporis quia qui distinctio deserunt ad sunt eius eum voluptatum totam eum quasi consequuntur. Est iste dolore quo aliquam quia id dicta culpa et delectus aliquam eum soluta nesciunt id reiciendis eligendi.
+## Video Introduction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VgvDSq5aCDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Introduction to napari's Python requirements
 
-### Use cases for napari 
+## Installation of Python via an environment manager
 
-Qui accusantium voluptatem quo mollitia beatae ab sequi consequatur in inventore dignissimos non suscipit suscipit? Ut aspernatur iusto ad galisum facere quo deserunt similique et animi similique.
+## Steps to install miniconda
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dzej2YDQM6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Creating a virtual environment
+
+## Instalation of napari 
+
+## Launching napari after installation session
+
