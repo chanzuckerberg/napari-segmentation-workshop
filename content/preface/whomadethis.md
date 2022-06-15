@@ -13,8 +13,8 @@ Vanderbilt, Vanderbilt Biophotonics Center
 
 ## Caron Jacobs
 ![Caron Jacobs, Bravo Cohort](images/caron.png)
-University of Cape Town, IDM/CIDRI-Africa
 <br>
+University of Cape Town, IDM/CIDRI-Africa
 
 ## Frederic Bonnet
 ![Frederic Bonnet, Bravo Cohort](images/frederic.png)
