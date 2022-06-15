@@ -8,32 +8,45 @@ In the spirit of the open-source community, these materials may be [updated and 
 
 ## Bryan Millis
 ![Bryan Millis, Bravo Cohort](images/bryan.png)
+<br>
 Vanderbilt, Vanderbilt Biophotonics Center
 
 ## Caron Jacobs
-![Caron Jacobs, Bravo Cohort](images/caron.png)
+```{figure} ../images/caron.jpg
+---
+scale: 50%
+align: left
+---
 University of Cape Town, IDM/CIDRI-Africa
+```
+<br>
 
 ## Frederic Bonnet
 ![Frederic Bonnet, Bravo Cohort](images/frederic.png)
+<br>
 MDIBL, Light Microscopy Facility 
 
 ## Feather Ives
 ![Feather Ives, Bravo Cohort](images/feather.png)
+<br>
 UC Berkeley, Molecular Imaging Center
 
 ## Katarzyna "Kasia" Kedziora
 ![Katarzyna "Kasia" Kadziora, Bravo Cohort](images/kasia.png)
+<br>
 UNC Chapel Hill, Genetics Department
 
 ## Kitty Lee
 ![Kitty Lee, Bravo Cohort](images/kitty2.png)
+<br>
 Stanford, Cell Sciences Imaging Facility
 
 ## Paula Montero Llopis
 ![Paula Montero Llopis, Bravo Cohort](images/paula.png)
+<br>
 Harvard Medical School, Microscopy Resources
 
 ## Praju Anekal
 ![Praju Anekal, Bravo Cohort](images/praju.png)
+<br>
 Harvard Medical School, Microscopy Resources
