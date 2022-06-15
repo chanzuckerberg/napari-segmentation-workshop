@@ -7,7 +7,7 @@ root: intro
 parts:
 - caption: "Preface"
   chapters:
-  - file: preface/landing
+  - file: preface/whomadethis
   - file: preface/imageanalysis
   - file: preface/feedback
   
