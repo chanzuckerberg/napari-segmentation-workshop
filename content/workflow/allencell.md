@@ -26,7 +26,20 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter p
 
 ## What does this plugin do?
 
-The Allen Cell Segmenter is a napari plugin that consists of pre designed classical image segmentation workflow for many cellular components for **3D data**. You can choose which images most resemble your data and adjust parameters within the workflow steps to optimize the segmentation quality on your data.
+The Allen Cell Segmenter is a napari plugin that consists of *pre-designed* classical image segmentation workflow for many cellular components for **3D data**. You can choose which images most resemble your data and adjust parameters within the workflow steps to optimize the segmentation quality on your data.
+
+The plugin workflow itself is broken into 3 discrete parts:
+- **Preprocessing** >
+- **Segmentation** > 
+- **Post processing**
+
+Allen Cell has been designed to simplify the choosing, and adjusting of workflows by researchers. When choosing your workflow, you will be presented with a reference library of similar-looking structures for you to pick from. Clicking on one of these will load the appopriate workflow. 
+
+Once the segmentation workflow has been completed, the plugin **outputs a segmented mask** which can be exported by napari, or analyzed by another plugin (e.g. [PartSeg](https://www.napari-hub.org/plugins/PartSeg)). 
+
+:::{note}
+Beyond these functions, Allen Cell Segmenter also has an iterative deep-learning component based on user-trained pixel classification which is not within the scope of this lesson.
+:::
 
 ## Demo of *Allen Cell Segmenter*
 
@@ -34,7 +47,7 @@ The Allen Cell Segmenter is a napari plugin that consists of pre designed classi
 
 <br>
   
-The above video demonstrates how to complete the [Allen Cell segmentation workflow](allencell-protocol.md) within the napari viewer; and also showcases how the adjusting of parameters affects the resulting segmentation.
+The above video demonstrates how to complete the [Allen Cell segmentation workflow](allencell-protocol.md) within napari; and also showcases how the adjusting of parameters affects the resulting segmentation.
 
 ## Supporting materials
 
