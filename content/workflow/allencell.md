@@ -26,7 +26,7 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter p
 
 ## What does this plugin do?
 
-The Allen Cell Segmenter is a napari plugin that consists of pre-designed classical image segmentation workflow for many cellular components for **3D data**. You can choose which images most resemble your data and adjust parameters within the workflow steps to optimize the segmentation quality on your data.
+The Allen Cell Segmenter consists of a *pre-designed* classical image segmentation workflow for many cellular components, specifically for **3D data**. You can choose from images which most resemble your data andadjust parameters within the workflow steps to optimize the segmentation quality of your data.
 
 The plugin workflow itself is broken into 3 discrete parts:
 - **Preprocessing** >
