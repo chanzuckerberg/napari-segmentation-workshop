@@ -5,3 +5,9 @@ The example below pertains to the segmentation of *actin filaments*. Options wil
 :::
 
 ## Pre-processing: Intensity normalization
+
+## Pre-processing: Edge preserving smoothing
+
+## Core segmentation: Sigma
+
+## Post-processing
