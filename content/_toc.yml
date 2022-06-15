@@ -24,7 +24,6 @@ parts:
       - file: workflow/cellpose-FIJI
   - file: workflow/partseg
     sections:
-      - file: workflow/partseg-primer
       - file: workflow/partseg-nuclei
       - file: workflow/partseg-foci
       - file: workflow/partseg-quantification
