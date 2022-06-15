@@ -48,4 +48,4 @@ The above video demonstrates how to complete the [Allen Cell segmentation workfl
 
 ## Advanced materials 
 
-- [Detailed videp on the algorithms behind the Allen Cell Segmenter](https://www.youtube.com/watch?v=Ynl_Yt9N8p4)
+- [Detailed video on the algorithms behind the Allen Cell Segmenter](https://www.youtube.com/watch?v=Ynl_Yt9N8p4)
