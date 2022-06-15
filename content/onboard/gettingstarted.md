@@ -3,7 +3,7 @@ Getting started with napari
 **By [Bryan Millis](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#bryan-millis) 🔬**
 ## Learning Objectives
 
-In this lesson, you'll learn how to install napari with minimal coding, how virtual environments tie into installation, to launching napari for the first time. 
+In this lesson, you'll learn how to install napari with *minimal coding*, how virtual environments tie into installation, to launching napari for the first time. 
 
 1.  [Installing Python distribution](cellpose-parameters.md)
 2.  [Creating a new virtual environment](cellpose-parameters.md)
