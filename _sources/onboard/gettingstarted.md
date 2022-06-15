@@ -5,8 +5,8 @@ Getting started with napari
 
 In this lesson, you'll learn how to install napari with *minimal coding*, how virtual environments tie into installation, to launching napari for the first time. 
 
-1.  [Installing a Python distribution]([cellpose-parameters.md](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#installation-of-python-via-an-environment-manager))
-2.  [Creating a new virtual environment]([cellpose-parameters.md](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#creating-a-virtual-environment))
+1.  [Installing a Python distribution](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#installation-of-python-via-an-environment-manager)
+2.  [Creating a new virtual environment](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#creating-a-virtual-environment)
 3.  [Activating a new virtual environment](cellpose-FIJI.md)
 4.  [Installing napari](blahblah)
 5.  [Launching napari](blahblah)
