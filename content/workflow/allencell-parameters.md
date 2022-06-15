@@ -24,7 +24,7 @@ Values dependent on the image mean value and intensity skew in the image itself.
 
 An image smoothed to reduce noise. No parameters are required.
 
-![Intensity normalized and smoothed in Allen Cell Segmenter](images/allencell-12.png)
+![Intensity normalized and smoothed in Allen Cell Segmenter](images/allencell-11.png)
 
 ## Core segmentation: Sigma
 
