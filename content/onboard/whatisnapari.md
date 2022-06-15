@@ -10,11 +10,11 @@ In this lesson, you'll learn what [napari](https://www.napari.org) is, its relat
 
 - **Time to learn**: 20 minutes
 
-![Picture of art installation of networked cables](images/napari-viewer.gif)
-
 :::{note}
 This is a brief introduction to a new image analysis platform called napari. Although parts of napari are still undergoing development and some kinks are still being ironed out here and there, it can be a very useful tool for your image analysis, especially if you have complex, large, or multi-dimensional datasets.
 :::
+
+![Picture of art installation of networked cables](images/napari-viewer.gif)
 
 ---
 
