@@ -1,9 +1,7 @@
 ![Samples of images segmented by Cellpose](images/partseg-banner.png)
 Classical segmentation with PartSeg
 =======================
-
 **By ["Kasia" Kedziora](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#katarzyna-kasia-kedziora) 🔬**
-
 ## Learning Objectives
 
 In this lesson, you'll learn how to use and configure the PartSeg plugin in napari to complete a classical segmentation workflow. 
