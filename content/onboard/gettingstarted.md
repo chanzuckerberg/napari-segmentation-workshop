@@ -49,7 +49,7 @@ Note the current version of Python that will be installed also. Below, this is l
 ![Downloading Miniconda for Windows](images/install-2.png)
 
 :::{note} 
-*Key Point*: We will be installing napari into its own virtual environment. One could have more than one virtual environment with napari installed into each, in the case it had different versions, dependency requirements, etc (or for other programs, for example). The environment manager (in this case miniconda), manages these environments for you.
+**Key Point**: We will be installing napari into its own virtual environment. One could have more than one virtual environment with napari installed into each, in the case it had different versions, dependency requirements, etc (or for other programs, for example). The environment manager (in this case miniconda), manages these environments for you.
 :::
 
 
