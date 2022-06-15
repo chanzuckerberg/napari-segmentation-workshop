@@ -32,7 +32,7 @@ Before proceeding, ensure that the Builitins reader plugin is being used, to min
 
 ## Step 3: Select a comparable reference 
 
-- In the final dropdown menu (#3, choose an image from the reference library that most matches the image you've selected to segment and analyze.
+- In the final dropdown menu (#3), choose an image from the reference library that most matches the image you've selected to segment and analyze.
 
 ![Reference library of images in Allen Cell Segmenter](images/allencell-6.png)
 
