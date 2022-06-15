@@ -8,12 +8,40 @@ The example below pertains to the segmentation of *actin filaments*. Options wil
 
 Intended for scaling the intensity of the image between 0-1. The parameters themselves are **scaling_param 1** and **scaling_param 2**. These set the range from the **mean image intensity** to **normalised**. 
 
-A mean image intensity is calculated for the image, then scaling_param 1 and 2 are substracted or added to the mean, setting the range that will be scaled from 0-1. 
+The mean image intensity is calculated for the image; then scaling_param 1 and 2 are substracted or added to the mean, setting a range that will be scaled from 0-1. 
 
 ![Mean intensity and scaling_parameters of Allen Cell Segmenter](images/allencell-10.png)
 
+![Intensity normalized in Allen Cell Segmenter](images/allencell-11.png)
+
+Parameters here will decide how much of the histogram you want to exclude as being too bright (i.e. too many dead cells), etc, etc. 
+
+:::{note}
+Values dependent on the image mean value and intensity skew in the image itself. 
+:::
+
 ## Pre-processing: Edge preserving smoothing
+
+An image smoothed to reduce noise. No parameters are required.
+
+![Intensity normalized and smoothed in Allen Cell Segmenter](images/allencell-12.png)
 
 ## Core segmentation: Sigma
 
+Allows you to set for the expected thickness of filaments. Smaller values lend themselves to *finer tilaments*; while larger values are best used with *thicker filaments*. 
+
+![Fine and thick filaments in Allen Cell Segmenter](images/allencell-13.png)
+
+## Core segmentation: Cutoff
+
+Allows you to set the threshold for the image. 
+
+![Setting threshold for an image in Allen Cell Segmenter](images/allencell-14.png)
+
 ## Post-processing
+
+Consists of size filtering to remove small objects; and connecting pixels only on slices or as 3D objects. 
+
+:::{note}
+If you find in using this plugin that you have quite disparate structures, the **same workflow can be run twice** to segment different populations within your data.
+:::
