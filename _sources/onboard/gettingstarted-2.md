@@ -18,7 +18,7 @@ For the purposes of this tutorial, it is not necessary to understand the nature 
 
 - To activate the virtual environment:
 
-* **conda activate *napari-env***
+* **conda activate *napari-env* **
 
 - **“(napari-env)”** should now be indicated at the command line:
 
