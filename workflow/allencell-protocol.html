@@ -431,6 +431,11 @@ title="Print to PDF"
    Step 3: Select a comparable reference
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#post-segmentation-resulting-image">
+   Post-segmentation resulting image
+  </a>
+ </li>
 </ul>
 
     </nav>
@@ -473,6 +478,11 @@ title="Print to PDF"
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#step-3-select-a-comparable-reference">
    Step 3: Select a comparable reference
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#post-segmentation-resulting-image">
+   Post-segmentation resulting image
   </a>
  </li>
 </ul>
@@ -532,6 +542,25 @@ title="Print to PDF"
 <li><p>Using our <a class="reference external" href="https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif">sample data</a>, we’ll choose the last image in this library since it most matches our own imported image.</p></li>
 </ul>
 <p><img alt="Choosing a comparable image from the Allen Cell Segmenter reference library of images" src="../_images/allencell-7.png" /></p>
+<ul class="simple">
+<li><p>Now that a reference image and its associated workflow have been selected, Allen Cell will create a copy of your image, officially starting off the workflow.</p></li>
+<li><p>The first part of the workflow is the <strong>pre-processing</strong> which normalizes the intensity of and and smoothens your image, followed by the second part which is the core <strong>segmentation</strong> itself, and the third part which involves <strong>size filtering</strong> and a <strong>2D vs 3D pixel</strong> linkage mode.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All the intermediate steps between each part of a workflow are displayed as layers on the left side, with numbers that correspond to the numbered steps in the workflow.</p>
+<p><img alt="Intermediate steps of Allen Cell Segmenter as layers in napari viewer" src="../_images/allencell-8.png" /></p>
+</div>
+</section>
+<section id="post-segmentation-resulting-image">
+<h2>Post-segmentation resulting image<a class="headerlink" href="#post-segmentation-resulting-image" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>After the segmentation step has been completed, your ‘image’ becomes a <strong>true/false array</strong>.</p></li>
+</ul>
+<p><img alt="Intermediate steps of Allen Cell Segmenter as layers in napari viewer" src="../_images/allencell-9.png" /></p>
+<ul class="simple">
+<li><p>Your ‘image’ now needs to be converted into a <strong>binary</strong> (0/1 or 0/255) <strong>mask</strong> if it is to be exported by napari. You can convert it easily into a binary by right-clicking on the layer in question and selecting <strong>“convert image to labels”</strong> on the menu that appears.</p></li>
+</ul>
 </section>
 </section>
 
