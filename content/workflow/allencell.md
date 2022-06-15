@@ -33,7 +33,7 @@ The plugin workflow itself is broken into 3 discrete parts:
 - **Segmentation** > 
 - **Post processing**
 
-One of this plugin's core features is its ability to simplify a researcher's choice of workflows. When choosing your workflow, you will be presented with a library of similar-looking structures for you to compare and choose from. Clicking on one of these will load the appopriate workflow. 
+One of this plugin's core features is its ability to simplify a researcher's choice of workflows. When choosing your workflow, you will be presented with a library of similar-looking structures for you to compare and choose from. Clicking on one of these images will load the appropriate workflow. 
 
 Once segmentation is complete, the Allen Cell plugin **outputs a segmented mask** which can be exported by napari, or analyzed by another plugin (e.g. [PartSeg](https://www.napari-hub.org/plugins/PartSeg)). 
 
