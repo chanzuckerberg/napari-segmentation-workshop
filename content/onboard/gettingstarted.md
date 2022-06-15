@@ -8,7 +8,7 @@ In this lesson, you'll learn how to install napari with minimal coding, how virt
 1.  [Installing Python distribution](cellpose-parameters.md)
 2.  [Creating a new virtual environment](cellpose-parameters.md)
 3.  [Activating a new virtual environment](cellpose-FIJI.md)
-4.  [Installing napari (into virtual environment](blahblah)
+4.  [Installing napari](blahblah)
 5.  [Launching napari](blahblah)
 
 - **Time to learn**: 1 hour
