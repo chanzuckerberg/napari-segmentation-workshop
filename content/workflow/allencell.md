@@ -26,7 +26,7 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter p
 
 ## What does this plugin do?
 
-The Allen Cell Segmenter plugin consists of a *pre-designed* classical image segmentation workflow for many cellular components, specifically for **3D data** sets. You can choose from a library of images which most resemble your own data, and adjust parameters within the workflow steps to optimize the segmentation quality of the data that results. 
+The Allen Cell Segmenter consists of a *pre-designed* classical image segmentation workflow for many types cellular components, and specifically for **3D data** sets. It allows you to choose your workflow from a library of images which most resemble your own data, and adjust parameters within the workflow steps to optimize the segmentation quality of the data that results. 
 
 The plugin workflow itself is broken into 3 discrete parts:
 - **Preprocessing** >
