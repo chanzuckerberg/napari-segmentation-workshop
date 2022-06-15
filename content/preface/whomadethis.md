@@ -14,7 +14,7 @@ Vanderbilt, Vanderbilt Biophotonics Center
 ## Caron Jacobs
 ```{figure} ../images/caron.jpg
 ---
-scale: 50%
+width: 50px
 align: left
 ---
 University of Cape Town, IDM/CIDRI-Africa
