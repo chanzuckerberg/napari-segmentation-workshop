@@ -36,7 +36,7 @@ Before proceeding, ensure that the Built-in reader plugin is being used, to mini
 
 ![Reference library of images in Allen Cell Segmenter](images/allencell-6.png)
 
-- Using our [sample data](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif), we'll choose the last image in this library since it most matches our own. 
+- Using our [sample data](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif), we'll choose the last image in this library since it most matches our own imported image. 
 
 ![Choosing a comparable image from the Allen Cell Segmenter reference library of images](images/allencell-7.png)
 
