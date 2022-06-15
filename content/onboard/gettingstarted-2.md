@@ -12,6 +12,18 @@
 For the purposes of this tutorial, it is not necessary to understand the nature of the syntax we’ll be using. However, it is critical, unless otherwise mentioned, that you copy the command syntax exactly as you see it here. 
 :::
 
+- While the virtual environment **“napari-env”** has been created, it has not been activated yet. You can tell this as **“(base)”** is still indicated at the command line:  
+
+![Virtual environment syntax](images/install-4.png)
+
+- To activate the virtual environment:
+
+* **conda activate *napari-env* **
+
+- **“(napari-env)”** should now be indicated at the command line:
+
+![Virtual environment syntax modified](images/install-5.png)
+
 ## Installation of napari 
 
 ## Launching napari after installation session
