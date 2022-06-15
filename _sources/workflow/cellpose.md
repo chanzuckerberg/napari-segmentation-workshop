@@ -2,6 +2,8 @@
 Cellpose-napari + FIJI
 =======================
 
+**By [Frederic Bonnet](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#frederic-bonnet) 🔬**
+
 ## Learning Objectives
 
 In this lesson, you'll learn how to use and configure the Cellpose plugin for napari, in conjunction with FIJI, to complete a segmentation workflow.
