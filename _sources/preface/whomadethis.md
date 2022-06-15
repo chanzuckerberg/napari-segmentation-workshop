@@ -4,7 +4,7 @@ In the 1st half of 2022, the Chan Zuckerberg Initiative Imaging Tech team and a 
 
 In the spirit of the open-source community, these materials may be [updated and contributed to](https://github.com/chanzuckerberg/napari-segmentation-workshop) much like napari itself, and will likely be iterated upon as video production, plugin functionality, and the napari platform evolves over time. 
 
-# Contributors to Bravo Cohort
+# Contributors to course
 
 ## Bryan Millis
 Vanderbilt, Vanderbilt Biophotonics Center
