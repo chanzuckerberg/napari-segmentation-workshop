@@ -40,7 +40,7 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 ![Choosing a comparable image from the Allen Cell Segmenter reference library of images](images/allencell-7.png)
 
-- Now that a reference image and its associated workflow have been selected, Allen Cell will create a copy of your image, officially starting off the workflow. 
+- Now that a reference image and associated workflow have been selected, Allen Cell will create a duplicate of your image, officially starting off the workflow. 
 
 - The first part of the workflow is the **pre-processing** which normalizes the intensity of and and smoothens your image, followed by the second part which is the core **segmentation** itself, and the third part which involves **size filtering** and a **2D vs 3D pixel** linkage mode. 
 
