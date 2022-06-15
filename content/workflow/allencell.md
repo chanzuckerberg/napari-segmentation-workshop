@@ -7,7 +7,7 @@ Allen Cell Segmenter
 
 In this lesson, you'll learn how to use and configure the Allen Cell Segmenter plugin for napari to complete a segmentation workflow.
 
-1.  
+1.  [A walkthrough of the segmentation protocol, with napari screenshots](allencell-protocol.md)
 2.  
 3.  
 
