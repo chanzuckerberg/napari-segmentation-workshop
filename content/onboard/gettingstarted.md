@@ -23,7 +23,7 @@ In this lesson, you'll learn how to install napari with minimal coding, how virt
 
 ## Creating a virtual environment
 
-## Instalation of napari 
+## Installation of napari 
 
 ## Launching napari after installation session
 
