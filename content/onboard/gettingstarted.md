@@ -31,7 +31,7 @@ To be clear, there are several ways one could install Python on your machine. Fo
 
 The environment manager we’ll detail below is through a distribution called “miniconda”—a lightweight distribution of the Python coding language along with a few essential packages. It will also enable us to later install napari into what is known as a **virtual environment**. Technically, it is also a **package manager**, but we’ll discuss that in a bit. 
 
-A virtual environment can be summed up as a contained place, or sandbox, where both a program and its various dependencies (other related files required for elements of a program to run) are installed. This is extremely helpful, especially for programs in active development, as environments can be created and deleted at will (if for example, there was a corruption, or bug that was hard to track down).
+A virtual environment can be summed up as a contained place, or sandbox, where both a program and its various dependencies (i.e. other related files required for elements of a program to run) are installed. This is extremely helpful, especially for programs in active development, as environments can be created and deleted at will (if for example, there was a corruption, or bug that was hard to track down).
 
 ## Steps to install miniconda
 
