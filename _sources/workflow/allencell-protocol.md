@@ -44,7 +44,7 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 - The first part of the workflow is the **pre-processing** which normalizes the intensity of and and smoothens your image, followed by the second part which is the core **segmentation** itself, and the third part which involves **size filtering** and a **2D vs 3D pixel** linkage mode. 
 
-:::{note}
+:::{hint}
 All the intermediate steps between each part of a workflow are displayed as layers on the left side, with numbers that correspond to the numbered steps in the workflow.
 
 ![Intermediate steps of Allen Cell Segmenter as layers in napari viewer](images/allencell-8.png)
