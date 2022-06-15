@@ -1,6 +1,6 @@
-Protocol for segmentation workflow
+# Protocol for segmentation workflow
 
-# Launch napari
+## Launch napari, and import your image
 
 - Begin by importing an image to be analyzed. You may either drag and drop your image directly into the napari viewer, or locate it on your computer using the menu **File >> Open**. 
 
