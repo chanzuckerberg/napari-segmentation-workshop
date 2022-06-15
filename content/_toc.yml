@@ -31,4 +31,4 @@ parts:
   - file: workflow/allencell
     sections:
       - file: workflow/allencell-protocol
-      - file: workflow/allencell-2
+      - file: workflow/allencell-parameters
