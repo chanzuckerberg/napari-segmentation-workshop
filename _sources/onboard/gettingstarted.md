@@ -57,7 +57,7 @@ Note the current version of Python that will be installed also. Below, this is l
 
 ![Finding the Anaconda prompt](images/install-3.png)
 
-- This launches the command prompt into the **“base environment”** (as denoted by **“(base)”** at the start of the command line. This is not the virtual environment yet, as we haven’t created one, and as such, is not the environment we’ll be installing napari into.
+- This launches the command prompt into the **“base environment”** (as denoted by **“(base)”** at the start of the command line). This is not the virtual environment yet, as we haven’t created one, and as such, is not the environment we’ll be installing napari into.
 
 :::{hint} 
 If you plan on running napari on a regular basis, it may be handy at this point to create a shortcut to the Anaconda Prompt, or pin it to your taskbar, for easy access.
