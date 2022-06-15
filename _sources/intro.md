@@ -38,9 +38,9 @@ This course is split into 3 sections. In the **[preface](preface/landing.md)**, 
 - Workflow step  
 :::
 :::{grid-item-card}  **Notable lessons**
-- All about virtual environments, Python and napari 🐍
+- [All about virtual environments, Python and napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html) 🐍
   
-- Installing the latest version of napari with minimal coding 💽  
+- [Installing the latest version of napari with minimal coding](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#video-walkthrough) 💽  
 
 - [Classical segmentation with *PartSeg*](workflow/partseg.md) ⚙️
   
