@@ -29,7 +29,7 @@ Although this is likely to change in the future, there is no “quick install”
 
 To be clear, there are several ways one could install Python on your machine. For example, one could visit the [Python website](https://www.python.org/) to install solely the Python language itself. However, installation through something known as an **environment manager**, will be quite helpful as we both install, and then utilize a program like napari, particularly because it’s a program early in its development, with many evolving parts.  
 
-The environment manager we’ll detail below is through a distribution called “miniconda”, which is a lightweight distribution of the Python coding language along with a few essential packages. It will also enable us to later install napari into what is known as a **virtual environment**. Technically, it is also a **package manager**, but we’ll discuss that in a bit. 
+The environment manager we’ll detail below is through a distribution called “miniconda”—a lightweight distribution of the Python coding language along with a few essential packages. It will also enable us to later install napari into what is known as a **virtual environment**. Technically, it is also a **package manager**, but we’ll discuss that in a bit. 
 
 The concept of a virtual environment can be understood as a contained place, or sandbox, where both a program and its various dependencies (other related files required for elements of a program to run) are installed. This is extremely helpful, especially for programs in active development, as environments can be created and deleted at will (if for example, there was a corruption, or bug that was hard to track down).
 
