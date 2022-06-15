@@ -29,6 +29,6 @@ parts:
       - file: workflow/partseg-foci
       - file: workflow/partseg-quantification
   - file: workflow/allencell
-      sections:
+    sections:
       - file: workflow/allencell-1
       - file: workflow/allencell-2
