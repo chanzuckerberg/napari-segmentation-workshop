@@ -12,13 +12,8 @@ In the spirit of the open-source community, these materials may be [updated and 
 Vanderbilt, Vanderbilt Biophotonics Center
 
 ## Caron Jacobs
-```{figure} ../images/caron.jpg
----
-width: 50px
-align: left
----
+![Caron Jacobs, Bravo Cohort](images/caron.png)
 University of Cape Town, IDM/CIDRI-Africa
-```
 <br>
 
 ## Frederic Bonnet
