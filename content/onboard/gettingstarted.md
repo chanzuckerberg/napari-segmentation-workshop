@@ -46,6 +46,7 @@ The concept of a virtual environment can be understood as a contained place, or 
 Note the current version of Python that will be installed also. Below, this is listed as “Python 3.9.7”.  Typically, if one wants a previous version of Python installed, alternative links will be available further down on the page.
 :::
 
+![Downloading Miniconda for Windows](images/install-2.png)
 
 
 
