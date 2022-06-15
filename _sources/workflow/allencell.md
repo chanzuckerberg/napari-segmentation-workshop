@@ -45,3 +45,7 @@ The above video demonstrates how to complete the [Allen Cell segmentation workfl
 - [Github documentation for Allen Cell Segmenter](https://github.com/AllenCell/napari-allencell-segmenter)
 
 - [A detailed explanation of Allen Cell parameters](https://github.com/AllenCell/aics-segmentation/blob/main/lookup_table_demo/playground_filament3d.ipynb)
+
+## Advanced materials 
+
+- [Detailed video demo on the algorithms behind the Allen Cell Segmenter](https://www.youtube.com/watch?v=Ynl_Yt9N8p4)
