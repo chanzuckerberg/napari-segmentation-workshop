@@ -9,7 +9,7 @@
 - After hitting the enter key, the virtual environment will be created and Python installed into it.
 
 :::{note} 
-For the purposes of this tutorial, it is not necessary to understand the nature of the syntax we’ll be using. However, it is critical, unless otherwise mentioned, that you copy the command syntax exactly as you see it her. 
+For the purposes of this tutorial, it is not necessary to understand the nature of the syntax we’ll be using. However, it is critical, unless otherwise mentioned, that you copy the command syntax exactly as you see it here. 
 :::
 
 ## Installation of napari 
