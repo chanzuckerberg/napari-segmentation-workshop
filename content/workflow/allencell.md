@@ -1,4 +1,4 @@
-![Samples of images segmented by Cellpose](images/allencell-banner.png)
+![Samples of images segmented by Cellpose](images/allencell-1.png)
 
 Allen Cell Segmenter
 =======================
@@ -20,9 +20,9 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter p
 | [napari v 0.4.14](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, verify your version of napari by clicking on the **Help** menu, then **napari info**. | |
 | [napari-allencell-segmenter v 1.1.4](https://www.napari-hub.org/plugins/cellpose-napari) | Mandatory  | Install this plugin from within the napari viewer, by going to the **Plugin** menu, then clicking on **Install/uninstall plugins**. Search for *napari-allencell-segmenter* and click **install**. | |
 | <center>**Image inputs**</center> |  |  |
-| (8, 12, and 16 bit) | Mandatory  | In some cases, the plugin may return error messages when the image scale is imported incorrectly. When this occurs, remove any pixel scaling before repeating this step. | |
+| Image stack (3D data: 8, 12, and 16 bit) | Mandatory  | In some cases, the plugin may return error messages when the image scale is imported incorrectly. When this occurs, remove any pixel scaling before repeating this step. | |
 | <center>**Sample data**</center> |  |  |
-| [Sample data used in lesson](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif) | *Optional* |  | |
+| [Sample data used in lesson](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif) | *Optional* | Although napari may support the importing of other file types, this sample image is a tiff. | |
 
 ## What does this plugin do?
 
