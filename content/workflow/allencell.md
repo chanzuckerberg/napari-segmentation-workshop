@@ -33,9 +33,9 @@ The plugin workflow itself is broken into 3 discrete parts:
 - **Segmentation** > 
 - **Post processing**
 
-Allen Cell has been designed to simplify the choosing, and adjusting of workflows by researchers. When choosing your workflow, you will be presented with a reference library of similar-looking structures for you to pick from. Clicking on one of these will load the appopriate workflow. 
+Allen Cell is designed to simplify a researcher's choice of workflows. When choosing your workflow, you will be presented a library of similar-looking structures for you to compare and pick from. Clicking on one of these will load the appopriate workflow. 
 
-Once the segmentation workflow has been completed, the plugin **outputs a segmented mask** which can be exported by napari, or analyzed by another plugin (e.g. [PartSeg](https://www.napari-hub.org/plugins/PartSeg)). 
+Once segmentation has been completed, the Allen Cell plugin **outputs a segmented mask** which can be exported by napari, or analyzed by another plugin (e.g. [PartSeg](https://www.napari-hub.org/plugins/PartSeg)). 
 
 :::{note}
 Beyond these functions, Allen Cell Segmenter also has an iterative deep-learning component based on user-trained pixel classification which is not within the scope of this lesson.
