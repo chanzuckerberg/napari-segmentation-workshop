@@ -10,7 +10,7 @@ Before proceeding, ensure that the Builitins reader plugin is being used, to min
 
 - In this instance, I've opened an image of actin filaments (which you can acquire for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)). 
 
-<center>![Sample data of actin filaments](images/allencell-2.png)</center>
+![Sample data of actin filaments](images/allencell-2.png)
 
 ## Allen Cell Segmenter Workflow editor
 
