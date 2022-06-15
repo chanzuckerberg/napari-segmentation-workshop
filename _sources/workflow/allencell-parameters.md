@@ -16,7 +16,7 @@ The mean image intensity is calculated for the image; then scaling_param 1 and 2
 
 Parameters here will decide how much of the histogram you want to exclude as being too bright (i.e. too many dead cells), etc, etc. 
 
-:::{note}
+:::{hint}
 Values dependent on the image mean value and intensity skew in the image itself. 
 :::
 
