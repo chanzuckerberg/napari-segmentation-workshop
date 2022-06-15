@@ -22,13 +22,15 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter p
 | <center>**Image inputs**</center> |  |  |
 | (8, 12, and 16 bit) | Mandatory  | In some cases, the plugin may return error messages when the image scale is imported incorrectly. When this occurs, remove any pixel scaling before repeating this step. | |
 | <center>**Sample data**</center> |  |  |
-|  | *Optional* |  | |
+| [Sample data used in lesson](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif) | *Optional* |  | |
 
 ## What does this plugin do?
 
 The Allen Cell Segmenter is a napari plugin that consists of a **pre-designed** classical image segmentation workflow for many cellular components. It has optimized classical segmentation workflow steps for different types of segmentation problems. You can choose which images most resemble your data and adjust parameters within the workflow steps to optimize the segmentation quality on your data.
 
 ## Demo of *Allen Cell Segmenter*
+
+<center><script src="https://fast.wistia.com/embed/medias/388imsy9td.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_388imsy9td seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/388imsy9td/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></center>
 
 <br>
   
