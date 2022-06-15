@@ -38,7 +38,7 @@ The concept of a virtual environment can be understood as a contained place, or 
 - Visit the official [conda site](conda.io).
 - Locate the link for miniconda. 
 
-![Link to download miniconda](images/installation-1.png)
+![Link to download miniconda](images/install-1.png)
 
 
 
