@@ -30,13 +30,13 @@ An image smoothed to reduce noise. No parameters are required.
 
 Allows you to set for the expected thickness of filaments. Smaller values lend themselves to *finer tilaments*; while larger values are best used with *thicker filaments*. 
 
-![Fine and thick filaments in Allen Cell Segmenter](images/allencell-13.png)
+![Fine and thick filaments in Allen Cell Segmenter](images/allencell-12.png)
 
 ## Core segmentation: Cutoff
 
 Allows you to set the threshold for the image. 
 
-![Setting threshold for an image in Allen Cell Segmenter](images/allencell-14.png)
+![Setting threshold for an image in Allen Cell Segmenter](images/allencell-13.png)
 
 ## Post-processing
 
