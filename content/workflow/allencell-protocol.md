@@ -40,3 +40,20 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 ![Choosing a comparable image from the Allen Cell Segmenter reference library of images](images/allencell-7.png)
 
+- Now that a reference image and its associated workflow have been selected, Allen Cell will create a copy of your image, officially starting off the workflow. 
+
+- The first part of the workflow is the **pre-processing** which normalizes the intensity of and and smoothens your image, followed by the second part which is the core **segmentation** itself, and the third part which involves **size filtering** and a **2D vs 3D pixel** linkage mode. 
+
+:::{note}
+All the intermediate steps between each part of a workflow are displayed as layers on the left side, with numbers that correspond to the numbered steps in the workflow.
+
+![Intermediate steps of Allen Cell Segmenter as layers in napari viewer](images/allencell-8.png)
+:::
+
+## Post-segmentation resulting image
+
+- After the segmentation step has been completed, your 'image' becomes a **true/false array**. 
+ 
+![Intermediate steps of Allen Cell Segmenter as layers in napari viewer](images/allencell-9.png)
+
+- Your 'image' now needs to be converted into a **binary** (0/1 or 0/255) **mask** if it is to be exported by napari. You can convert it easily into a binary by right-clicking on the layer in question and selecting **"convert image to labels"** on the menu that appears. 
