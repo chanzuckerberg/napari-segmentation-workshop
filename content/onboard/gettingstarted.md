@@ -35,9 +35,3 @@ The concept of a virtual environment can be understood as a contained place, or 
 
 ## Steps to install miniconda
 
-## Creating a virtual environment
-
-## Installation of napari 
-
-## Launching napari after installation session
-
