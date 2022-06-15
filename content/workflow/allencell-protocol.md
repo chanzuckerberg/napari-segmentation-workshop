@@ -8,7 +8,7 @@
 Before proceeding, ensure that the Builtin reader plugin is being used, to minimize errors. You can verify this by going to menu [**File >> Preference >> Plugins**](images/preferences-plugin.png), then checking that **"Builtin reader plugin"** is enabled. 
 :::
 
-- In this instance, I've opened an image of actin filaments (which you can download for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)). 
+- In this instance, I've opened an image of *actin filaments* (which you can download for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)). 
 
 ![Sample data of actin filaments](images/allencell-2.png)
 
@@ -40,7 +40,7 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 ![Choosing a comparable image from the Allen Cell Segmenter reference library of images](images/allencell-7.png)
 
-- Now that a reference image and associated workflow have been selected, Allen Cell will create a duplicate of your image, officially starting off the workflow. 
+- Now that a reference image and its associated workflow have been selected, Allen Cell will create a duplicate of your image, officially starting off the workflow. 
 
 - The first part of the workflow is the **pre-processing** which normalizes the intensity of and and smoothens your image, followed by the second part which is the core **segmentation** itself, and the third part which involves **size filtering** and a **2D vs 3D pixel** linkage mode. 
 
