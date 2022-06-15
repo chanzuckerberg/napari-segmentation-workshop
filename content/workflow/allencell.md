@@ -1,8 +1,7 @@
-**By [Praju Anekal](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#praju-anekal) 🔬**
-
 ![Samples of images segmented by Cellpose](images/allencell-1.png)
 
 Allen Cell Segmenter
+**By [Praju Anekal](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#praju-anekal) 🔬**
 =======================
 
 ## Learning Objectives
