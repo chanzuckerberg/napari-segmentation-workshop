@@ -7,22 +7,33 @@ In the spirit of the open-source community, these materials may be [updated and 
 # Contributors to course
 
 ## Bryan Millis
+![Bryan Millis, Bravo Cohort](images/bryan.png)
 Vanderbilt, Vanderbilt Biophotonics Center
 
 ## Caron Jacobs
+![Caron Jacobs, Bravo Cohort](images/caron.png)
 University of Cape Town, IDM/CIDRI-Africa
 
 ## Frederic Bonnet
+![Frederic Bonnet, Bravo Cohort](images/frederic.png)
 MDIBL, Light Microscopy Facility 
 
 ## Feather Ives
+![Feather Ives, Bravo Cohort](images/feather.png)
 UC Berkeley, Molecular Imaging Center
 
 ## Katarzyna "Kasia" Kedziora
+![Katarzyna "Kasia" Kadziora, Bravo Cohort](images/kasia.png)
+UNC Chapel Hill, Genetics Department
+
+## Kitty Lee
+![Kitty Lee, Bravo Cohort](images/kitty2.png)
 Stanford, Cell Sciences Imaging Facility
 
 ## Paula Montero Llopis
+![Paula Montero Llopis, Bravo Cohort](images/paula.png)
 Harvard Medical School, Microscopy Resources
 
 ## Praju Anekal
+![Praju Anekal, Bravo Cohort](images/praju.png)
 Harvard Medical School, Microscopy Resources
