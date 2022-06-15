@@ -34,7 +34,7 @@ The Allen Cell Segmenter is a napari plugin that consists of pre designed classi
 
 <br>
   
-The above video demonstrates how to complete the [Allen Cell segmentation workflow](allencell-protocol.md) within the napari viewer, and also showcases how the adjusting of parameters affects the resulting segmentation.
+The above video demonstrates how to complete the [Allen Cell segmentation workflow](allencell-protocol.md) within the napari viewer; and also showcases how the adjusting of parameters affects the resulting segmentation.
 
 ## Supporting materials
 
