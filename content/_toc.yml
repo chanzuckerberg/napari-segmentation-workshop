@@ -30,5 +30,5 @@ parts:
       - file: workflow/partseg-quantification
   - file: workflow/allencell
     sections:
-      - file: workflow/allencell-1
+      - file: workflow/allencell-protocol
       - file: workflow/allencell-2
