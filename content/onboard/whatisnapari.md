@@ -1,19 +1,14 @@
-![Picture of art installation of networked cables](images/napari-viewer.gif)
 What is napari?
 =======================
-
+**By [Caron Jacobs](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#caron-jacobs) 🔬**
 ## Learning Objectives
 
 In this lesson, you'll learn what [napari](https://www.napari.org) is, its relationship with the Python coding language, and some of the advantages of using open-source imaging tech. 
 
-1.  At volutpat diam ut venenatis tellus in metus
-2.  Sed elementum tempus egestas sed sed risus pretium
+1.  [Processing multi-dimensional imaging data](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html#processing-multi-dimensional-imaging-data)
+2.  [Accessibility of napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html#accessibility-of-napari)
 
-## Prerequisites
-
-| Concepts                                                                         | Importance | Notes |
-| -------------------------------------------------------------------------------- | ---------- | ----- |
-| [Why Python?](https://foundations.projectpythia.org/foundations/why-python.html) | *Optional*    |       |
+![Picture of art installation of networked cables](images/napari-viewer.gif)
 
 - **Time to learn**: 20 minutes
 
