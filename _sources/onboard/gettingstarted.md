@@ -42,11 +42,14 @@ The concept of a virtual environment can be understood as a contained place, or 
 
 - Select the appropriate Miniconda installation for your computer (in this case, it is highlighted as a Windows 64-bit installation).
 
-:::{note} 
+:::{hint} 
 Note the current version of Python that will be installed also. Below, this is listed as “Python 3.9.7”.  Typically, if one wants a previous version of Python installed, alternative links will be available further down on the page.
 :::
 
 ![Downloading Miniconda for Windows](images/install-2.png)
 
+:::{note} 
+*Key Point*: We will be installing napari into its own virtual environment. One could have more than one virtual environment with napari installed into each, in the case it had different versions, dependency requirements, etc (or for other programs, for example). The environment manager (in this case miniconda), manages these environments for you.
+:::
 
 
