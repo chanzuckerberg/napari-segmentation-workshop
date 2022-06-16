@@ -35,8 +35,7 @@ For the purposes of this tutorial, it is not necessary to understand the nature 
   - **Proceed ([y]/n)?**
 
 - You can either type **y**, then enter, or simply enter.
-- This may again take a few minutes to get all the requisite packages downloaded, extracted, and executed. At this point, you will be again returned to the prompt indicating the virtual environment you’ve just installed napari into.
-- To launch napari, simply type the one word command below, followed by the enter key:
+- This may again take a few minutes to get all the requisite packages downloaded, extracted, and executed. At this point, you will be again returned to the prompt indicating the virtual environment you’ve just installed napari into. To launch napari, simply type the one word command below, followed by the enter key:
   - **napari**
 - In a few seconds, the napari viewer window should be displayed:
 
@@ -48,8 +47,7 @@ For the purposes of this tutorial, it is not necessary to understand the nature 
 
 - Now that you have completed installation, the procedure for launching napari going forward will be as follows:
 
-1. Launch “anaconda prompt (miniconda3)”
-2. Activate the virtual environment you’ve created and installed napari into:
-  - **conda activate napari-env**
-3. Launch napari:
+- 1) Launch “anaconda prompt (miniconda3)”
+- 2) Activate the virtual environment you’ve created and installed napari into:
+- 3) Launch napari:
   - **napari**
