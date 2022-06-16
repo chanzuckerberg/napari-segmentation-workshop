@@ -11,21 +11,21 @@ In the spirit of the open-source community, these materials may be [updated and 
 <br>
 *Vanderbilt, Vanderbilt Biophotonics Center*
 <br>
-Author of ["Getting started with napari"](/onboard/whatisnapari.md)
+Author of ["Getting started with napari"](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html)
 
 ## Caron Jacobs
 ![Caron Jacobs, Bravo Cohort](images/caron.png)
 <br>
 *University of Cape Town, IDM/CIDRI-Africa*
 <br>
-Author of ["What is napari?"](/onboard/whatisnapari.md)
+Author of ["What is napari?"](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html)
 
 ## Frederic Bonnet
 ![Frederic Bonnet, Bravo Cohort](images/frederic.png)
 <br>
 *MDIBL, Light Microscopy Facility*
 <br>
-Author of ["Cellpose-napari + FIJI"](/workflow/cellpose.md)
+Author of ["Cellpose-napari + FIJI"](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/cellpose.html)
 
 ## Feather Ives
 ![Feather Ives, Bravo Cohort](images/feather.png)
@@ -37,7 +37,7 @@ Author of ["Cellpose-napari + FIJI"](/workflow/cellpose.md)
 <br>
 *UNC Chapel Hill, Genetics Department*
 <br>
-Author of ["Classical segmentation with PartSeg"](/workflow/partseg.md)
+Author of ["Classical segmentation with PartSeg"](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html)
 
 ## Kitty Lee
 ![Kitty Lee, Bravo Cohort](images/kitty2.png)
@@ -54,4 +54,4 @@ Author of ["Classical segmentation with PartSeg"](/workflow/partseg.md)
 <br>
 *Harvard Medical School, Microscopy Resources*
 <br>
-Author of ["Allen Cell Segmenter"](/workflow/allencell.md)
+Author of ["Allen Cell Segmenter"](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/allencell.html)
