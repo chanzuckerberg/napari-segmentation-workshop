@@ -33,8 +33,7 @@ For the purposes of this tutorial, it is not necessary to understand the nature 
 - This may take some time (a few minutes), and may reach a point where a user input is required to continue as dependencies are checked. If this is the case, the following will be displayed:
 
   - **Proceed ([y]/n)?**
-
-- You can either type **y**, then enter, or simply enter.
+  - You can either type **y**, then enter, or simply enter.
 
 - This may again take a few minutes to get all the requisite packages downloaded, extracted, and executed. 
 - At this point, you will be again returned to the prompt indicating the virtual environment you’ve just installed napari into. To launch napari, simply type the one word command below, followed by the enter key:
