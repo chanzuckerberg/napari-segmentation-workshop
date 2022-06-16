@@ -438,6 +438,11 @@ title="Print to PDF"
    Installation of Python via an environment manager
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#steps-to-install-miniconda">
+   Steps to install miniconda
+  </a>
+ </li>
 </ul>
 
     </nav>
@@ -475,6 +480,11 @@ title="Print to PDF"
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#installation-of-python-via-an-environment-manager">
    Installation of Python via an environment manager
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#steps-to-install-miniconda">
+   Steps to install miniconda
   </a>
  </li>
 </ul>
@@ -519,6 +529,38 @@ title="Print to PDF"
 <p>To be clear, there are several ways one could install Python on your machine. For example, one could visit the <a class="reference external" href="https://www.python.org/">Python website</a> to install solely the Python language itself. However, installation through something known as an <strong>environment manager</strong>, will be quite helpful as we both install, and then utilize a program like napari, particularly because it’s a program early in its development, with many evolving parts.</p>
 <p>The environment manager we’ll detail below is through a distribution called “miniconda”—a lightweight distribution of the Python coding language along with a few essential packages. It will also enable us to later install napari into what is known as a <strong>virtual environment</strong>. Technically, it is also a <strong>package manager</strong>, but we’ll discuss that in a bit.</p>
 <p>A virtual environment can be summed up as a contained place, or sandbox, where both a program and its various dependencies (i.e. other related files required for elements of a program to run) are installed. Having such a place available is extremely helpful, especially when using programs in active development, as environments can be created and deleted at will (if for example, there was a corruption, or bug that was hard to track down).</p>
+</section>
+<section id="steps-to-install-miniconda">
+<h2>Steps to install miniconda<a class="headerlink" href="#steps-to-install-miniconda" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Visit the official <span class="xref myst">conda site</span>.</p></li>
+<li><p>Locate the link for miniconda.</p></li>
+</ul>
+<p><img alt="Link to download miniconda" src="../_images/install-1.png" /></p>
+<ul class="simple">
+<li><p>Select the appropriate Miniconda installation for your computer (in this case, it is highlighted as a Windows 64-bit installation).</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Note the current version of Python that will be installed also. Below, this is listed as “Python 3.9.7”.  Typically, if one wants a previous version of Python installed, alternative links will be available further down on the page.</p>
+</div>
+<p><img alt="Downloading Miniconda for Windows" src="../_images/install-2.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We will be installing napari into its own virtual environment. One could have more than one virtual environment with napari installed into each, in the case it had different versions, dependency requirements, etc (or for other programs, for example). The environment manager (in this case miniconda), manages these environments for you.</p>
+</div>
+<ul class="simple">
+<li><p>Once the download has finished, run it. Default installation options are typically sufficient.</p></li>
+<li><p>This can be found by clicking on the lower left windows icon (Windows 10) and either typing <strong>“anaconda…”</strong> (in which case it will find “<strong>Anaconda Prompt (miniconda3)”</strong>), or scrolling down to the anaconda folder and finding it.</p></li>
+</ul>
+<p><img alt="Finding the Anaconda prompt" src="../_images/install-3.png" /></p>
+<ul class="simple">
+<li><p>This launches the command prompt into the <strong>“base environment”</strong> (as denoted by <strong>“(base)”</strong> at the start of the command line). This is not the virtual environment yet, as we haven’t created one, and as such, is not the environment we’ll be installing napari into.</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you plan on running napari on a regular basis, it may be handy at this point to create a shortcut to the Anaconda Prompt, or pin it to your taskbar, for easy access.</p>
+</div>
 </section>
 <div class="toctree-wrapper compound">
 </div>
