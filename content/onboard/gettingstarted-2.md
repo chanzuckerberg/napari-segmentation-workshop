@@ -47,8 +47,7 @@ For the purposes of this tutorial, it is not necessary to understand the nature 
 
 - Now that you have completed installation, the procedure for launching napari going forward will be as follows:
 
-1. Launch “anaconda prompt (miniconda3)”
-2. Activate the virtual environment you’ve created and installed napari into:
-  - **conda activate napari-env**
-3. Launch napari:
+- 1) Launch “anaconda prompt (miniconda3)”
+- 2) Activate the virtual environment you’ve created and installed napari into:
+- 3) Launch napari:
   - **napari**
