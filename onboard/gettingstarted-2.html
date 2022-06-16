@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; napari Segmentation learning course</title>
+    <title>Steps to install miniconda &#8212; napari Segmentation learning course</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -140,22 +140,27 @@ const thebe_selector_output = ".output, .cell_output"
   Onboarding to napari
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="whatisnapari.html">
    What is napari?
   </a>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="gettingstarted.html">
    Getting started with napari
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="simple">
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Steps to install miniconda
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -391,50 +396,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1><no title></h1>
+                <h1>Steps to install miniconda</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -442,7 +420,39 @@ title="Print to PDF"
                 
               <div>
                 
-  
+  <section id="steps-to-install-miniconda">
+<h1>Steps to install miniconda<a class="headerlink" href="#steps-to-install-miniconda" title="Permalink to this headline">#</a></h1>
+<ul class="simple">
+<li><p>Visit the official <span class="xref myst">conda site</span>.</p></li>
+<li><p>Locate the link for miniconda.</p></li>
+</ul>
+<p><img alt="Link to download miniconda" src="../_images/install-1.png" /></p>
+<ul class="simple">
+<li><p>Select the appropriate Miniconda installation for your computer (in this case, it is highlighted as a Windows 64-bit installation).</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Note the current version of Python that will be installed also. Below, this is listed as “Python 3.9.7”.  Typically, if one wants a previous version of Python installed, alternative links will be available further down on the page.</p>
+</div>
+<p><img alt="Downloading Miniconda for Windows" src="../_images/install-2.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We will be installing napari into its own virtual environment. One could have more than one virtual environment with napari installed into each, in the case it had different versions, dependency requirements, etc (or for other programs, for example). The environment manager (in this case miniconda), manages these environments for you.</p>
+</div>
+<ul class="simple">
+<li><p>Once the download has finished, run it. Default installation options are typically sufficient.</p></li>
+<li><p>This can be found by clicking on the lower left windows icon (Windows 10) and either typing <strong>“anaconda…”</strong> (in which case it will find “<strong>Anaconda Prompt (miniconda3)”</strong>), or scrolling down to the anaconda folder and finding it.</p></li>
+</ul>
+<p><img alt="Finding the Anaconda prompt" src="../_images/install-3.png" /></p>
+<ul class="simple">
+<li><p>This launches the command prompt into the <strong>“base environment”</strong> (as denoted by <strong>“(base)”</strong> at the start of the command line). This is not the virtual environment yet, as we haven’t created one, and as such, is not the environment we’ll be installing napari into.</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you plan on running napari on a regular basis, it may be handy at this point to create a shortcut to the Anaconda Prompt, or pin it to your taskbar, for easy access.</p>
+</div>
+</section>
+
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
