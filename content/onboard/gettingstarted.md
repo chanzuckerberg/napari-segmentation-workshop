@@ -32,33 +32,3 @@ To be clear, there are several ways one could install Python on your machine. Fo
 The environment manager we’ll detail below is through a distribution called “miniconda”—a lightweight distribution of the Python coding language along with a few essential packages. It will also enable us to later install napari into what is known as a **virtual environment**. Technically, it is also a **package manager**, but we’ll discuss that in a bit. 
 
 A virtual environment can be summed up as a contained place, or sandbox, where both a program and its various dependencies (i.e. other related files required for elements of a program to run) are installed. Having such a place available is extremely helpful, especially when using programs in active development, as environments can be created and deleted at will (if for example, there was a corruption, or bug that was hard to track down).
-
-## Steps to install miniconda
-
-- Visit the official [conda site](conda.io).
-- Locate the link for miniconda. 
-
-![Link to download miniconda](images/install-1.png)
-
-- Select the appropriate Miniconda installation for your computer (in this case, it is highlighted as a Windows 64-bit installation).
-
-:::{hint} 
-Note the current version of Python that will be installed also. Below, this is listed as “Python 3.9.7”.  Typically, if one wants a previous version of Python installed, alternative links will be available further down on the page.
-:::
-
-![Downloading Miniconda for Windows](images/install-2.png)
-
-:::{note} 
-We will be installing napari into its own virtual environment. One could have more than one virtual environment with napari installed into each, in the case it had different versions, dependency requirements, etc (or for other programs, for example). The environment manager (in this case miniconda), manages these environments for you.
-:::
-
-- Once the download has finished, run it. Default installation options are typically sufficient.
-- This can be found by clicking on the lower left windows icon (Windows 10) and either typing **“anaconda…”** (in which case it will find "**Anaconda Prompt (miniconda3)"**), or scrolling down to the anaconda folder and finding it.
-
-![Finding the Anaconda prompt](images/install-3.png)
-
-- This launches the command prompt into the **“base environment”** (as denoted by **“(base)”** at the start of the command line). This is not the virtual environment yet, as we haven’t created one, and as such, is not the environment we’ll be installing napari into.
-
-:::{hint} 
-If you plan on running napari on a regular basis, it may be handy at this point to create a shortcut to the Anaconda Prompt, or pin it to your taskbar, for easy access.
-:::
