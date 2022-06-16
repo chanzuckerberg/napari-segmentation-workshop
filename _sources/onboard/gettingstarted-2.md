@@ -53,6 +53,7 @@ For the purposes of this tutorial, it is not necessary to understand the nature 
 :::{note} 
 - Launch **“anaconda prompt (miniconda3)”**
 - Activate the virtual environment you’ve created and installed napari into:
+  - **conda activate *napari-env***
 - Launch napari:
   - **napari**
 :::
