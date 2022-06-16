@@ -37,7 +37,7 @@ One of this plugin's core features is its ability to simplify a researcher's cho
 Once segmentation is completed, Allen Cell **outputs a segmented mask** which can be exported by napari, or analyzed by another napari plugin (e.g. [PartSeg](https://www.napari-hub.org/plugins/PartSeg)). 
 
 :::{note}
-Beyond these functions, Allen Cell Segmenter also has an **[iterative deep-learning](https://www.youtube.com/watch?v=W1DPfZk5iF8&t=8s)** component based on user-trained pixel classification (which is not within the scope of this lesson).
+Beyond these basic functions, Allen Cell Segmenter also has an **[iterative deep-learning](https://www.youtube.com/watch?v=W1DPfZk5iF8&t=8s)** component based on user-trained pixel classification (which is not within the scope of this lesson).
 :::
 
 ## Demo of *Allen Cell Segmenter*
