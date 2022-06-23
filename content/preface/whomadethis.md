@@ -7,50 +7,52 @@ In the spirit of the open-source community, these materials may be [updated and 
 # Contributors to course
 
 ## Bryan Millis
-![Bryan Millis, Bravo Cohort](images/bryan.png)
+![Bryan Millis, Bravo Cohort](images/bryan-resized.png)
 <br>
 *Vanderbilt, Vanderbilt Biophotonics Center*
 <br>
 Author of ["Getting started with napari"](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html)
+<br>
+Author of ["Installing plugins"](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/installing-plugins.html)
 
 ## Caron Jacobs
-![Caron Jacobs, Bravo Cohort](images/caron.png)
+![Caron Jacobs, Bravo Cohort](images/caron-resized.png)
 <br>
 *University of Cape Town, IDM/CIDRI-Africa*
 <br>
 Author of ["What is napari?"](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html)
 
 ## Frederic Bonnet
-![Frederic Bonnet, Bravo Cohort](images/frederic.png)
+![Frederic Bonnet, Bravo Cohort](images/frederic-resized.png)
 <br>
 *MDIBL, Light Microscopy Facility*
 <br>
 Author of ["Cellpose-napari + FIJI"](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/cellpose.html)
 
 ## Feather Ives
-![Feather Ives, Bravo Cohort](images/feather.png)
+![Feather Ives, Bravo Cohort](images/feather-resized.png)
 <br>
 *UC Berkeley, Molecular Imaging Center*
 
 ## Katarzyna "Kasia" Kedziora
-![Katarzyna "Kasia" Kadziora, Bravo Cohort](images/kasia.png)
+![Katarzyna "Kasia" Kadziora, Bravo Cohort](images/kasia-resized.png)
 <br>
 *UNC Chapel Hill, Genetics Department*
 <br>
 Author of ["Classical segmentation with PartSeg"](https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/partseg.html)
 
 ## Kitty Lee
-![Kitty Lee, Bravo Cohort](images/kitty2.png)
+![Kitty Lee, Bravo Cohort](images/kitty-resized.png)
 <br>
 *Stanford, Cell Sciences Imaging Facility*
 
 ## Paula Montero Llopis
-![Paula Montero Llopis, Bravo Cohort](images/paula.png)
+![Paula Montero Llopis, Bravo Cohort](images/paula-resized.png)
 <br>
 *Harvard Medical School, Microscopy Resources*
 
 ## Praju Anekal
-![Praju Anekal, Bravo Cohort](images/praju.png)
+![Praju Anekal, Bravo Cohort](images/praju-resized.png)
 <br>
 *Harvard Medical School, Microscopy Resources*
 <br>
