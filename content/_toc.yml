@@ -17,6 +17,7 @@ parts:
   - file: onboard/gettingstarted
     sections:
       - file: onboard/gettingstarted-2
+  - file: onboard/installing-plugins
 
 - caption: "Segmentation workflows"
   chapters:
