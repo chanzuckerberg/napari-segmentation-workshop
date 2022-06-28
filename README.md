@@ -1,6 +1,6 @@
 # napari Segmentation learning course 
 
-Course materials for biologists performing cell segmentation in napari
+Course materials for performing cell segmentation in napari
 
 Site here: https://chanzuckerberg.github.io/napari-segmentation-workshop/
 
