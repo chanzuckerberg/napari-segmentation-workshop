@@ -1,6 +1,6 @@
 # Primer to image analysis
 
-Before completing a segmentation workflow within napari, you may want to understand some general algorithms commonly used in image analysis. We've provided these resources to give more context into the steps that occur within a classical segmentation. 
+As a reference, you may want to review some general concepts commonly used in image analysis. We've provided these resources to give more context into the steps that occur within cell segmentation workflows. Review as needed before continuing the course.
 
 ## The concept of "filtering"
 
