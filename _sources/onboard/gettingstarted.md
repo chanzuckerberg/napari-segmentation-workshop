@@ -10,10 +10,10 @@ In this lesson, you'll learn how to install napari with *minimal coding*, how vi
 3.  [Background: Python and napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#background-python-and-napari)
 4.  [Background: Virtual environments and environment manager](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#background-virtual-environments-and-environment-manager)
 5.  [Steps to install miniconda, an environment manager](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#steps-to-install-miniconda)
-6.  [Steps for creating and using a new virtual environment](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html))
+6.  [Steps for creating and using a new virtual environment](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html)
 8.  [Steps for installing napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#installation-of-napari)
 9.  [How to launch napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#launching-napari-after-installation-session)
-10.  [Plugins overview](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-3.html))
+10.  [Plugins overview](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-3.html)
 11.  [How to install napari plugins](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-3.html#plugin-installation-tutorial)
 
 - **Time to learn**: 1 hour
