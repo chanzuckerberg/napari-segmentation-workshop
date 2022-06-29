@@ -34,24 +34,43 @@ Installation of plugins into napari is usually a very straightforward process. P
 - Launch napari
   -  Command: **napari** 
 - Find the plugins menu item and click “Install/Uninstall Plugins…”
+
+![napari install uninstall menu](images/plugin1.png)
+
 - The subsequent window will display plugins that are previously installed (top portion of the window), as well as a list of plugins that are available (lower portion).
 - While the user is free to scroll through the list of plugins, it may be more efficient to type a keyword related to the function or plugin name they are looking for in the filter box (at top).
+
+![napari plugin menu](images/plugin2.png)
+
 - Click install to begin installation of your desired plugins
 
 :::{hint} Note: Just because a plugin has been installed, does not mean it has been enabled! To enable/disable, use the checkbox next to the plugin.
 :::
 
+![napari plugin enable disable menu](images/plugin5.png)
+
 ### Example Case Study: Installing Plugins to Open Vendor-Specific File Types
 
 - Let’s say you need to open a dataset acquired on a commercial system with a file type native to that particular system (e.g. Nikon .nd2, Zeiss .czi, Leica .lif, Olympus .oif, etc.)
 - When attempting to drag one of these file types into the napari viewer, you notice the following error, alerting us that no current plugin exists to open the file:
+
+![napari file reader error message](images/plugin3.png)
+
 - Heading to the Plugins menu and dialogue (see previous), let’s search for “nd2”.
-- Here we see a plugin titled: “napari-nikon-nd2”, which seems appropriate. 
+- Here we see a plugin titled: “napari-nikon-nd2”, which seems appropriate.
+
+![napari nikon nd2 opener plugin](images/plugin4.png)
+
 - By clicking the blue “install” button to the right of it, we can add it to our list of installed plugins:
 - Upon attempting to open the same [.nd2] dataset again, we are successful!
+
+![napari canvas showing opened nd2 image](images/plugin6.png)
+
 - Of course, not all plugin installations are perfect and may have either errors or bugs that pop up.  This is why it is important to visit [napari hub](napari-hub.org) and read the available documentation in order to review any suggested installation notes that would differ from the aforementioned.
 
 ### Updating Plugins
 
 Periodically, updates to installed plugins may become available.  This will be displayed in the “Install/Uninstall Plugins” dialogue as seen below. Update your plugins as desired.
+
+![napari install uninstall menu showing option to update plugins](images/plugin7.png)
 
