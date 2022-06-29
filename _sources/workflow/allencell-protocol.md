@@ -12,7 +12,7 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 ![Sample data of actin filaments](images/allencell-2.png)
 
-##Protocol
+## Protocol
 
 #### Open Allen Cell Segmenter Workflow editor
 
