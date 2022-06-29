@@ -424,16 +424,9 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#analysis-pipeline-steps">
-   Analysis pipeline steps
+  <a class="reference internal nav-link" href="#partseg-nuclei-segmentation-parameters">
+   PartSeg nuclei segmentation parameters
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#partseg-roi-mask-extraction">
-     PartSeg: ROI mask extraction
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -455,16 +448,9 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#analysis-pipeline-steps">
-   Analysis pipeline steps
+  <a class="reference internal nav-link" href="#partseg-nuclei-segmentation-parameters">
+   PartSeg nuclei segmentation parameters
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#partseg-roi-mask-extraction">
-     PartSeg: ROI mask extraction
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -480,10 +466,8 @@ title="Print to PDF"
 <h1>Segmentation of nuclei<a class="headerlink" href="#segmentation-of-nuclei" title="Permalink to this headline">#</a></h1>
 <p>Beginning the workflow, we want to start by <strong>detecting cell nuclei</strong> as individual objects. Cell nuclei in a fluorescence image are clearly brighter than the surrounding background so many automated thresholding algorithms will be successful in finding the correct thresholding values. However, we will add several post-processing steps to make sure that the edges of the detected nuclei are smooth and that the small bright particles in the background are not mistakenly classified as nuclei.</p>
 <script src="https://fast.wistia.com/embed/medias/ogftgh3nwb.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ogftgh3nwb seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/ogftgh3nwb/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-<section id="analysis-pipeline-steps">
-<h2>Analysis pipeline steps<a class="headerlink" href="#analysis-pipeline-steps" title="Permalink to this headline">#</a></h2>
-<section id="partseg-roi-mask-extraction">
-<h3>PartSeg: ROI mask extraction<a class="headerlink" href="#partseg-roi-mask-extraction" title="Permalink to this headline">#</a></h3>
+<section id="partseg-nuclei-segmentation-parameters">
+<h2>PartSeg nuclei segmentation parameters<a class="headerlink" href="#partseg-nuclei-segmentation-parameters" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
 <li><p>Median filtering (r = 2)</p></li>
 <li><p>Thresholding ‘Otsu’</p></li>
@@ -493,7 +477,6 @@ title="Print to PDF"
 <li><p>Connect by sides</p></li>
 <li><p>Convex hull (r = 1)</p></li>
 </ul>
-</section>
 </section>
 </section>
 
