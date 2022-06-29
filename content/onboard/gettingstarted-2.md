@@ -2,11 +2,11 @@
 
 ## Creating a virtual environment
 
-- We’ll now create a virtual environment and install Python into it, in one step. The name of this environment is up to our choosing and does not necessarily need to be the same as below. For this example, we’ll be creating a virtual environment called **“napari-env”** to install napari into. However, *outside of the environment’s name, the exact syntax needs to be followed*. You can ensure this by hitting the enter key after typing. 
+- We’ll now create a virtual environment and install napari into it. You can name your virtual environments anything you would like. For this example, we’ll be creating a virtual environment called **“napari-env”** to install napari into. However, *outside of the environment’s name, the exact syntax needs to be followed*. Just sub your desired environment name for the **napari-env** below and in subsequent steps. You can ensure this by hitting the enter key after typing. 
 
   - **conda create -y -n *napari-env* -c conda-forge python=3.9**
 
-- After hitting the enter key, the virtual environment will be created and Python installed into it.
+- After hitting the enter key, the virtual environment will be created with a specific Python version (3.9 in this case) installed into it.
 
 :::{note} 
 For the purposes of this tutorial, it is not necessary to understand the nature of the syntax we’ll be using. However, it is critical, unless otherwise mentioned, that you copy the command syntax exactly as you see it here. 
@@ -43,14 +43,14 @@ For the purposes of this tutorial, it is not necessary to understand the nature 
 
 ![Launching the napari viewer for the first time](images/install-6.png)
 
-- You have now successfully installed napari onto a Windows machine!
+- You have now successfully installed napari onto your machine!
 
 ## Launching napari after installation session
 
 - Now that you have completed installation, the procedure for launching napari going forward will be as follows:
 
 :::{note} 
-- Launch **“anaconda prompt (miniconda3)”**
+- Launch **“anaconda prompt (miniconda3)”** for Windows users or **terminal** for Mac users. 
 - Activate the virtual environment you’ve created and installed napari into:
   - **conda activate *napari-env***
 - Launch napari:
