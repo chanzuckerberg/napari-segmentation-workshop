@@ -13,6 +13,14 @@ In this lesson, you'll learn how to install napari with *minimal coding*, how vi
 
 - **Time to learn**: 1 hour
 
+## Installation flowchart
+
+![napari installation flowchart](images/flowchart.png)
+
+Here is an overview of all of the steps for installing napari in the recommended way using an environment manager. An environment manager allows you to create multiple virtual environments, like separate sandboxes, on your computer for installing programs, like napari, without affecting other parts of your system. Below is a visual example of a computer with 3 separate environments, named **napari-cell**, **napari-env**, and **napari-clean**, each with a separate installation of napari along with one or more plugins. More on managing environments and installation next.
+
+![Example of a computer with 3 virtual environments](images/environments.png)
+
 ## Video walkthrough
 
 <script src="https://fast.wistia.com/embed/medias/j0644yvc89.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_j0644yvc89 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/j0644yvc89/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
@@ -21,17 +29,17 @@ In this lesson, you'll learn how to install napari with *minimal coding*, how vi
 
 Like every software package out there, napari is written with a programming language. For example, Windows is based in *C*, various statistics programs are written in *R*, and ImageJ is based on *Java*. Napari is written with a language called *Python*. 
 
-Python is a widely popular scientific computing language with many years of contributions under its belt. As such, there are multitudes of tools (and algorithms) that a program like napari can leverage to accomplish its tasks. Python, by default, is not pre-installed on most computers, and one needs to manually install it in order to execute Python-based programs.  
+Python is a widely popular scientific computing language with many years of contributions under its belt. As such, there are multitudes of tools (and algorithms) that a program like napari can leverage to accomplish its tasks. Python, by default, does not always come pre-installed   on computers, and one needs to manually install it in order to execute Python-based programs.  
 
 Although this is likely to change in the future, there is no “quick install” of napari (and its requisite Python coding language). Here we walk through the steps necessary for doing so, including getting Python installed on your machine, and subsequently the individual commands necessary for installing napari itself. This particular tutorial will focus on installing the aforementioned on a Windows machine. 
 
 ## Installation of Python via an environment manager
 
-To be clear, there are several ways one could install Python on your machine. For example, one could visit the [Python website](https://www.python.org/) to install solely the Python language itself. However, installation through something known as an **environment manager**, will be quite helpful as we both install, and then utilize a program like napari, particularly because it’s a program early in its development, with many evolving parts.  
+To be clear, there are several ways one could install Python on your machine. For example, one could visit the [Python website](https://www.python.org/) to install solely the Python language itself. However, we can install Python along with an **environment manager**, which is the recommended prerequisites installing napari.  
 
-The environment manager we’ll detail below is through a distribution called “miniconda”—a lightweight distribution of the Python coding language along with a few essential packages. It will also enable us to later install napari into what is known as a **virtual environment**. Technically, it is also a **package manager**, but we’ll discuss that in a bit. 
+The environment manager is called “miniconda”— a lightweight distribution of a bigger package called conda. Miniconda installs Python along with a few essential packages and is a **package manager** that enables creating and managing virtual environments. 
 
-A virtual environment can be summed up as a contained place, or sandbox, where both a program and its various dependencies (i.e. other related files required for elements of a program to run) are installed. Having such a place available is extremely helpful, especially when using programs in active development, as environments can be created and deleted at will (if for example, there was a corruption, or bug that was hard to track down).
+A virtual environment can be summed up as a contained place, or sandbox, where both a program and its various dependencies (i.e. other related files required for elements of a program to run) are installed. Having such a place available is extremely helpful, especially when using programs in active development, as environments can be created and deleted at will (if for example, there was a corruption, or bug that was hard to track down you could simply delete the environment and continue in a new environment with a fresh install).
 
 ## Steps to install miniconda
 
@@ -40,7 +48,7 @@ A virtual environment can be summed up as a contained place, or sandbox, where b
 
 ![Link to download miniconda](images/install-1.png)
 
-- Select the appropriate Miniconda installation for your computer (in this case, it is highlighted as a Windows 64-bit installation).
+- Select the appropriate Miniconda installation for your computer (in this example case, the Windows 64-bit installation is highlighted). For mac users, download the pkg file associated with your processor (This can be checked by going to Apple menu > About This Mac. For Intel processors, download the x86 file, and for ARM processors, download the Apple M1 file.).
 
 :::{hint} 
 Note the current version of Python that will be installed also. Below, this is listed as “Python 3.9.7”.  Typically, if one wants a previous version of Python installed, alternative links will be available further down on the page.
@@ -48,16 +56,12 @@ Note the current version of Python that will be installed also. Below, this is l
 
 ![Downloading Miniconda for Windows](images/install-2.png)
 
-:::{note} 
-We will be installing napari into its own virtual environment. One could have more than one virtual environment with napari installed into each, in the case it had different versions, dependency requirements, etc (or for other programs, for example). The environment manager (in this case miniconda), manages these environments for you.
-:::
-
 - Once the download has finished, run it. Default installation options are typically sufficient.
-- This can be found by clicking on the lower left windows icon (Windows 10) and either typing **“anaconda…”** (in which case it will find "**Anaconda Prompt (miniconda3)"**), or scrolling down to the anaconda folder and finding it.
+- The next steps for opening a terminal for installing napari differ for Mac and Windows users. For Windows users, click on the lower left windows icon (Windows 10) and either type **“anaconda…”** (in which case it will find "**Anaconda Prompt (miniconda3)"**), or scrolling down to the anaconda folder and finding it. For Mac users, simply open **terminal** using spotlight search.
 
 ![Finding the Anaconda prompt](images/install-3.png)
 
-- This launches the command prompt into the **“base environment”** (as denoted by **“(base)”** at the start of the command line). This is not the virtual environment yet, as we haven’t created one, and as such, is not the environment we’ll be installing napari into.
+- This launches the command prompt (Windows) or terminal (Mac) into the **“base environment”** (as denoted by **“(base)”** at the start of the command line). We'll use these terminals for creating virtual environments and installing napari.
 
 :::{hint} 
 If you plan on running napari on a regular basis, it may be handy at this point to create a shortcut to the Anaconda Prompt, or pin it to your taskbar, for easy access.
