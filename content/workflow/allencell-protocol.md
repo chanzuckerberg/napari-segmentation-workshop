@@ -1,6 +1,6 @@
 # Protocol for segmentation workflow
 
-## Launch napari, and import your image
+## Launch napari and import your image
 
 - Begin by importing an image to be analyzed. You may either drag and drop your image directly into the napari viewer, or locate it on your computer using the menu **File >> Open**. 
 
@@ -12,25 +12,27 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 ![Sample data of actin filaments](images/allencell-2.png)
 
-## Allen Cell Segmenter Workflow editor
+##Protocol
+
+#### Open Allen Cell Segmenter Workflow editor
 
 - With your image loaded, go to the menu **Plugins >> napari-allencell-segmenter >> Workflow editor**. 
 
 ![Workflow editor for Allen Cell Segmenter in napari viewer](images/allencell-3.png)
 
-## Step 1: Select your image to segment
+#### Select your image to segment
 
 - In the "Workflow selection steps" window that appears, click on the 1st drop down menu (#1), then select the image you imported previously. 
 
 ![Workflow editor image selection](images/allencell-4.png)
 
-## Step 2: Select the channel to segment
+#### Select the channel to segment
 
 - Moving to the dropdown menu below (#2), select the channel of your image that you wish to segment. 
 
 ![Workflow editor channel selection](images/allencell-5.png)
 
-## Step 3: Select a comparable reference 
+#### Select a comparable reference 
 
 - In the final dropdown menu (#3), choose an image from the reference library that most matches the image you've selected to segment and analyze.
 
@@ -40,9 +42,9 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 ![Choosing a comparable image from the Allen Cell Segmenter reference library of images](images/allencell-7.png)
 
-- Now that a reference image and its associated workflow have been selected, Allen Cell will create a duplicate of your image, officially starting off the workflow. 
+- Now that a reference image and its associated workflow have been selected, Allen Cell will create a duplicate of your image. 
 
-- The first part of the workflow is the **pre-processing** which normalizes the intensity of and and smoothens your image, followed by the second part which is the core **segmentation** itself, and the third part which involves **size filtering** and a **2D vs 3D pixel** linkage mode. 
+- The workflow is split into 3 parts: **pre-processing**, which normalizes the intensity of and and smoothens your image, **segmentation**, and **size filtering** with a 2D and 3D pixel linkage mode. 
 
 :::{hint}
 All the intermediate steps between each part of a workflow are displayed as layers on the left side, with numbers that correspond to the numbered steps in the workflow.
