@@ -396,12 +396,71 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#who-built-this">
+   Who built this
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#somethings-not-working-in-the-lessons-how-do-i-get-help">
+   Something’s not working in the lessons, how do I get help?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-can-i-provide-feedback-on-the-existing-lessons">
+   How can I provide feedback on the existing lessons?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#i-want-to-build-a-similar-lesson-for-napari-who-can-i-talk-to">
+   I want to build a similar lesson for napari, who can I talk to?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-get-started-in-napari">
+   How do I get started in napari?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-get-help-with-napari">
+   How do I get help with napari?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-get-help-with-napari-plugins">
+   How do I get help with napari plugins?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#i-have-a-neat-idea-or-question-you-didnt-answer-here">
+   I have a neat idea or question you didn’t answer here.
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -413,6 +472,54 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#who-built-this">
+   Who built this
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#somethings-not-working-in-the-lessons-how-do-i-get-help">
+   Something’s not working in the lessons, how do I get help?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-can-i-provide-feedback-on-the-existing-lessons">
+   How can I provide feedback on the existing lessons?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#i-want-to-build-a-similar-lesson-for-napari-who-can-i-talk-to">
+   I want to build a similar lesson for napari, who can I talk to?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-get-started-in-napari">
+   How do I get started in napari?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-get-help-with-napari">
+   How do I get help with napari?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-get-help-with-napari-plugins">
+   How do I get help with napari plugins?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#i-have-a-neat-idea-or-question-you-didnt-answer-here">
+   I have a neat idea or question you didn’t answer here.
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -423,24 +530,40 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="frequently-asked-questions">
 <h1>Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">#</a></h1>
 <p>We hope these questions will help you in your napari learning journey! If you need additional information or assistance, you can reach a human at <a class="reference external" href="mailto:team&#37;&#52;&#48;napari-hub&#46;org">team<span>&#64;</span>napari-hub<span>&#46;</span>org</a>.</p>
-<p><em>Who built this?</em>
-The napari cell segmentation learning course is a open source project of Chan Zuckerberg Intiative (“CZI”) in collaboration with premier Imaging Scientists from across the world. You can learn more about the project <a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html">here</a>.</p>
-<p><em>Something’s not working in the lessons, how do I get help?</em>
-Oh no! We’re sorry you’ve hit a snag. Check the <a class="reference external" href="https://github.com/napari/napari/issues">napari Github issues</a>, the Github page for an individual plugin (linked on the <a class="reference external" href="https://www.napari-hub.org/">napari hub</a> plugin page), <a class="reference external" href="https://forum.image.sc/tag/napari">image.sc</a>, or reach out at <a class="reference external" href="mailto:team&#37;&#52;&#48;napari-hub&#46;org">team<span>&#64;</span>napari-hub<span>&#46;</span>org</a>.</p>
-<p><em>How can I provide feedback on the existing lessons?</em>
-<a class="reference external" href="https://github.com/chanzuckerberg/napari-segmentation-workshop/issues">We welcome any and all feedback</a> on this course. We strive to make these materials as approachable as possible. We encourage you to share your thoughts on these materials (e.g. accessibility, quality, and comprehensiveness, etc.). We intend these learning materials to be reproducible, and adaptable, much like napari itself. Otherwise, feel free to send us an email to <a class="reference external" href="mailto:team&#37;&#52;&#48;napari-hub&#46;org">team<span>&#64;</span>napari-hub<span>&#46;</span>org</a>.</p>
-<p><em>I want to build a similar lesson for napari, who can I talk to?</em>
-We’re so glad you’re interested in contributing to napari learning! We’d love to chat to better understand how we can support you. Please reach out to <a class="reference external" href="mailto:dmccarthy&#37;&#52;&#48;chanzuckerberg&#46;com">dmccarthy<span>&#64;</span>chanzuckerberg<span>&#46;</span>com</a>.</p>
-<p><em>How do I get started in napari?</em>
-If you’re new to napari, welcome and don’t fret! <span class="xref myst">napari</span> will help you install and get viewing in no time.</p>
-<p><em>How do I get help with napari?</em>
-napari is a community partner on the <span class="xref myst">image.sc</span> forum and all help and support requests should be posted on the forum with the tag napari. We look forward to interacting with you there.</p>
+<section id="who-built-this">
+<h2>Who built this<a class="headerlink" href="#who-built-this" title="Permalink to this headline">#</a></h2>
+<p>The napari cell segmentation learning course is a open source project of Chan Zuckerberg Intiative (“CZI”) in collaboration with premier Imaging Scientists from across the world. You can learn more about the project <a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html">here</a>.</p>
+</section>
+<section id="somethings-not-working-in-the-lessons-how-do-i-get-help">
+<h2>Something’s not working in the lessons, how do I get help?<a class="headerlink" href="#somethings-not-working-in-the-lessons-how-do-i-get-help" title="Permalink to this headline">#</a></h2>
+<p>Oh no! We’re sorry you’ve hit a snag. Check the <a class="reference external" href="https://github.com/napari/napari/issues">napari Github issues</a>, the Github page for an individual plugin (linked on the <a class="reference external" href="https://www.napari-hub.org/">napari hub</a> plugin page), <a class="reference external" href="https://forum.image.sc/tag/napari">image.sc</a>, or reach out at <a class="reference external" href="mailto:team&#37;&#52;&#48;napari-hub&#46;org">team<span>&#64;</span>napari-hub<span>&#46;</span>org</a>.</p>
+</section>
+<section id="how-can-i-provide-feedback-on-the-existing-lessons">
+<h2>How can I provide feedback on the existing lessons?<a class="headerlink" href="#how-can-i-provide-feedback-on-the-existing-lessons" title="Permalink to this headline">#</a></h2>
+<p><a class="reference external" href="https://github.com/chanzuckerberg/napari-segmentation-workshop/issues">We welcome any and all feedback</a> on this course. We strive to make these materials as approachable as possible. We encourage you to share your thoughts on these materials (e.g. accessibility, quality, and comprehensiveness, etc.). We intend these learning materials to be reproducible, and adaptable, much like napari itself. Otherwise, feel free to send us an email to <a class="reference external" href="mailto:team&#37;&#52;&#48;napari-hub&#46;org">team<span>&#64;</span>napari-hub<span>&#46;</span>org</a>.</p>
+</section>
+<section id="i-want-to-build-a-similar-lesson-for-napari-who-can-i-talk-to">
+<h2>I want to build a similar lesson for napari, who can I talk to?<a class="headerlink" href="#i-want-to-build-a-similar-lesson-for-napari-who-can-i-talk-to" title="Permalink to this headline">#</a></h2>
+<p>We’re so glad you’re interested in contributing to napari learning! We’d love to chat to better understand how we can support you. Please reach out to <a class="reference external" href="mailto:dmccarthy&#37;&#52;&#48;chanzuckerberg&#46;com">dmccarthy<span>&#64;</span>chanzuckerberg<span>&#46;</span>com</a>.</p>
+</section>
+<section id="how-do-i-get-started-in-napari">
+<h2>How do I get started in napari?<a class="headerlink" href="#how-do-i-get-started-in-napari" title="Permalink to this headline">#</a></h2>
+<p>If you’re new to napari, welcome and don’t fret! <span class="xref myst">napari</span> will help you install and get viewing in no time.</p>
+</section>
+<section id="how-do-i-get-help-with-napari">
+<h2>How do I get help with napari?<a class="headerlink" href="#how-do-i-get-help-with-napari" title="Permalink to this headline">#</a></h2>
+<p>napari is a community partner on the <span class="xref myst">image.sc</span> forum and all help and support requests should be posted on the forum with the tag napari. We look forward to interacting with you there.</p>
 <p>Bug reports should be made on napari’s github issues using the bug report template. If you think something isn’t working, don’t hesitate to reach out - it is probably us and not you!</p>
-<p><em>How do I get help with napari plugins?</em>
-Plugin authors are encouraged to add links to their listing on the <span class="xref myst">napari hub</span>, showing users of their plugin where to find help.
-If the plugin author has not indicated where to get help, the <span class="xref myst">image.sc</span> community is a great place to ask questions about napari and napari plugins.</p>
-<p><em>I have a neat idea or question you didn’t answer here.</em>
-Oh no, we didn’t answer your questions! Our apologies. We recommend you ask any community questions in <a class="reference external" href="https://github.com/napari/napari/discussions">github discussions for napari</a> and/or the <a class="reference external" href="https://github.com/chanzuckerberg/napari-hub/discussions">napari hub</a> - we value open source engagement and you never know who might have the right answer! Otherwise, you can reach a human at <a class="reference external" href="mailto:team&#37;&#52;&#48;napari-hub&#46;org">team<span>&#64;</span>napari-hub<span>&#46;</span>org</a>.</p>
+</section>
+<section id="how-do-i-get-help-with-napari-plugins">
+<h2>How do I get help with napari plugins?<a class="headerlink" href="#how-do-i-get-help-with-napari-plugins" title="Permalink to this headline">#</a></h2>
+<p>Plugin authors are encouraged to add links to their listing on the <span class="xref myst">napari hub</span>, showing users of their plugin where to find help.</p>
+<p>If the plugin author has not indicated where to get help, the <span class="xref myst">image.sc</span> community is a great place to ask questions about napari and napari plugins.</p>
+</section>
+<section id="i-have-a-neat-idea-or-question-you-didnt-answer-here">
+<h2>I have a neat idea or question you didn’t answer here.<a class="headerlink" href="#i-have-a-neat-idea-or-question-you-didnt-answer-here" title="Permalink to this headline">#</a></h2>
+<p>Oh no, we didn’t answer your questions! Our apologies. We recommend you ask any community questions in <a class="reference external" href="https://github.com/napari/napari/discussions">github discussions for napari</a> and/or the <a class="reference external" href="https://github.com/chanzuckerberg/napari-hub/discussions">napari hub</a> - we value open source engagement and you never know who might have the right answer! Otherwise, you can reach a human at <a class="reference external" href="mailto:team&#37;&#52;&#48;napari-hub&#46;org">team<span>&#64;</span>napari-hub<span>&#46;</span>org</a>.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
