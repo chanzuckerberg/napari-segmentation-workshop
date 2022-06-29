@@ -1,7 +1,7 @@
 ![Samples of images segmented by Cellpose](images/partseg-banner.png)
 Classical segmentation with PartSeg
 =======================
-**By ["Kasia" Kedziora](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#katarzyna-kasia-kedziora) 🔬**
+**By [Kasia Kedziora](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#katarzyna-kasia-kedziora) 🔬**
 
 ### Learning Objectives
 
