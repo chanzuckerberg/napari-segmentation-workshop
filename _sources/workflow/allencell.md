@@ -7,8 +7,8 @@ Allen Cell Segmenter
 
 In this lesson, you'll learn how to use and configure the Allen Cell Segmenter napari plugin to complete a segmentation workflow.
 
-1.  [A walkthrough of the segmentation protocol, with napari screenshots](allencell-protocol.md)
-2.  [An explanation of parameters and effects, pertaining to *actin filaments*](allencell-parameters.md) 
+1.  [A walkthrough of the segmentation protocol](allencell-protocol.md)
+2.  [An explanation of parameters and effects for *actin filaments* segmentation](allencell-parameters.md) 
 
 - **Time to learn**: 1 hour
 
