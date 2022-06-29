@@ -425,28 +425,30 @@ title="Print to PDF"
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#launch-napari-and-import-your-image">
-   Launch napari, and import your image
+   Launch napari and import your image
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#allen-cell-segmenter-workflow-editor">
-   Allen Cell Segmenter Workflow editor
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-1-select-your-image-to-segment">
-   Step 1: Select your image to segment
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-2-select-the-channel-to-segment">
-   Step 2: Select the channel to segment
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-3-select-a-comparable-reference">
-   Step 3: Select a comparable reference
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#open-allen-cell-segmenter-workflow-editor">
+     Open Allen Cell Segmenter Workflow editor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#select-your-image-to-segment">
+     Select your image to segment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#select-the-channel-to-segment">
+     Select the channel to segment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#select-a-comparable-reference">
+     Select a comparable reference
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#post-segmentation-resulting-image">
@@ -474,28 +476,30 @@ title="Print to PDF"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#launch-napari-and-import-your-image">
-   Launch napari, and import your image
+   Launch napari and import your image
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#allen-cell-segmenter-workflow-editor">
-   Allen Cell Segmenter Workflow editor
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-1-select-your-image-to-segment">
-   Step 1: Select your image to segment
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-2-select-the-channel-to-segment">
-   Step 2: Select the channel to segment
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-3-select-a-comparable-reference">
-   Step 3: Select a comparable reference
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#open-allen-cell-segmenter-workflow-editor">
+     Open Allen Cell Segmenter Workflow editor
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#select-your-image-to-segment">
+     Select your image to segment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#select-the-channel-to-segment">
+     Select the channel to segment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#select-a-comparable-reference">
+     Select a comparable reference
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#post-segmentation-resulting-image">
@@ -515,7 +519,7 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="protocol-for-segmentation-workflow">
 <h1>Protocol for segmentation workflow<a class="headerlink" href="#protocol-for-segmentation-workflow" title="Permalink to this headline">#</a></h1>
 <section id="launch-napari-and-import-your-image">
-<h2>Launch napari, and import your image<a class="headerlink" href="#launch-napari-and-import-your-image" title="Permalink to this headline">#</a></h2>
+<h2>Launch napari and import your image<a class="headerlink" href="#launch-napari-and-import-your-image" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
 <li><p>Begin by importing an image to be analyzed. You may either drag and drop your image directly into the napari viewer, or locate it on your computer using the menu <strong>File &gt;&gt; Open</strong>.</p></li>
 </ul>
@@ -527,30 +531,30 @@ title="Print to PDF"
 <li><p>In this instance, I’ve opened an image of <em>actin filaments</em> (which you can download for yourself <a class="reference external" href="https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif">here</a>).</p></li>
 </ul>
 <p><img alt="Sample data of actin filaments" src="../_images/allencell-2.png" /></p>
-</section>
-<section id="allen-cell-segmenter-workflow-editor">
-<h2>Allen Cell Segmenter Workflow editor<a class="headerlink" href="#allen-cell-segmenter-workflow-editor" title="Permalink to this headline">#</a></h2>
+<p>##Protocol</p>
+<section id="open-allen-cell-segmenter-workflow-editor">
+<h3>Open Allen Cell Segmenter Workflow editor<a class="headerlink" href="#open-allen-cell-segmenter-workflow-editor" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>With your image loaded, go to the menu <strong>Plugins &gt;&gt; napari-allencell-segmenter &gt;&gt; Workflow editor</strong>.</p></li>
 </ul>
 <p><img alt="Workflow editor for Allen Cell Segmenter in napari viewer" src="../_images/allencell-3.png" /></p>
 </section>
-<section id="step-1-select-your-image-to-segment">
-<h2>Step 1: Select your image to segment<a class="headerlink" href="#step-1-select-your-image-to-segment" title="Permalink to this headline">#</a></h2>
+<section id="select-your-image-to-segment">
+<h3>Select your image to segment<a class="headerlink" href="#select-your-image-to-segment" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>In the “Workflow selection steps” window that appears, click on the 1st drop down menu (#1), then select the image you imported previously.</p></li>
 </ul>
 <p><img alt="Workflow editor image selection" src="../_images/allencell-4.png" /></p>
 </section>
-<section id="step-2-select-the-channel-to-segment">
-<h2>Step 2: Select the channel to segment<a class="headerlink" href="#step-2-select-the-channel-to-segment" title="Permalink to this headline">#</a></h2>
+<section id="select-the-channel-to-segment">
+<h3>Select the channel to segment<a class="headerlink" href="#select-the-channel-to-segment" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Moving to the dropdown menu below (#2), select the channel of your image that you wish to segment.</p></li>
 </ul>
 <p><img alt="Workflow editor channel selection" src="../_images/allencell-5.png" /></p>
 </section>
-<section id="step-3-select-a-comparable-reference">
-<h2>Step 3: Select a comparable reference<a class="headerlink" href="#step-3-select-a-comparable-reference" title="Permalink to this headline">#</a></h2>
+<section id="select-a-comparable-reference">
+<h3>Select a comparable reference<a class="headerlink" href="#select-a-comparable-reference" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>In the final dropdown menu (#3), choose an image from the reference library that most matches the image you’ve selected to segment and analyze.</p></li>
 </ul>
@@ -560,14 +564,15 @@ title="Print to PDF"
 </ul>
 <p><img alt="Choosing a comparable image from the Allen Cell Segmenter reference library of images" src="../_images/allencell-7.png" /></p>
 <ul class="simple">
-<li><p>Now that a reference image and its associated workflow have been selected, Allen Cell will create a duplicate of your image, officially starting off the workflow.</p></li>
-<li><p>The first part of the workflow is the <strong>pre-processing</strong> which normalizes the intensity of and and smoothens your image, followed by the second part which is the core <strong>segmentation</strong> itself, and the third part which involves <strong>size filtering</strong> and a <strong>2D vs 3D pixel</strong> linkage mode.</p></li>
+<li><p>Now that a reference image and its associated workflow have been selected, Allen Cell will create a duplicate of your image.</p></li>
+<li><p>The workflow is split into 3 parts: <strong>pre-processing</strong>, which normalizes the intensity of and and smoothens your image, <strong>segmentation</strong>, and <strong>size filtering</strong> with a 2D and 3D pixel linkage mode.</p></li>
 </ul>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>All the intermediate steps between each part of a workflow are displayed as layers on the left side, with numbers that correspond to the numbered steps in the workflow.</p>
 <p><img alt="Intermediate steps of Allen Cell Segmenter as layers in napari viewer" src="../_images/allencell-8.png" /></p>
 </div>
+</section>
 </section>
 <section id="post-segmentation-resulting-image">
 <h2>Post-segmentation resulting image<a class="headerlink" href="#post-segmentation-resulting-image" title="Permalink to this headline">#</a></h2>
