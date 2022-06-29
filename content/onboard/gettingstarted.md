@@ -3,7 +3,7 @@ Getting started with napari and plugins
 **By [Bryan Millis](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#bryan-millis) 🔬**
 ## Learning Objectives
 
-In this lesson, you'll learn how to install napari with *minimal coding*, how virtual environments tie into installation, and launching napari for the first time. 
+In this lesson, you'll learn how to install napari with *minimal coding*, how virtual environments tie into installation, and how to find and install napari plugins. 
 
 1.  [Installation flowchart](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#installation-flowchart)
 2.  [Video walkthrough of installing napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#video-walkthrough)
