@@ -1,4 +1,4 @@
-# Virtual environments, and installing napari
+# Creating virtual environments and installing napari
 
 ## Creating a virtual environment
 
