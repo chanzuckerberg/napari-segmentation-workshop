@@ -13,7 +13,7 @@ This is a brief introduction to napari geared towards people without coding expe
 - **Time to learn**: 20 minutes
 
 :::{note}
-Please check (napari documentation)[https://napari.org/tutorials/start_index.html] for more information, especially related to napari usage with programming. There are many aspects of napari's capabilities that are not currently accessible without programming. Although parts of napari are still undergoing development and some kinks are still being ironed out, napari is a powerful tool for image analysis, especially for complex, large, or multi-dimensional datasets.
+Please check [napari documentation](https://napari.org/tutorials/start_index.html) for more information, especially related to napari usage with programming. There are many aspects of napari's capabilities that are not currently accessible without programming. Although parts of napari are still undergoing development and some kinks are still being ironed out, napari is a powerful tool for image analysis, especially for complex, large, or multi-dimensional datasets.
 :::
 
 ![Picture of art installation of networked cables](images/napari-viewer.gif)
