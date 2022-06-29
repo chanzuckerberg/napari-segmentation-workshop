@@ -39,7 +39,7 @@ OR
     
 ### Optional nuclear channel:
 
-The cytoplasm model in cellpose is trained on two-channel images, where the first channel is the channel to segment, and the second channel is an optional nuclear channel. Here are the options for each: 1. 0=grayscale, 1=red, 2=green, 3=blue, 4 … 2. 0=None (will set to zero), 1=red, 2=green, 3=blue, 4.
+The cytoplasm model in cellpose is trained on two-channel images, where the first channel is the channel to segment and the second channel is an optional nuclear channel. Here are the options for each: 1. 0=grayscale, 1=red, 2=green, 3=blue, 4 … 2. 0=None (will set to zero), 1=red, 2=green, 3=blue, 4.
 
 The nuclear model in cellpose is trained on two-channel images, where the first channel is the channel to segment, and the second channel is always set to an array of zeros. Therefore, set the first channel as 0=grayscale, 1=red, 2=green, 3=blue; and set the second channel to 0=None
     * Diameter (in pixel):
@@ -50,7 +50,7 @@ The cellpose models have been trained on images which were rescaled to all have 
 
 OR
 
-* You can also get an estimate from clicking on the image: create a napari ‘Shapes’ layer and draw circles or squares. If you click **“compute diameter from shape layer”**, the plugin will set the diameter to the average diameter of the drawn shapes.
+* You can also get an estimate from clicking on the image: create a napari ‘Shapes’ layer and draw circles or squares around your cells. If you click **“compute diameter from shape layer”**, the plugin will set the diameter to the average diameter of the drawn shapes.
 
 Changing the diameter will change the results that the algorithm outputs. When the diameter is set smaller than the true size, cellpose may over-split cells. Similarly, if the diameter is set too big then cellpose may over-merge cells.
 
@@ -66,7 +66,7 @@ The model match threshold parameter is inverse of the maximum allowed error of t
 
 ### Average 4 nets:
 
-Option to control network performance vs time. If unchecked, only 1 network will use to process the channel allowing a faster segmentation but less accurate. If checked  an average of 4 network will be used, it will be slower but more accurate
+Option to control network performance vs time. If unchecked, only 1 network will use to process the channel allowing a faster segmentation but less accurate. If checked  an average of 4 network will be used, it will be slower but more accurate.
 
 ### Resample dynamics:
 
@@ -78,7 +78,7 @@ Cellpose can segment 3D and 4D stacks. If there is a channel axis, specify it by
 
 To run 3D processing, check **“process stack as 3D”**.
 
-If the 3D segmentation is not working well and there is inhomogeneity in Z, try **stitching masks** using the **“stitch threshold slices”** option instead of checking process stack as 3D. In this setting, cellpose will create masks in 2D on each XY slice and then stitch them across slices if the IoU between the mask on the current slice and the next slice is greater than or equal to the stitch threshold slices.
+If the 3D segmentation is not working well and there is inhomogeneity in Z, try **stitching masks** using the **“stitch threshold slices”** option instead of checking process stack as 3D. In this setting, cellpose will create masks in 2D on each XY slice and then stitch them across slices if the intersection over union (IoU) between the mask on the current slice and the next slice is greater than or equal to the stitch threshold slices.
 
 ### Clear previous results: 
 
