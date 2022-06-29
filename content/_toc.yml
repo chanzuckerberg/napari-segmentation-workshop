@@ -18,6 +18,10 @@ parts:
     sections:
       - file: onboard/gettingstarted-2
       - file: onboard/gettingstarted-3
+      
+- caption: "Closing"
+  chapters:
+  - file: napari-segmentation-workshop/content/closing
 
 - caption: "Segmentation workflows"
   chapters:
@@ -35,6 +39,4 @@ parts:
       - file: workflow/allencell-protocol
       - file: workflow/allencell-parameters
 
-- caption: "Closing"
-  chapters:
-  - file: napari-segmentation-workshop/content/closing
+
