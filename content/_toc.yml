@@ -37,6 +37,6 @@ parts:
       
 - caption: "Closing"
   chapters:
-  - file: napari-segmentation-workshop/content/closing
+  - file: closing
 
 
