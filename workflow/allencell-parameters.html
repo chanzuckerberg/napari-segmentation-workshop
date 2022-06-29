@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>An explanation of parameters and their effects &#8212; napari Segmentation learning course</title>
+    <title>Explanation of parameters and their effects &#8212; napari Segmentation learning course</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -240,7 +240,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     An explanation of parameters and their effects
+     Explanation of parameters and their effects
     </a>
    </li>
   </ul>
@@ -456,7 +456,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>An explanation of parameters and their effects</h1>
+                <h1>Explanation of parameters and their effects</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -501,8 +501,8 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="an-explanation-of-parameters-and-their-effects">
-<h1>An explanation of parameters and their effects<a class="headerlink" href="#an-explanation-of-parameters-and-their-effects" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="explanation-of-parameters-and-their-effects">
+<h1>Explanation of parameters and their effects<a class="headerlink" href="#explanation-of-parameters-and-their-effects" title="Permalink to this headline">#</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The example below pertains to the segmentation of <em>actin filaments</em>. Your options will vary depending on the <a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/workflow/allencell-protocol.html#step-3-select-a-comparable-reference">classical segmentation workflow</a> chosen within the Allen Cell napari plugin.</p>
@@ -513,7 +513,7 @@ title="Print to PDF"
 <p>The mean image intensity is calculated for the image; then scaling_param 1 and 2 are substracted or added to the mean, setting a range that will be scaled from 0-1.</p>
 <p><img alt="Mean intensity and scaling_parameters of Allen Cell Segmenter" src="../_images/allencell-10.png" /></p>
 <p><img alt="Intensity normalized in Allen Cell Segmenter" src="../_images/allencell-original12bit.png" /></p>
-<p>Parameters here will decide how much of the histogram you want to exclude as being too bright (i.e. too many dead cells), etc, etc.</p>
+<p>Parameters here will decide how much of the histogram you want to exclude as being too bright (i.e. too many dead cells), etc.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>Values dependent on the image mean value and intensity skew in the image itself.</p>
@@ -526,7 +526,7 @@ title="Print to PDF"
 </section>
 <section id="core-segmentation-sigma">
 <h2>Core segmentation: Sigma<a class="headerlink" href="#core-segmentation-sigma" title="Permalink to this headline">#</a></h2>
-<p>Allows you to set for the expected thickness of filaments. Smaller values lend themselves to <em>finer tilaments</em>; while larger values are best used with <em>thicker filaments</em>.</p>
+<p>Allows you to set for the expected thickness of filaments. Smaller values lend themselves to <em>thinner tilaments</em>; while larger values are best used with <em>thicker filaments</em>.</p>
 <p><img alt="Fine and thick filaments in Allen Cell Segmenter" src="../_images/allencell-12.png" /></p>
 </section>
 <section id="core-segmentation-cutoff">
@@ -536,7 +536,7 @@ title="Print to PDF"
 </section>
 <section id="post-processing">
 <h2>Post-processing<a class="headerlink" href="#post-processing" title="Permalink to this headline">#</a></h2>
-<p>Consists of size filtering to remove small objects; and connecting pixels only on slices or as 3D objects.</p>
+<p><strong>Size filtering</strong> can be used to remove spurious segmentations. You can link segmentations in 2D or 3D using the <strong>connecting pixels</strong> controls.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>If you find in using this plugin that you have quite disparate structures, the <strong>same workflow can be run twice</strong> to segment different populations within your data.</p>
