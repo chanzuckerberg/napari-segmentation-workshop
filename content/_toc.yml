@@ -34,3 +34,7 @@ parts:
     sections:
       - file: workflow/allencell-protocol
       - file: workflow/allencell-parameters
+      
+ - caption: "Closing"
+  chapters:
+  - file: closing
