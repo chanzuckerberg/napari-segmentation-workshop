@@ -10,6 +10,8 @@ After you've launched the napari viewer, you may open the *Cellpose-napari* plug
 
 ## Cellpose parameters
 
+As a reference, below is a description of the Cellpose parameters to assist you in using and optimizing Cellpose for your data.
+
 **Image layer**
 
 Define the layer / image that will be segmented using cellpose.
