@@ -11,7 +11,7 @@ If you encounter any issues, check the [napari Github issues](https://github.com
 :::
  
 ## Overview
-This course is split into 3 sections. In the **[preface](preface/landing.md)**, you’ll learn about how this course came to be and find a list of resources for foundational image analysis concepts that will help you get the most out of these materials. In the **[onboarding section](onboard/landing.md)**, you’ll learn more about what napari is, and be guided through installing napari and plugins on your computer. Finally in the **[workflows section](workflow/landing.md)**, you'll dig into three case studies that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own), and various napari plugins.
+This course is split into 3 sections consisting of both video and text. In the **[preface](preface/landing.md)**, you’ll learn about how this course came to be and find a list of resources for foundational image analysis concepts that will help you get the most out of these materials. In the **[onboarding section](onboard/landing.md)**, you’ll learn more about what napari is, and be guided through installing napari and plugins on your computer. Finally in the **[workflows section](workflow/landing.md)**, you'll dig into three cell segmentation case studies (nuclei, foci in nuclei, and filaments) that illustrate how to perform a cell segmentation workflow from start to finish within napari, using sample data (or your own), and various napari plugins.
 
 <br>
  
@@ -21,11 +21,11 @@ This course is split into 3 sections. In the **[preface](preface/landing.md)**, 
   
 - [Installing the latest version of napari with minimal coding](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#video-walkthrough) 💽  
 
-- [Classical segmentation with *PartSeg*](workflow/partseg.md) ⚙️
+- [Nuclei segmentation with *Cellpose*](workflow/cellpose.md) ⚙️
+
+- [Foci segmentation with *PartSeg*](workflow/partseg.md) ⚙️
   
-- [Napari segmentation workflow: *Cellpose*](workflow/cellpose.md) ⚙️
-  
-- [Napari segmentation workflow: *Allen Cell Segmenter*](workflow/allencell.md) ⚙️
+- [Filament segmentation with *Allen Cell Segmenter*](workflow/allencell.md) ⚙️
 :::
 :::{grid-item-card}  **Supporting links**
 - [Napari.org](https://napari.org) community and developer site
