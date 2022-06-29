@@ -524,7 +524,7 @@ title="Print to PDF"
 <p><strong>By <a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#praju-anekal">Praju Anekal</a> 🔬</strong></p>
 <section id="learning-objectives">
 <h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">#</a></h2>
-<p>In this lesson, you’ll learn how to use and configure the Allen Cell Segmenter plugin for napari to complete a segmentation workflow.</p>
+<p>In this lesson, you’ll learn how to use and configure the Allen Cell Segmenter napari plugin to complete a segmentation workflow.</p>
 <ol class="simple">
 <li><p><a class="reference internal" href="allencell-protocol.html"><span class="doc std std-doc">A walkthrough of the segmentation protocol, with napari screenshots</span></a></p></li>
 <li><p><a class="reference internal" href="allencell-parameters.html"><span class="doc std std-doc">An explanation of parameters and effects, pertaining to <em>actin filaments</em></span></a></p></li>
@@ -572,15 +572,15 @@ title="Print to PDF"
 </section>
 <section id="what-does-this-plugin-do">
 <h2>What does this plugin do?<a class="headerlink" href="#what-does-this-plugin-do" title="Permalink to this headline">#</a></h2>
-<p>The Allen Cell Segmenter consists of a <em>pre-designed</em> classical image segmentation workflow for many types of cellular components, and <strong>3D data</strong> sets. It allows you to choose your workflow from a library of images which most resemble your own data, and then adjust parameters within the workflow steps to optimize the segmentation quality of the data that results.</p>
+<p>The Allen Cell Segmenter consists of a <em>pre-designed</em> classical image segmentation workflow for many types of cellular components, and <strong>3D data</strong> sets.</p>
 <p>The plugin workflow itself is broken into 3 discrete parts:</p>
 <ul class="simple">
-<li><p><strong>Preprocessing</strong> &gt;</p></li>
-<li><p><strong>Segmentation</strong> &gt;</p></li>
+<li><p><strong>Preprocessing</strong></p></li>
+<li><p><strong>Segmentation</strong></p></li>
 <li><p><strong>Post processing</strong></p></li>
 </ul>
-<p>One of this plugin’s core features is its ability to simplify a researcher’s choice of workflows. When choosing your workflow, you will be presented with a library of similar-looking structures for you to compare and choose from. Clicking on one of these images will load the appropriate workflow.</p>
-<p>Once segmentation is completed, Allen Cell <strong>outputs a segmented mask</strong> which can be exported by napari, or analyzed by another napari plugin (e.g. <a class="reference external" href="https://www.napari-hub.org/plugins/PartSeg">PartSeg</a>).</p>
+<p>It allows you to choose your workflow from a library of images, choosing whichever image most resembles your data. You can then adjust parameters within the workflow steps to optimize the segmentation quality of the data that results.</p>
+<p>Once segmentation is completed, Allen Cell outputs a segmented mask which can be analyzed by another napari plugin (e.g. <a class="reference external" href="https://www.napari-hub.org/plugins/PartSeg">PartSeg</a>).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Beyond these basic functions, Allen Cell Segmenter also has an <strong><a class="reference external" href="https://www.youtube.com/watch?v=W1DPfZk5iF8&amp;t=8s">iterative deep-learning</a></strong> component based on user-trained pixel classification (which is not within the scope of this lesson).</p>
