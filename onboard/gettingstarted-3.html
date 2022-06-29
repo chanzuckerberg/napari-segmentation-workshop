@@ -434,14 +434,31 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#plugin-installation-tutorial">
-   Plugin Installation Tutorial
+  <a class="reference internal nav-link" href="#plugin-installation-video-tutorial">
+   Plugin Installation Video Tutorial
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
+  <a class="reference internal nav-link" href="#background">
+   Background
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plugin-installation-tutorial">
+   Plugin Installation Tutorial
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#example-case-study-installing-plugins-to-open-vendor-specific-file-types">
+     Example Case Study: Installing Plugins to Open Vendor-Specific File Types
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#updating-plugins">
+     Updating Plugins
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -473,14 +490,31 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#plugin-installation-tutorial">
-   Plugin Installation Tutorial
+  <a class="reference internal nav-link" href="#plugin-installation-video-tutorial">
+   Plugin Installation Video Tutorial
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
+  <a class="reference internal nav-link" href="#background">
+   Background
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plugin-installation-tutorial">
+   Plugin Installation Tutorial
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#example-case-study-installing-plugins-to-open-vendor-specific-file-types">
+     Example Case Study: Installing Plugins to Open Vendor-Specific File Types
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#updating-plugins">
+     Updating Plugins
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -503,12 +537,13 @@ title="Print to PDF"
 <script src="https://fast.wistia.com/embed/medias/md1jundqsq.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:64.79% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_md1jundqsq seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/md1jundqsq/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 <p>The reader is highly encouraged to visit the napari hub prior to installation of plugins to browse available plugins, read descriptions, review documentation, and see links to developer content.  Taking a few minutes to review options to ensure a plugin is right for your intended application  in this way can be invaluable in saving time later on. For example, some plugins have specific recommendations for how to install, which may be different from the steps outlined below.</p>
 </section>
-<section id="plugin-installation-tutorial">
-<h2>Plugin Installation Tutorial<a class="headerlink" href="#plugin-installation-tutorial" title="Permalink to this headline">#</a></h2>
+<section id="plugin-installation-video-tutorial">
+<h2>Plugin Installation Video Tutorial<a class="headerlink" href="#plugin-installation-video-tutorial" title="Permalink to this headline">#</a></h2>
 <script src="https://fast.wistia.com/embed/medias/em0g2n34k7.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_em0g2n34k7 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/em0g2n34k7/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+<p>Follow along with the video and reference the text below as needed.</p>
 </section>
-<section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this headline">#</a></h2>
 <p>A user may ask why programs such as napari require plugins to accomplish certain functions, or add additional functionality.  There are many reasons behind this, but two of the most common ones are:</p>
 <ul class="simple">
 <li><p>By providing a core viewer without plugins pre-installed, it enables the program to enjoy a so-called “light weight” installation, which minimizes the burden on user machines.  This makes sense when one considers the myriad plugins available over time, a researcher’s need to perhaps on need a few, and the widely varying performance capabilities of user computers.</p></li>
@@ -520,6 +555,45 @@ title="Print to PDF"
 <p class="admonition-title">Hint</p>
 <p>Note: It is always good to remember that with any open-source program with a constantly evolving repository of plugins, the relative “maturity” of a plugin can widely vary. For example, some plugins may be intuitive to install, use, and are well-documented, vs. others that are not.</p>
 </div>
+</section>
+<section id="plugin-installation-tutorial">
+<h2>Plugin Installation Tutorial<a class="headerlink" href="#plugin-installation-tutorial" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Activate the virtual environment where you installed napari</p>
+<ul>
+<li><p>For an environment called ‘napari-env’ use the command: <strong>conda activate napari-env</strong></p></li>
+</ul>
+</li>
+<li><p>Launch napari</p>
+<ul>
+<li><p>Command: <strong>napari</strong></p></li>
+</ul>
+</li>
+<li><p>Find the plugins menu item and click “Install/Uninstall Plugins…”</p></li>
+<li><p>The subsequent window will display plugins that are previously installed (top portion of the window), as well as a list of plugins that are available (lower portion).</p></li>
+<li><p>While the user is free to scroll through the list of plugins, it may be more efficient to type a keyword related to the function or plugin name they are looking for in the filter box (at top).</p></li>
+<li><p>Click install to begin installation of your desired plugins</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Note: Just because a plugin has been installed, does not mean it has been enabled! To enable/disable, use the checkbox next to the plugin.</p>
+</div>
+<section id="example-case-study-installing-plugins-to-open-vendor-specific-file-types">
+<h3>Example Case Study: Installing Plugins to Open Vendor-Specific File Types<a class="headerlink" href="#example-case-study-installing-plugins-to-open-vendor-specific-file-types" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Let’s say you need to open a dataset acquired on a commercial system with a file type native to that particular system (i.e.: Nikon .nd2, Zeiss .czi, Leica .lif, Olympus .oif, etc.)</p></li>
+<li><p>When attempting to drag one of these file types into the napari viewer, you notice the following error, alerting us that no current plugin exists to open the file:</p></li>
+<li><p>Heading to the Plugins menu and dialogue (see previous), let’s search for “nd2”.</p></li>
+<li><p>Here we see a plugin titled: “napari-nikon-nd2”, which seems appropriate.</p></li>
+<li><p>By clicking the blue “install” button to the right of it, we can add it to our list of installed plugins:</p></li>
+<li><p>Upon attempting to open the same [.nd2] dataset again, we are successful!</p></li>
+<li><p>Of course, not all plugin installations are perfect and may have either errors or bugs that pop up.  This is why it is important to visit <span class="xref myst">napari hub</span> and read the available documentation in order to review any suggested installation notes that would differ from the aforementioned.</p></li>
+</ul>
+</section>
+<section id="updating-plugins">
+<h3>Updating Plugins<a class="headerlink" href="#updating-plugins" title="Permalink to this headline">#</a></h3>
+<p>Periodically, updates to installed plugins may become available.  This will be displayed in the “Install/Uninstall Plugins” dialogue as seen below. Update your plugins as desired.</p>
+</section>
 </section>
 </section>
 
