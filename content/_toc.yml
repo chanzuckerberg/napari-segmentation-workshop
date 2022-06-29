@@ -36,5 +36,4 @@ parts:
       - file: workflow/allencell-parameters
       
  - caption: "Closing"
-  chapters:
-  - file: closing
+  - file: napari-segmentation-workshop/content/closing
