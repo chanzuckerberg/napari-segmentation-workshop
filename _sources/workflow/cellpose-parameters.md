@@ -4,13 +4,13 @@
 
 ![Opening cellpose in the napari menu](images/cellpose1.png)
 
-After you've launched the napari viewer, you may open the *Cellpose-napari* plugin by clicking on the **Plugins** menu on the right side of your screen, then checking the plugin in the list that appears.  
+After you've launched the napari viewer, you may open the *Cellpose-napari* plugin by clicking on the **Plugins** menu on the right side of your screen. The plugin should open with the menu shown below.
 
 ![Opening cellpose in the napari menu](images/cellpose2.png)
 
 ## Cellpose parameters
 
-### Image layer: 
+***Image layer*** 
 
 Define the layer / image that will be segmented using cellpose.
 
