@@ -569,29 +569,46 @@ title="Print to PDF"
 </ul>
 </li>
 <li><p>Find the plugins menu item and click “Install/Uninstall Plugins…”</p></li>
+</ul>
+<p><img alt="napari install uninstall menu" src="../_images/plugin1.png" /></p>
+<ul class="simple">
 <li><p>The subsequent window will display plugins that are previously installed (top portion of the window), as well as a list of plugins that are available (lower portion).</p></li>
 <li><p>While the user is free to scroll through the list of plugins, it may be more efficient to type a keyword related to the function or plugin name they are looking for in the filter box (at top).</p></li>
+</ul>
+<p><img alt="napari plugin menu" src="../_images/plugin2.png" /></p>
+<ul class="simple">
 <li><p>Click install to begin installation of your desired plugins</p></li>
 </ul>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>Note: Just because a plugin has been installed, does not mean it has been enabled! To enable/disable, use the checkbox next to the plugin.</p>
 </div>
+<p><img alt="napari plugin enable disable menu" src="../_images/plugin5.png" /></p>
 <section id="example-case-study-installing-plugins-to-open-vendor-specific-file-types">
 <h3>Example Case Study: Installing Plugins to Open Vendor-Specific File Types<a class="headerlink" href="#example-case-study-installing-plugins-to-open-vendor-specific-file-types" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Let’s say you need to open a dataset acquired on a commercial system with a file type native to that particular system (e.g. Nikon .nd2, Zeiss .czi, Leica .lif, Olympus .oif, etc.)</p></li>
 <li><p>When attempting to drag one of these file types into the napari viewer, you notice the following error, alerting us that no current plugin exists to open the file:</p></li>
+</ul>
+<p><img alt="napari file reader error message" src="../_images/plugin3.png" /></p>
+<ul class="simple">
 <li><p>Heading to the Plugins menu and dialogue (see previous), let’s search for “nd2”.</p></li>
 <li><p>Here we see a plugin titled: “napari-nikon-nd2”, which seems appropriate.</p></li>
+</ul>
+<p><img alt="napari nikon nd2 opener plugin" src="../_images/plugin4.png" /></p>
+<ul class="simple">
 <li><p>By clicking the blue “install” button to the right of it, we can add it to our list of installed plugins:</p></li>
 <li><p>Upon attempting to open the same [.nd2] dataset again, we are successful!</p></li>
+</ul>
+<p><img alt="napari canvas showing opened nd2 image" src="../_images/plugin6.png" /></p>
+<ul class="simple">
 <li><p>Of course, not all plugin installations are perfect and may have either errors or bugs that pop up.  This is why it is important to visit <span class="xref myst">napari hub</span> and read the available documentation in order to review any suggested installation notes that would differ from the aforementioned.</p></li>
 </ul>
 </section>
 <section id="updating-plugins">
 <h3>Updating Plugins<a class="headerlink" href="#updating-plugins" title="Permalink to this headline">#</a></h3>
 <p>Periodically, updates to installed plugins may become available.  This will be displayed in the “Install/Uninstall Plugins” dialogue as seen below. Update your plugins as desired.</p>
+<p><img alt="napari install uninstall menu showing option to update plugins" src="../_images/plugin7.png" /></p>
 </section>
 </section>
 </section>
