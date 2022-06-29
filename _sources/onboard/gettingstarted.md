@@ -15,7 +15,7 @@ In this lesson, you'll learn how to install napari with *minimal coding*, how vi
 
 ## Installation flowchart
 
-![napari installation flowchart](images/flowchart.png)
+![napari installation flowchart](images/install_flowchart.png)
 
 Here is an overview of all of the steps for installing napari in the recommended way using an environment manager. An environment manager allows you to create multiple virtual environments, like separate sandboxes, on your computer for installing programs, like napari, without affecting other parts of your system. Below is a visual example of a computer with 3 separate environments, named **napari-cell**, **napari-env**, and **napari-clean**, each with a separate installation of napari along with one or more plugins. More on managing environments and installation next.
 
