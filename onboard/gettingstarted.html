@@ -439,13 +439,13 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction-to-napari-s-python-requirements">
-   Introduction to napari’s Python requirements
+  <a class="reference internal nav-link" href="#background-python-and-napari">
+   Background: Python and napari
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#installation-of-python-via-an-environment-manager">
-   Installation of Python via an environment manager
+  <a class="reference internal nav-link" href="#background-virtual-environments-and-environment-manager">
+   Background: Virtual environments and environment manager
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -488,13 +488,13 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction-to-napari-s-python-requirements">
-   Introduction to napari’s Python requirements
+  <a class="reference internal nav-link" href="#background-python-and-napari">
+   Background: Python and napari
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#installation-of-python-via-an-environment-manager">
-   Installation of Python via an environment manager
+  <a class="reference internal nav-link" href="#background-virtual-environments-and-environment-manager">
+   Background: Virtual environments and environment manager
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -519,8 +519,11 @@ title="Print to PDF"
 <h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">#</a></h2>
 <p>In this lesson, you’ll learn how to install napari with <em>minimal coding</em>, how virtual environments tie into installation, and launching napari for the first time.</p>
 <ol class="simple">
-<li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#installation-of-python-via-an-environment-manager">Installing a Python distribution</a></p></li>
-<li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#creating-a-virtual-environment">Creating a new virtual environment</a></p></li>
+<li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#installation-flowchart">Installation flowchart</a></p></li>
+<li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#video-walkthrough">Video walkthrough of installing napari</a></p></li>
+<li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#installation-of-python-via-an-environment-manager">Background: Python and napari</a></p></li>
+<li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#creating-a-virtual-environment">Background: Virtual environments and environment manager</a></p></li>
+<li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#creating-a-virtual-environment">Steps to install miniconda, an environment manager</a></p></li>
 <li><p><a class="reference external" href="https://github.com/chanzuckerberg/napari-segmentation-workshop/blob/main/content/onboard/gettingstarted-2.md#creating-a-virtual-environment">Activating a new virtual environment</a></p></li>
 <li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#installation-of-napari">Installing napari</a></p></li>
 <li><p><a class="reference external" href="https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#launching-napari-after-installation-session">Launching napari</a></p></li>
@@ -539,14 +542,14 @@ title="Print to PDF"
 <h2>Video walkthrough<a class="headerlink" href="#video-walkthrough" title="Permalink to this headline">#</a></h2>
 <script src="https://fast.wistia.com/embed/medias/j0644yvc89.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_j0644yvc89 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/j0644yvc89/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 </section>
-<section id="introduction-to-napari-s-python-requirements">
-<h2>Introduction to napari’s Python requirements<a class="headerlink" href="#introduction-to-napari-s-python-requirements" title="Permalink to this headline">#</a></h2>
+<section id="background-python-and-napari">
+<h2>Background: Python and napari<a class="headerlink" href="#background-python-and-napari" title="Permalink to this headline">#</a></h2>
 <p>Like every software package out there, napari is written with a programming language. For example, Windows is based in <em>C</em>, various statistics programs are written in <em>R</em>, and ImageJ is based on <em>Java</em>. Napari is written with a language called <em>Python</em>.</p>
 <p>Python is a widely popular scientific computing language with many years of contributions under its belt. As such, there are multitudes of tools (and algorithms) that a program like napari can leverage to accomplish its tasks. Python, by default, does not always come pre-installed   on computers, and one needs to manually install it in order to execute Python-based programs.</p>
 <p>Although this is likely to change in the future, there is no “quick install” of napari (and its requisite Python coding language). Here we walk through the steps necessary for doing so, including getting Python installed on your machine, and subsequently the individual commands necessary for installing napari itself. This particular tutorial will focus on installing the aforementioned on a Windows machine.</p>
 </section>
-<section id="installation-of-python-via-an-environment-manager">
-<h2>Installation of Python via an environment manager<a class="headerlink" href="#installation-of-python-via-an-environment-manager" title="Permalink to this headline">#</a></h2>
+<section id="background-virtual-environments-and-environment-manager">
+<h2>Background: Virtual environments and environment manager<a class="headerlink" href="#background-virtual-environments-and-environment-manager" title="Permalink to this headline">#</a></h2>
 <p>To be clear, there are several ways one could install Python on your machine. For example, one could visit the <a class="reference external" href="https://www.python.org/">Python website</a> to install solely the Python language itself. However, we can install Python along with an <strong>environment manager</strong>, which is the recommended prerequisites installing napari.</p>
 <p>The environment manager is called “miniconda”— a lightweight distribution of a bigger package called conda. Miniconda installs Python along with a few essential packages and is a <strong>package manager</strong> that enables creating and managing virtual environments.</p>
 <p>A virtual environment can be summed up as a contained place, or sandbox, where both a program and its various dependencies (i.e. other related files required for elements of a program to run) are installed. Having such a place available is extremely helpful, especially when using programs in active development, as environments can be created and deleted at will (if for example, there was a corruption, or bug that was hard to track down you could simply delete the environment and continue in a new environment with a fresh install).</p>
