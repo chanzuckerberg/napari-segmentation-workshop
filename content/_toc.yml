@@ -17,11 +17,10 @@ parts:
   chapters:
   - file: onboard/whatisnapari
   - file: onboard/gettingstarted
-    sections:
-      - file: onboard/gettingstarted-2
-      - file: onboard/gettingstarted-3
+  - file: onboard/gettingstarted-2
+  - file: onboard/gettingstarted-3
 
-- caption: "Segmentation workflows"
+- caption: "Segmentation Workflows"
   chapters:
   - file: workflow/cellpose
     sections:
