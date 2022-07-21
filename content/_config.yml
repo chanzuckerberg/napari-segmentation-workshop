@@ -37,7 +37,8 @@ html:
   use_repository_button: true
 
 
-# # uncomment below to set jupyterbook to use napari sphinx theme
-# sphinx:
-#   config:
-#     html_theme: napari
+sphinx:
+  config:
+    # uncomment below to set jupyterbook to use napari sphinx theme
+    # html_theme: napari
+    templates_path: ['_templates']
