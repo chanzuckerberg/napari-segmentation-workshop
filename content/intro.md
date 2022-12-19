@@ -2,7 +2,9 @@
 
 **By [the Bravo Cohort](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html) 🔬**
 
-Welcome to the napari Cell Segmentation course! This course will take a few hours to complete and will walk you from onboarding to napari to completing your first segmentation workflow using napari and plugins from the [napari hub](https://www.napari-hub.org). Although napari currently requires some coding in Python, we designed each lesson in this course for researchers with *no prior coding* experience. Whenever coding is needed, we've provided you detailed instructions to follow. 
+Welcome to the napari Cell Segmentation course! This course will take a few hours to complete and will walk you from onboarding to napari to completing your first segmentation workflow using napari and plugins from the [napari hub](https://www.napari-hub.org). You can find all of the plugins needed for the course in this [Plugin Collection](https://www.napari-hub.org/collections/cell-segmentation-course).
+
+Although napari currently requires some coding in Python, we designed each lesson in this course for researchers with *no prior coding* experience. Whenever coding is needed, we've provided you detailed instructions to follow. 
  
 We want to emphasize that [napari](https://www.napari.org) itself is in the **alpha stage of development**—meaning we are still actively updating and adding new napari features, including some core features you may have used on other analysis platforms.
 
