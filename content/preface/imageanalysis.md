@@ -2,11 +2,12 @@
 
 As a reference, you may want to review some general concepts commonly used in image analysis. We've provided these resources to give more context into the steps that occur within cell segmentation workflows. Review as needed before continuing the course.
 
-**Intro to classical image analysis from Christian Tischer**
+**Intro to classical image analysis from Christian Tischer**  
+-[Bioimage Analysis - Christian Tischer (EMBL)]
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/0PP38Z0CNMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>  
-
-**Intro to image filtering and segmentation from Robert Haase**
+    
+**Intro to image filtering and segmentation from Robert Haase**  
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/LT8L3vSLQ2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>  
 
