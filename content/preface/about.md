@@ -10,7 +10,7 @@ This website and all its contents are made available under the [MIT License]().
 
 Copyright (c) 2022 Chan Zuckerberg Initiative
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this course and associated documentation files (the "Course"), to deal the Course without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Course, and to permit persons to whom the Course is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this course and associated documentation files (the "Course"), to deal the Course without restriction, including without limitation, the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Course, and to permit persons to whom the Course is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Course.
 
@@ -22,7 +22,7 @@ This project adheres to a Code of Conduct. By participating, you are expected to
 
 #### Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+In the interest of fostering an open and welcoming environment, we, as contributors and maintainers, pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 #### Our Standards
 
