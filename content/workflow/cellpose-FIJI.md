@@ -1,26 +1,31 @@
-# Segmenting in napari, and exporting a mask in FIJI
+# Segmenting in napari, and exporting a mask in FIJI  
+
+Install the  *cellpose-napari* plugin.   
 
 ## Workflow for 2D Segmentation
 
-* Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate [cellpose parameters](cellpose-parameters.md) (uncheck **“Process stack as 3D”**).
-* Run the segmentation.
+* Go to the Plugins dropdown and select *cellpose-napari*.
+* Open your image in the napari viewer. 
+* Select the appropriate [cellpose parameters](cellpose-parameters.md) from the options on the right side of the screen on the *cellpose-napari* panel. Be sure to uncheck **Process stack as 3D**.
+* Click the bar at the bottom of the *cellpose-napari* panel to run the segmentation.
 
 ## Workflow for 3D Segmentation
 
-* Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate [cellpose parameters](cellpose-parameters.md) (check off **”Process stack as 3D”** OR use the **“stitch threshold slices”** option).
-* Run the segmentation.
+* Go to the Plugins dropdown and select *cellpose-napari*.
+* Open your image in the napari viewer. 
+* Select the appropriate [cellpose parameters](cellpose-parameters.md). Be sure to check off **Process stack as 3D** OR use the **stitch threshold slices** option.
+* Click the bar at the bottom of the *cellpose-napari* panel to run the segmentation.
 
 ## Workflow for Time segmentation
 
-* Open your image in the napari viewer, with *cellpose-napari* enabled. 
-* Select the appropriate [cellpose parameters](cellpose-parameters.md) (use the **“stitch threshold slices”** option with value >0).
-* Run the segmentation.
+* Go to the Plugins dropdown and select *cellpose-napari*.
+* Open your image in the napari viewer.  
+* Select the appropriate [cellpose parameters](cellpose-parameters.md) Be sure to use the **stitch threshold slices** option with value > 0.
+* Click the bar at the bottom of the *cellpose-napari* panel to run the segmentation.
 
 ## Export mask as TIF
 
-Convert the **“label layer”** into an image by right clicking on it and selecting: **“Convert to image”**. Proceed to split this image into individual images by right clicking and selecting **“Split Stack”** (3D and time Serie only). Then reconvert each image into a label by right clicking on it and selecting: **“Convert to label”**. Rename them as makes sense to you (**e.g.** 1-12). Finally save each label as a tif.
+Convert the **label layer** into an image by right clicking on it and selecting: **Convert to image**. Proceed to split this image into individual images by right clicking and selecting **Split Stack** (3D and time Series only). Then reconvert each image into a label by right clicking on it and selecting: **Convert to label**. Rename them as makes sense to you (**e.g.** 1-12). Finally, save each label as a tif.
 
 ![Converting your image to a tif in cellpose-napari](images/cellpose3.png)
 
@@ -30,7 +35,7 @@ Convert the **“label layer”** into an image by right clicking on it and sele
 
 ## Opening the mask in FIJI
 
-Use the plugin Bio Format importer and select: **”group file with similar name”** (3D and time Serie only). In the pop-up window, select:”pattern”. Open normally for 2D mask. You will be able to display the raw image and the mask image side by side.
+Use the plugin Bio Format importer and select: **group file with similar name** (3D and time Serie only). In the pop-up window, select:**pattern**. Open normally for 2D mask. You will be able to display the raw image and the mask image side by side.
 
 ![Using the plugin BioFormat importer](images/cellpose5.png)
 
