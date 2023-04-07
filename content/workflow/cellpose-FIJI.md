@@ -1,7 +1,5 @@
 # Segmenting in napari, and exporting a mask in FIJI  
 
-Install the  *cellpose-napari* plugin.   
-
 ## Workflow for 2D Segmentation
 
 * Go to the Plugins dropdown and select *cellpose-napari*.
