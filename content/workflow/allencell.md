@@ -19,20 +19,20 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter n
 | [napari v 0.4.14](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, verify your version of napari by clicking on the **Help** menu, then **napari info**. | |
 | [napari-allencell-segmenter v 1.1.4](https://www.napari-hub.org/plugins/cellpose-napari) | Mandatory  | Install this plugin from within the napari viewer, by going to the **Plugin** menu, then clicking on **Install/uninstall plugins**. Search for *napari-allencell-segmenter* and click **install**. | |
 | <center>**Image inputs**</center> |  |  |
-| Image stack (3D data: 8, 12, and 16 bit) | Mandatory  | In some cases, the plugin may return error messages when the image scale is imported incorrectly. When this occurs, remove any pixel scaling before repeating this step. | |
+| Image stack (3D data: 8, 12, and 16 bit) | Mandatory  | In some cases, the plugin may return error messages when the image scale is imported incorrectly. If this occurs, remove any pixel scaling before repeating this step. | |
 | <center>**Sample data**</center> |  |  |
 | [Sample data used in lesson](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif) | *Optional* | Although napari may support the importing of other file types, this sample image is a tiff. | |
 
 ## What does this plugin do?
 
-The Allen Cell Segmenter consists of a *pre-designed* classical image segmentation workflow for many types of cellular components, and **3D data** sets. 
+The Allen Cell Segmenter consists of a *pre-designed* classical image segmentation workflow for many types of cellular components and **3D data** sets. 
 
-The plugin workflow itself is broken into 3 discrete parts:
+The plugin workflow itself is broken into 3 discrete parts, (please see graphics at the top of this article):
 - **Preprocessing** 
 - **Segmentation**  
 - **Post processing**
 
-It allows you to choose your workflow from a library of images, choosing whichever image most resembles your data. You can then adjust parameters within the workflow steps to optimize the segmentation quality of the data that results. 
+It allows you to select your workflow from a library of images, choosing whichever image most resembles your data. You can then adjust parameters within the workflow steps to optimize the segmentation quality of the data that results. 
 
 Once segmentation is completed, Allen Cell outputs a segmented mask which can be analyzed by another napari plugin (e.g. [PartSeg](https://www.napari-hub.org/plugins/PartSeg)). 
 
@@ -46,7 +46,7 @@ Beyond these basic functions, Allen Cell Segmenter also has an **[iterative deep
 
 <br>
   
-The above video demonstrates how to complete the [Allen Cell segmentation workflow](allencell-protocol.md) within napari, and also showcases how the adjusting of parameters affects the resulting segmentation.
+The above video demonstrates how to complete the [Allen Cell segmentation workflow](allencell-protocol.md) within napari, and showcases how adjusting parameters affects the resulting segmentation.
 
 ## Supporting materials
 
