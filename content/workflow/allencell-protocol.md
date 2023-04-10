@@ -59,4 +59,4 @@ All the intermediate steps between each part of a workflow are displayed as laye
  
 ![Intermediate steps of Allen Cell Segmenter as layers in napari viewer](images/allencell-9.png)
 
-- Your 'image' now needs to be converted into a **binary** (0/1 or 0/255) **mask** if it is to be exported. You can easily convert it into a binary by right-clicking the layer in question and selecting **"convert image to labels"** from the menu that appears. 
+- Your 'image' now needs to be converted into a **binary** (0/1 or 0/255) **mask** if it is to be exported. You can easily convert it into a binary mask by right-clicking the layer in question and selecting **convert image to labels** from the menu that appears. 
