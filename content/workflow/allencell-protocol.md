@@ -2,13 +2,14 @@
 
 ## Launch napari and import your image
 
-- Begin by importing an image to be analyzed. You may either drag and drop your image directly into the napari viewer, or locate it on your computer using the menu **File >> Open**. 
+- Begin by importing an image to be analyzed. Drag and drop your image directly into the napari viewer, or locate it on your computer using the main menu **File > Open**. 
 
 :::{hint}
-Before proceeding, ensure that the Builtin reader plugin is being used, to minimize errors. You can verify this by going to menu [**File >> Preference >> Plugins**](images/preferences-plugin.png), then checking that **"Builtin reader plugin"** is enabled. 
+Before proceeding, ensure that the Builtin reader plugin is being used, to minimize errors. You can verify this by going to menu [**File > Preference > Plugins**](images/preferences-plugin.png), then checking that **"Builtin reader plugin"** is enabled. 
 :::
+<!-- I am not sure exactly what the previous hint means.  I could not find a "Builtin ready plugin."  I found "get_reader." -->
 
-- In this instance, I've opened an image of *actin filaments* (which you can download for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)). 
+- In this instance, an image of *actin filaments* is open (which you can download for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)). 
 
 ![Sample data of actin filaments](images/allencell-2.png)
 
@@ -16,11 +17,11 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 #### Open Allen Cell Segmenter Workflow editor
 
-- With your image loaded, go to the menu **Plugins >> napari-allencell-segmenter >> Workflow editor**. 
+- With the image loaded, go to the menu **Plugins > napari-allencell-segmenter > Workflow editor**. 
 
 ![Workflow editor for Allen Cell Segmenter in napari viewer](images/allencell-3.png)
 
-#### Select your image to segment
+#### Select the image to segment
 
 - In the "Workflow selection steps" window that appears, click on the 1st drop down menu (#1), then select the image you imported previously. 
 
@@ -34,11 +35,11 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 #### Select a comparable reference 
 
-- In the final dropdown menu (#3), choose an image from the reference library that most matches the image you've selected to segment and analyze.
+- In the final dropdown menu (#3), choose an image from the reference library that most closely matches the image you've selected to segment and analyze.
 
 ![Reference library of images in Allen Cell Segmenter](images/allencell-6.png)
 
-- Using our [sample data](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif), we'll choose the last image in this library since it most matches our own imported image. 
+- Using our [sample data](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif), we'll choose the last image in this library since it most closely matches our own imported image. 
 
 ![Choosing a comparable image from the Allen Cell Segmenter reference library of images](images/allencell-7.png)
 
@@ -58,4 +59,4 @@ All the intermediate steps between each part of a workflow are displayed as laye
  
 ![Intermediate steps of Allen Cell Segmenter as layers in napari viewer](images/allencell-9.png)
 
-- Your 'image' now needs to be converted into a **binary** (0/1 or 0/255) **mask** if it is to be exported. You can easily convert it into a binary by right-clicking on the layer in question and selecting **"convert image to labels"** from the menu that appears. 
+- Your 'image' now needs to be converted into a **binary** (0/1 or 0/255) **mask** if it is to be exported. You can easily convert it into a binary by right-clicking the layer in question and selecting **"convert image to labels"** from the menu that appears. 
