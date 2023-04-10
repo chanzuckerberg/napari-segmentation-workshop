@@ -6,9 +6,9 @@ The example below pertains to the segmentation of *actin filaments*. Your option
 
 #### Pre-processing: Intensity normalization
 
-Intended for scaling the intensity of the image between 0-1. The parameters themselves are **scaling_param 1** and **scaling_param 2**. These set the range from the **mean image intensity** to **normalised**. 
+Intended for scaling the intensity of the image between 0-1. The parameters are **scaling_param 1** and **scaling_param 2**. These set the range from the **mean image intensity** to **normalised**. 
 
-The mean image intensity is calculated for the image; then scaling_param 1 and 2 are substracted or added to the mean, setting a range that will be scaled from 0-1. 
+The mean image intensity is calculated for the image; then scaling_param 1 and 2 are subtracted or added to the mean, setting a range that will be scaled from 0-1. 
 
 ![Mean intensity and scaling_parameters of Allen Cell Segmenter](images/allencell-10.png)
 
@@ -28,7 +28,7 @@ An image smoothed to reduce noise. No parameters are required.
 
 #### Core segmentation: Sigma
 
-Allows you to set for the expected thickness of filaments. Smaller values lend themselves to *thinner tilaments*; while larger values are best used with *thicker filaments*. 
+Allows you to set the expected thickness of filaments. Smaller values lend themselves to *thinner filaments*; while larger values are best used with *thicker filaments*. 
 
 ![Fine and thick filaments in Allen Cell Segmenter](images/allencell-12.png)
 
