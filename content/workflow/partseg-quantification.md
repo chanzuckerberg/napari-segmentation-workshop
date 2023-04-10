@@ -2,9 +2,9 @@
 
 As we approach the final steps of our workflow, napari gives us several options for quantification of regions based on the segmentation masks. Importantly, you can perform this quantification regardless of how the segmentation mask was created or loaded into the napari viewer. 
 
-- If interested in a simple quantification check, check the **Simple Measurement** tool in the PartSeg napari viewer widget. 
+- If interested in a simple quantification check, look at the **Simple Measurement** tool in the PartSeg napari viewer widget. 
 
-- For full flexibility of quantifying different classes of objects, check the **Measurement** tool in the PartSeg napari viewer widget. 
+- For full flexibility of quantifying different classes of objects, look at the **Measurement** tool in the PartSeg napari viewer widget. 
 
 ## Simple measurements in PartSeg
 
