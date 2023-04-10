@@ -23,7 +23,7 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 #### Select the image to segment
 
-- In the "Workflow selection steps" window that appears, click on the 1st drop down menu (#1), then select the image you imported previously. 
+- In the **Workflow selection steps** window that appears, click the first drop down menu (#1), then select the image you imported previously. 
 
 ![Workflow editor image selection](images/allencell-4.png)
 
