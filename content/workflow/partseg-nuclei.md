@@ -14,20 +14,24 @@ Here is a sample exercise that shows how setting the parameters allows you to fi
 - **Median type**: *Layer* (for 3D data, choose *Stack*)  
 - **Median radius**: *2*       
 
-![image](https://user-images.githubusercontent.com/113559244/231029187-07ff663a-c073-4fec-863c-779538ceb845.png)  
+![roi-mask-extraction-partseg-pre-processing](https://user-images.githubusercontent.com/113559244/231263832-4dc5a6a1-c3e8-4b8b-8c8b-0c0991df4db1.png)  
 
 #### Thresholding settings <- This heading does not appear on the screen but these parameters set up the thresholding.   
--Threshold: *Otsu*
-Apply mask: should be checked
-Histogram bins: 128
+-**Threshold**: *Otsu*  
+-**Apply mask**: should be checked  
+-**Histogram bins**: *128*  
 
-Post-processing settings <- This heading does not appear on the screen but these parameters set up the post-processing. 
-Fill holes: should be checked
-Maximum holes size (px): 100
-Smooth borders: Opening 
-Smooth borders radius: 5
-Side by side connections: should be checked
-Minimum size: 400
-Use convex hull: 1
+![roi-mask-extraction-partseg-thresholding](https://user-images.githubusercontent.com/113559244/231263524-6c36ab4b-0146-412b-b359-fcba169d2875.png)  
+
+#### Post-processing settings <- This heading does not appear on the screen but these parameters set up the post-processing.   
+-**Fill holes**: should be checked  
+-**Maximum holes size (px)**: *100*    
+-**Smooth borders**: *Opening*    
+-**Smooth borders radius**: *5*  
+-**Side by side connections**: should be checked  
+-**Minimum size**: *400*  
+-**Use convex hull**: *1*  
+  
+![roi-mask-extraction-partseg-post-processing](https://user-images.githubusercontent.com/113559244/231264568-b28d5706-c202-488a-8bc7-62e75a825a3d.png)  
 
 Once all the parameters are set you can choose to save them at the top of this panel. Then click run to see the effect of these settings. Of course, you can change them and re-run partseg to see how the parameters affect the segmentation. 
