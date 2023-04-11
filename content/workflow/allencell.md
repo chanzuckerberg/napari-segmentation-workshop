@@ -12,6 +12,7 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter n
 
 - **Time to learn**: 1 hour
 
+
 ## Prerequisites
 
 | Napari version and plugins                                                                     | Importance | Notes |
