@@ -18,8 +18,8 @@ Here is a sample exercise that shows how setting the parameters allows you to fi
 
 #### Thresholding settings <- This heading does not appear on the screen but these parameters set up the thresholding.   
 -**Threshold**: *Otsu*  
--**Apply mask**: should be checked  
--**Histogram bins**: *128*  
+-**Apply mask**: should be checked    
+-**Histogram bins**: *128*    
 
 ![roi-mask-extraction-partseg-thresholding](https://user-images.githubusercontent.com/113559244/231263524-6c36ab4b-0146-412b-b359-fcba169d2875.png)  
 
