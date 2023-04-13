@@ -41,7 +41,32 @@ Once segmentation is completed, Allen Cell outputs a segmented mask which can be
 Beyond these basic functions, Allen Cell Segmenter also has an **[iterative deep-learning](https://www.youtube.com/watch?v=W1DPfZk5iF8&t=8s)** component based on user-trained pixel classification (which is not within the scope of this lesson).
 :::
 
-## Demo of *Allen Cell Segmenter*
+## Demo of *Allen Cell Segmenter*  
+The following video demonstrates how to use the Allen Cell Segmenter plugin.  
+
+**Note:** To change the speed of the video, click the cog wheel in the lower right corner, then *speed*, and select the desired speed. 
+
+The basic steps are:
+- Drag and drop your image into napari.  
+- Use the slider bar at the bottom of the screen to choose the part of the image to examine. 
+- Ensure you have already installed the napari-allencell-segmenter plugin. 
+- Load the napari-allencell-segmenter plugin.  
+(**Plugins**>**napari-allencell-segmenter**>**Workflow editor**)  
+A panel appears on the right side of the screen with a selection of images. 
+- Change option 2 to *Channel 0*.
+- Choose the image that most closely matches the one you are examining. The panel now shows options for **Preprocessing**, **Core**, and **Postprocessing**.  
+  - Preprocessing  
+    1. Intensity Normalization - select scaling_param 1 and scaling_param 2.    
+      2. Edge Preserving Smoothing - no parameters needed. 
+  - Core  
+      3. Filament Filter 3D  
+      - sigmas  
+      - cutoff
+  - Postprocessing  
+      4. Size Filter  
+      - min_size  
+      - method  
+  - You can run your workflow and then save it. 
 
 <center><script src="https://fast.wistia.com/embed/medias/388imsy9td.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_388imsy9td seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/388imsy9td/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></center>
 
