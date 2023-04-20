@@ -7,9 +7,13 @@
 :::{hint}
 Before proceeding, ensure that the Builtin reader plugin is being used, to minimize errors. You can verify this by going to menu [**File > Preference > Plugins**](images/preferences-plugin.png), then checking that **"Builtin reader plugin"** is enabled. 
 :::
-<!-- I am not sure exactly what the previous hint means.  I could not find a "Builtin ready plugin."  I found "get_reader." -->
+<!-- I am not sure exactly what the previous hint means.  I could not find a "Builtin reader" plugin. -->
 
-- In this instance, an image of *actin filaments* is open (which you can download for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)). 
+- In this instance, an image of *actin filaments* is open (which you can download for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)).  
+
+:::{hint}
+Right click on the playback button on the left end of the slider bar under the image to change the speed at which the image is shown. (The file is only 10 seconds long so I chose one frame/second.) Right click on the `contrast limits:` slider and adjust the upper contrast limit to about 62 to see the image better. 
+:::
 
 ![Sample data of actin filaments](images/allencell-2.png)
 
@@ -17,7 +21,7 @@ Before proceeding, ensure that the Builtin reader plugin is being used, to minim
 
 #### Open Allen Cell Segmenter Workflow editor
 
-- With the image loaded, go to the menu **Plugins > napari-allencell-segmenter > Workflow editor**. 
+- With the image loaded, go to the menu: **Plugins > napari-allencell-segmenter > Workflow editor**. 
 
 ![Workflow editor for Allen Cell Segmenter in napari viewer](images/allencell-3.png)
 
