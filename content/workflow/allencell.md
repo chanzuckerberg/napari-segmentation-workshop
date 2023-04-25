@@ -17,7 +17,7 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter n
 | <center>Napari version and plugins</center>| Importance | Notes |
 |--------------------------- | ---------- | ----- |
 | [napari v 0.4.14](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, verify your version of napari by clicking on the **Help** menu, then **napari info**. | |
-| [napari-allencell-segmenter v 1.1.4](https://www.napari-hub.org/plugins/cellpose-napari) | Mandatory  | Install this plugin from within the napari viewer: Go to the **Plugin** menu, then click **Install/uninstall plugins**. Search for *napari-allencell-segmenter* and click **install**. | |
+| [napari-allencell-segmenter v 1.1.4](https://www.napari-hub.org/plugins/cellpose-napari) | Mandatory <td> <ul> <li>In Windows, install this plugin using `python -m pip install napari==0.4.xx` where xx is the desired version of napari.</li> <li>In Mac OS or Linux, install this plugin from within the napari viewer: Go to the **Plugin** menu, then click **Install/uninstall plugins**. Search for *napari-allencell-segmenter* and click **install**. </li> </ul> </td>
 | <center>**Image inputs**</center> |  |  |
 | Image stack (3D data: 8, 12, and 16 bit) | Mandatory  | In some cases, the plugin may return error messages when the image scale is imported incorrectly. If this occurs, remove any pixel scaling before repeating this step. | |
 | <center>**Sample data**</center> |  |  |
@@ -45,9 +45,10 @@ The following video demonstrates how to use the Allen Cell Segmenter plugin.
 
 **Note:** To change the speed of the video, click the cog wheel in the lower right corner, then *speed*, and select the desired speed. 
 
-a more detailed description of the protocol is given in the [Protocol for segmentation workflow] (content\workflow\allencell-protocol.md) article but the basic steps are:
+A more detailed description of the protocol is given in the [Protocol for segmentation workflow](\allencell-protocol.md) article. A summary of the basic steps is:
 - Drag and drop your image into napari or open it from the **File** menu.  
 - Use the slider bar at the bottom of the screen to choose the part of the image to examine. 
+**Note:** You can adjust the speed at which the image is displayed by right clicking the play button at the left end of the playback bar: ![play button](images/play-button.png) and choosing the number of frames/second to display. I chose to view one frame/second. You can move one frame at a time by clicking the ![frame-by-frame-button-left](images/frame-by-frame-button-left.png) or ![frame-by-frame-button-right](images/frame-by-frame-button-right.png) buttons at either end of the playback bar. 
 - Ensure you have already installed the napari-allencell-segmenter plugin. 
 - Load the napari-allencell-segmenter plugin.  
 (**Plugins**>**napari-allencell-segmenter**>**Workflow editor**)  
