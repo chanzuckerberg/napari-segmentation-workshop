@@ -1,6 +1,6 @@
 # Primer to image analysis
 
-As a reference, you may want to review some general concepts commonly used in image analysis. We've provided these resources to give more context into the steps that occur within cell segmentation workflows. Review as needed before continuing the course.
+As a reference, you may want to review some general concepts commonly used in image analysis. We've provided these resources to give more context to the steps that occur within cell segmentation workflows. Review as needed before continuing the course.
 
 **Intro to classical image analysis from Christian Tischer**  
 -[Bioimage Analysis - Christian Tischer (EMBL)]

@@ -5,10 +5,10 @@ What is napari?
 
 This is a brief introduction to napari geared towards people without coding experience in the context of the no-code workflows later on in the course. In this lesson, you'll learn what [napari](https://www.napari.org) is, its relationship with the Python coding language, and some of the advantages of using open-source imaging tech. 
 
-1.  [What is napari?](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html#what-is-napari)
-2.  [The power of Python](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html#the-power-of-python)
-3.  [Interoperability of napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html#interoperability-of-napari)
-4.  [Supporting materials](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/whatisnapari.html#supporting-materials)
+1.  [What is napari?](#what-is-napari)
+2.  [The power of Python](#the-power-of-python)
+3.  [Interoperability of napari](#interoperability-of-napari)
+4.  [Supporting materials](#supporting-materials)
 
 - **Time to learn**: 20 minutes
 

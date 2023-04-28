@@ -5,16 +5,17 @@ Getting started with napari and plugins
 
 In this lesson, you'll learn how to install napari with *minimal coding*, how virtual environments tie into installation, and how to find and install napari plugins. 
 
-1.  [Installation flowchart](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#installation-flowchart)
-2.  [Background: Python and napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#background-python-and-napari)
-3.  [Background: Virtual environments and environment manager](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#background-virtual-environments-and-environment-manager)
-4.  [Video walkthrough of installing napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#video-walkthrough)
-5.  [Steps to install miniconda, an environment manager](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted.html#steps-to-install-miniconda)
-6.  [Steps for creating and using a new virtual environment](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html)
-8.  [Steps for installing napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#installation-of-napari)
-9.  [How to launch napari](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-2.html#launching-napari-after-installation-session)
-10.  [Plugins overview](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-3.html)
-11.  [How to install napari plugins](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/gettingstarted-3.html#plugin-installation-tutorial)
+1.  [Installation flowchart](#installation-flowchart)
+2.  [Background: Python and napari](#background-python-and-napari)
+3.  [Background: Virtual environments and environment manager](#background-virtual-environments-and-environment-manager)
+4.  [Video walkthrough](#video-walkthrough)
+5.  [Install python + environment manager — miniconda](#install-python--environment-manager--miniconda)
+6.  [Create a virtual environment](./gettingstarted-2.md#create-a-virtual-environment)
+7.  [Activate virtual environment](./gettingstarted-2.md#activate-virtual-environment)
+8.  [Install napari](./gettingstarted-2.md#install-napari)
+9.  [How to launch napari after installation](./gettingstarted-2.md#launching-napari-after-installation-session)
+10.  [Plugins overview](./gettingstarted-3.md)
+11.  [How to install napari plugins](./gettingstarted-3.md#plugin-installation-tutorial)
 
 - **Time to learn**: 1 hour
 
