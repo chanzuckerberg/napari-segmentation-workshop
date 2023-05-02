@@ -3,7 +3,7 @@
 Allen Cell Segmenter
 =======================
 **By [Praju Anekal](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/whomadethis.html#praju-anekal) 🔬**
-## Learning Objectives
+## Learning Objectives  
 
 In this lesson, you'll learn how to use and configure the Allen Cell Segmenter napari plugin to complete a segmentation workflow. The lesson includes:
 
