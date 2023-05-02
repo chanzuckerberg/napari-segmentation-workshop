@@ -16,7 +16,7 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter n
 
 | <center>Napari version and plugins</center>| Importance | Notes |
 |--------------------------- | ---------- | ----- |
-| [napari v 0.4.14](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, verify your version of napari by clicking on the **Help** menu, then **napari info**. | |
+| [napari v 0.4.17](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, verify your version of napari by clicking on the **Help** menu, then **napari info**. | |
 | [napari-allencell-segmenter v 1.1.4](https://www.napari-hub.org/plugins/cellpose-napari) | Mandatory <td> <ul> <li>In Windows, install this plugin using `python -m pip install napari==0.4.xx` where xx is the desired version of napari.</li> <li>In Mac OS or Linux, install this plugin from within the napari viewer: Go to the **Plugin** menu, then click **Install/uninstall plugins**. Search for *napari-allencell-segmenter* and click **install**. </li> </ul> </td>
 | <center>**Image inputs**</center> |  |  |
 | Image stack (3D data: 8, 12, and 16 bit) | Mandatory  | In some cases, the plugin may return error messages when the image scale is imported incorrectly. If this occurs, remove any pixel scaling before repeating this step. | |
