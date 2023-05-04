@@ -17,7 +17,7 @@ In this lesson, you'll learn how to use and configure the Allen Cell Segmenter n
 | <center>Napari version and plugins</center>| Importance | Notes |
 |--------------------------- | ---------- | ----- |
 | [napari v 0.4.17](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | In the napari viewer, verify your version of napari by clicking on the **Help** menu, then **napari info**. | |
-| [napari-allencell-segmenter v 1.1.4](https://www.napari-hub.org/plugins/cellpose-napari) | Mandatory <td> <ul> <li>In Windows, install this plugin using `python -m pip install napari==0.4.xx` where xx is the desired version of napari.</li> <li>In Mac OS or Linux, install this plugin from within the napari viewer: Go to the **Plugin** menu, then click **Install/uninstall plugins**. Search for *napari-allencell-segmenter* and click **install**. </li> </ul> </td>
+| [napari-allencell-segmenter v 1.1.4](https://www.napari-hub.org/plugins/cellpose-napari) | Mandatory <td>Install this plugin from within the napari viewer: <li>Go to the **Plugin** menu <li> Click **Install/uninstall plugins**.</li> <li  style="margin-left:2em">Search for *napari-allencell-segmenter* </li> <li style="margin-left:2em"> Click **install**. </li> If the install is not successful, resist the urge to attempt to reinstall it from the menu. Pip install it instead. <li> Open a terminal or console prompt </li> <li> Enter `python -m pip install napari==0.4.xx` where xx is the desired version of napari.</li> </ul> </td>
 | <center>**Image inputs**</center> |  |  |
 | Image stack (3D data: 8, 12, and 16 bit) | Mandatory  | In some cases, the plugin may return error messages when the image scale is imported incorrectly. If this occurs, remove any pixel scaling before repeating this step. | |
 | <center>**Sample data**</center> |  |  |
@@ -47,14 +47,16 @@ The following video demonstrates how to use the Allen Cell Segmenter plugin.
 
 A more detailed description of the protocol is given in the [Protocol for segmentation workflow](\allencell-protocol.md) article. A summary of the basic steps is:
 - Drag and drop your image into napari or open it from the **File** menu.  
-- Use the slider bar at the bottom of the screen to choose the part of the image to examine. 
-**Note:** You can adjust the speed at which the image is displayed by right clicking the play button at the left end of the playback bar: ![play button](images/play-button.png) and choosing the number of frames/second to display. I chose to view one frame/second. You can move one frame at a time by clicking the ![frame-by-frame-button-left](images/frame-by-frame-button-left.png) or ![frame-by-frame-button-right](images/frame-by-frame-button-right.png) buttons at either end of the playback bar. 
+- Use the slider bar at the bottom of the screen to choose the part of the image to examine.  
+
+- Adjust the speed at which the image is displayed by right clicking the play button at the left end of the playback bar: ![play button](images/play-button.png) and choosing the number of frames/second to display down to one frame/second.  
+- After pausing playback, you can move one frame at a time by clicking the ![frame-by-frame-button-left](images/frame-by-frame-button-left.png) or ![frame-by-frame-button-right](images/frame-by-frame-button-right.png) buttons at either end of the playback bar. 
 - Ensure you have already installed the napari-allencell-segmenter plugin. 
-- Load the napari-allencell-segmenter plugin.  
+- Load the napari-allencell-segmenter plugin Workflow editor.  
 (**Plugins**>**napari-allencell-segmenter**>**Workflow editor**)  
 A panel appears on the right side of the screen with a selection of images. 
-- Change option 2 to *Channel 0*.
-- Choose the image that most closely matches the one you are examining. The panel now shows options for **Preprocessing**, **Core**, and **Postprocessing**.  
+  - Change option 2 to *Channel 0*.
+  - Choose the image that most closely matches the one you are examining. The panel now shows options for **Preprocessing**, **Core**, and **Postprocessing**.  
   - Preprocessing  
     1. Intensity Normalization - select scaling_param 1 and scaling_param 2.    
     2. Edge Preserving Smoothing - no parameters needed. 
@@ -67,7 +69,7 @@ A panel appears on the right side of the screen with a selection of images.
        - min_size  
        - method  
   - You can run your workflow and then save it. 
-  <!--I would put the next article before this one. That way they can read about the process and then the demo video would make more sense. --> 
+<!--I would put the next article before this one. That way they can read about the process and then the demo video would make more sense. --> 
 
 <center><script src="https://fast.wistia.com/embed/medias/388imsy9td.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_388imsy9td seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/388imsy9td/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></center>
 
@@ -87,4 +89,4 @@ The above video demonstrates how to complete the [Allen Cell segmentation workfl
 
 ## Advanced materials 
 
-- [Detailed video on the algorithms behind the Allen Cell Segmenter](https://www.youtube.com/watch?v=Ynl_Yt9N8p4)
+[Detailed video on the algorithms behind the Allen Cell Segmenter](https://www.youtube.com/watch?v=Ynl_Yt9N8p4)

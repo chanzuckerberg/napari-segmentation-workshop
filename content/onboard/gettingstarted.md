@@ -57,7 +57,8 @@ Watch the video for exposure or follow the steps in the video and actually insta
 
 ![Link to download miniconda](images/install-1.png)
 
-- Select the appropriate miniconda installation for your computer. In this example, the Windows 64-bit installation is highlighted. For Mac users, download the pkg file associated with your processor. (Check to see what your processor is by going to Apple menu > **About This Mac**. For Intel processors, download the x86 file, and for ARM processors, download the Apple M1 file.)
+- Select the appropriate miniconda installation for your computer. In this example, the Windows 64-bit installation is highlighted. For Mac users, download the pkg file associated with your processor. (Check to see what your processor is by going to Apple menu > **About This Mac**.) For Intel processors, download the x86 file, and for ARM processors, download the Apple M1 file.  
+**Important:** Avoid the bash versions.
 
 :::{hint} 
 Note the current version of Python that will be installed. Below, this is listed as *Python 3.9.7*. Links to install previous versions of Python are typically available further down the page.

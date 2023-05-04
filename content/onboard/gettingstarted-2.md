@@ -53,7 +53,8 @@ For the purposes of this tutorial, it is not necessary to understand the nature 
 Now that you have installed napari, the procedure for launching it is:
 
 - Windows users enter 
-```anaconda prompt (miniconda3)```   
+
+   ```anaconda prompt (miniconda3)```   
 in the search bar.  
 - Mac users enter ```terminal```.
 - Once you have the terminal or prompt window, enter  
