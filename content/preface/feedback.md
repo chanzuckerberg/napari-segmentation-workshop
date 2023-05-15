@@ -3,6 +3,7 @@
 We hope these questions will help you in your napari learning journey! If you need additional information or assistance, you can reach a human at team@napari-hub.org.
 
 ## Who built this
+
 The napari cell segmentation learning course is a open source project of Chan Zuckerberg Intiative (“CZI”) in collaboration with premier Imaging Scientists from across the world. You can learn more about the project [here](./whomadethis.md).
 
 ## Something’s not working in the lessons, how do I get help?

@@ -3,3 +3,4 @@ matplotlib
 numpy
 ghp-import
 napari-sphinx-theme
+pydata-sphinx-theme<0.13
