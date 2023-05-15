@@ -14,14 +14,14 @@ Here is a sample exercise that shows how setting the parameters allows you to fi
 - **Median type**: *Layer* (for 3D data, choose *Stack*)  
 - **Median radius**: *2*       
 
-![roi-mask-extraction-partseg-pre-processing](https://user-images.githubusercontent.com/113559244/231263832-4dc5a6a1-c3e8-4b8b-8c8b-0c0991df4db1.png)  
+![roi-mask-extraction-partseg-pre-processing](.\images\roi-mask-extraction-partseg-pre-processing.png)  
 
 #### Thresholding settings <- This heading does not appear on the screen but these parameters set up the thresholding.   
 -**Threshold**: *Otsu*  
 -**Apply mask**: should be checked    
 -**Histogram bins**: *128*    
 
-![roi-mask-extraction-partseg-thresholding](https://user-images.githubusercontent.com/113559244/231263524-6c36ab4b-0146-412b-b359-fcba169d2875.png)  
+![roi-mask-extraction-partseg-thresholding](.\images\roi-mask-extraction-partseg-thresholding.png)  
 
 #### Post-processing settings <- This heading does not appear on the screen but these parameters set up the post-processing.   
 -**Fill holes**: should be checked  
@@ -32,6 +32,6 @@ Here is a sample exercise that shows how setting the parameters allows you to fi
 -**Minimum size**: *400*  
 -**Use convex hull**: *1*  
   
-![roi-mask-extraction-partseg-post-processing](https://user-images.githubusercontent.com/113559244/231264568-b28d5706-c202-488a-8bc7-62e75a825a3d.png)  
+![roi-mask-extraction-partseg-post-processing](.\images\roi-mask-extraction-partseg-post-processing.png)  
 
 Once all the parameters are set you can choose to save them at the top of this panel. Then click run to see the effect of these settings. Of course, you can change them and re-run partseg to see how the parameters affect the segmentation. 

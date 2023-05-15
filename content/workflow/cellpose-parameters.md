@@ -2,29 +2,30 @@
 
 ## Opening the *Cellpose-napari* plugin
 
+After launching the napari viewer, open the *cellpose-napari* plugin by clicking on the **Plugins** menu at the top of the screen and selecting `cellpose-napari: cellpose`. The plugin should open the panel shown below on the right side of the screen.  
+
 ![Opening cellpose in the napari menu](images/cellpose1.png)
 
-After you've launched the napari viewer, you may open the *Cellpose-napari* plugin by clicking on the **Plugins** menu at the top of the screen. The plugin should open the panel shown below on the right side of the screen.
+## *Cellpose-napari* parameters
 
+Once *cellpose-napari* is open, you will see a panel open on the right side of napari, as shown below. 
 ![Opening cellpose in the napari menu](images/cellpose2.png)
 
-## Cellpose parameters
-
-As a reference, here is a description of the Cellpose parameters to assist you in using and optimizing Cellpose for your data.
+Here is a description of the Cellpose parameters to assist you in using and optimizing Cellpose for your data.
 
 **Image layer**
 
-Define the layer or image that will be segmented using cellpose.
+This is the layer or image that will be segmented using cellpose.
 
-**Model type for pretrained model** 
-* the **cyto** model (Cytoplasm), to segment cells stained for their cytoplasm
-* the **nuclei** model (Nuclei) to segment cell nuclei
-* the **cyto2** model (Cytoplasm 2.0), which is the cyto model augmented with user-submitted images
-* the **Custom** model, which lets you specify a custom model you have trained or downloaded. Select this under: **custom model path** > **select file**
+**Model type (for pretrained models)** 
+* the **cyto** model (cytoplasm), to segment cells stained for their cytoplasm
+* the **nuclei** model (nuclei) to segment cell nuclei
+* the **cyto2** model (cytoplasm 2.0), which is the cyto model augmented with user-submitted images
+* the **custom** model, which lets you specify a custom model you have trained or downloaded. Select this under: **custom model path** > **select file**
 
 **Channel to segment** 
 
-Indicate the channel that will be segmented. If the channel contains cytoplasmic structures, it should be associated with the **cyto** and **cyto2** pretrained models, or nuclei with the **nuclei** model. 
+Indicate the channel that will be segmented. If the channel contains cytoplasmic structures, it should be associated with the **cyto** and **cyto2** pretrained models. If it contains nuclei, associate it with the **nuclei** model. 
    
 **Segmentation of RGB images** 
 * '0’ means that cellpose will run on a grayscale combination of all channels.
@@ -47,17 +48,17 @@ The cytoplasm model in cellpose is trained on two-channel images, where the firs
 
 The nuclear model in cellpose is trained on two-channel images, where the first channel is the channel to segment, and the second channel is always set to an array of zeros. Therefore, set the first channel as 0=grayscale, 1=red, 2=green, 3=blue; and set the second channel to 0=None  
 
-**Diameter (in pixels)** <!-- I am really not sure if this is what I was supposed to do. Originally this was part of the line above and it said, "* Diameter (pixel):" -->
+**Diameter (in pixels)**  
     
-The cellpose models have been trained on images which were rescaled to all have the same diameter (30 pixels in the case of the cyto model and 17 pixels in the case of the nuclei model). Therefore, cellpose needs a user-defined cell diameter (in pixels) as input, or to estimate the object size of an image-by-image basis. If 0 cellpose will estimate for each image, default is 30. <!-- The last sentence doesn't make sense to me. Does it mean that if the user-defined cell diameter (in pixels) is 0, cellpose will estimate for each image with a default of 30 pixels? -->
+The cellpose models have been trained on images which were rescaled to all have the same diameter (30 pixels in the case of the cyto model and 17 pixels in the case of the nuclei model). Therefore, cellpose needs a user-defined cell diameter (in pixels) as input, or to estimate the object size of an image-by-image basis. If the diameter is left at 0, cellpose will estimate the diameter for each image with a default value of 30. 
 
 * Click **compute diameter from image** to start diameter estimation. However, if this estimate is incorrect, please set the diameter by hand.
 
 OR
 
-* You can also get an estimate from clicking on the image, creating a napari ‘Shapes’ layer and drawing circles or squares around your cells. If you click **compute diameter from shape layer**, the plugin will set the diameter to the average diameter of the drawn shapes. <!-- I couldn't figure out how to draw shapes the size I wanted. I have done it before. This time the shapes came out huge and I couldn't figure out how to resize them or make them come out smaller. -->
+* You can also get an estimate from clicking on the image, creating a napari ‘Shapes’ layer and drawing circles or squares around your cells. If you click **compute diameter from shape layer**, the plugin will set the diameter to the average diameter of the drawn shapes. 
 
-Changing the diameter will change the results that the algorithm outputs. When the diameter is set smaller than the true size, cellpose may over-split cells. If the diameter is set too big then cellpose may over-merge cells.
+Changing the diameter will change the results of the algorithm. When the diameter is set smaller than the true size, cellpose may over-split cells. If the diameter is set too big then cellpose may over-merge cells.
 
 **Cell probability threshold (number of masks)** 
 

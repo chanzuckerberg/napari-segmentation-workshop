@@ -22,19 +22,19 @@ Values dependent on the image mean value and intensity skew in the image itself.
 
 #### Pre-processing: Edge preserving smoothing
 
-An image smoothed to reduce noise. No parameters are required.
+An image is smoothed to reduce noise. No parameters are required.
 
 ![Intensity normalized and smoothed in Allen Cell Segmenter](images/allencell-11.png)
 
 #### Core segmentation: Sigma
 
-Allows you to set the expected thickness of filaments. Smaller values lend themselves to *thinner filaments*; while larger values are best used with *thicker filaments*. 
+**Sigma** allows you to set the expected thickness of filaments. Smaller values lend themselves to *thinner filaments*; while larger values are best used with *thicker filaments*. 
 
 ![Fine and thick filaments in Allen Cell Segmenter](images/allencell-12.png)
 
 #### Core segmentation: Cutoff
 
-Allows you to set the threshold for the image. 
+**Cutoff** allows you to set the threshold for the image. 
 
 ![Setting threshold for an image in Allen Cell Segmenter](images/allencell-13.png)
 

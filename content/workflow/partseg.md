@@ -18,8 +18,8 @@ In this lesson, you'll learn how to use and configure the PartSeg plugin in napa
 
 | Napari version and plugins                                                                     | Importance | Notes |
 | -------------------------------------------------------------------------------- | ---------- | ----- |
-| [napari v 0.4.15](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | Tested with this napari version. Verify your version by going to the **Help** menu and choosing **napari info**. <!-- What if they have a different version, like 0.4.17? -->
-| [PartSeg v 0.14.2](https://www.napari-hub.org/plugins/PartSeg) | Mandatory  | Install this plugin from within the napari viewer, by going to the **Plugin** menu, then clicking on **Install/uninstall plugins**. Search for *PartSeg* and click **install**. | |<!-- What if they have a different version, like 0.14.6? -->
+| [napari v 0.4.17](https://chanzuckerberg.github.io/napari-segmentation-workshop/onboard/lesson3.html) | Mandatory  | Tested with this napari version. Verify your version by going to the **Help** menu and choosing **napari info**.  
+| [PartSeg v 0.14.6](https://www.napari-hub.org/plugins/PartSeg) | Mandatory  | Install this plugin from within the napari viewer, by going to the **Plugin** menu, then clicking on **Install/uninstall plugins**. Search for *PartSeg* and click **install**. | |
 | [Napari-segment-blobs-and-things-with-membranes v 0.2.22](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes) | Mandatory  | Install this plugin from within the napari viewer, by going to the **Plugin** menu, then clicking on **Install/uninstall plugins**. Search for *Napari-segment-blobs-and-things-with-membranes* and click **install**. | |
 | <center>**Sample data**</center> |  |  |
 | [2D data used in lesson](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/cells_gh2ax.tif) | *Optional* |  | |
@@ -37,8 +37,6 @@ A classical segmentation pipeline is built around a thresholding algorithm to de
 <center>
 <script src="https://fast.wistia.com/embed/medias/oogdwlg80o.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_oogdwlg80o seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/oogdwlg80o/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 </center>
-
-<br>
 
 ### Supporting materials
 - [Image Analysis Primer](https://chanzuckerberg.github.io/napari-segmentation-workshop/preface/imageanalysis.html)

@@ -18,6 +18,7 @@ parts:
   - file: onboard/whatisnapari
   - file: onboard/gettingstarted
   - file: onboard/gettingstarted-2
+  - file: onboard/gettingstarted2-5-napari-plugin-installation-workflow.md
   - file: onboard/gettingstarted-3
 
 - caption: "Segmentation Workflows"
