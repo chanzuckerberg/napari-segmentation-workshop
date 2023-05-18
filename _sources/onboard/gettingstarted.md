@@ -5,7 +5,7 @@ Getting started with napari and plugins
 
 In this lesson, you'll learn how to install napari with *minimal coding*, how virtual environments tie into installation, and how to find and install napari plugins. 
 
-1.  [Installation flowchart](#installation-flowchart)
+1.  [General napari installation workflow](#napari-installation-workflow)
 2.  [Background: Python and napari](#background-python-and-napari)
 3.  [Background: Virtual environments and environment manager](#background-virtual-environments-and-environment-manager)
 4.  [Video walkthrough](#video-walkthrough)
@@ -19,11 +19,11 @@ In this lesson, you'll learn how to install napari with *minimal coding*, how vi
 
 - **Time to learn**: 1 hour
 
-## Installation flowchart
+## General napari installation workflow
 
-![napari installation flowchart](images/install_flowchart.png)
+![general napari installation workflow](images/general-napari-installation-workflow-waterfall.png)  
 
-An overview of the steps for installing napari in the recommended way, using an environment manager, is presented in the Video Walkthrough, below. An environment manager allows you to create multiple virtual environments, like separate sandboxes, on your computer for installing programs like napari, without affecting other parts of your system. Here is a visual example of a computer with 3 separate virtual environments, named **napari-cell**, **napari-env**, and **napari-clean**. Each one has a separate installation of napari along with one or more plugins. More on managing environments and installation follows.
+An overview of the steps for installing napari in the recommended way, using an environment manager, is presented in the [Video walkthrough](#video-walkthrough). An environment manager allows you to create multiple virtual environments, like separate sandboxes, on your computer for installing programs like napari, without affecting other parts of your system. Here is a visual example of a computer with 3 separate virtual environments, named **napari-cell**, **napari-env**, and **napari-clean**. Each one has a separate installation of napari along with one or more plugins. More on managing environments and installation follows.
 
 ![Example of a computer with 3 virtual environments](images/environments.png)
 

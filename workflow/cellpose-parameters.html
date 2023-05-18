@@ -60,7 +60,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'workflow/cellpose-parameters';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Segmenting in napari, and exporting a mask in FIJI" href="cellpose-FIJI.html" />
+    <link rel="next" title="Segmenting in napari and exporting a mask in FIJI" href="cellpose-FIJI.html" />
     <link rel="prev" title="Cellpose-napari + FIJI" href="cellpose.html" />
     <script async defer data-domain="czi-napari-segmentation-workshop" src="https://plausible.io/js/plausible.js"></script>
     
@@ -188,6 +188,13 @@ const thebe_selector_output = ".output, .cell_output"
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="../onboard/gettingstarted-2.html">
                         Create a virtual environment and install napari
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
                       </a>
                     </li>
                 
@@ -356,6 +363,13 @@ Classical segmentation with PartSeg
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../onboard/gettingstarted-3.html">
                         Installing napari plugins
                       </a>
@@ -474,6 +488,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1"><a class="reference internal" href="../onboard/whatisnapari.html">What is napari?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted.html">Getting started with napari and plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted-2.html">Create a virtual environment and install napari</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">napari plugin installation workflow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted-3.html">Installing napari plugins</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Segmentation Workflows</span></p>
@@ -481,7 +496,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="cellpose.html">
 Cellpose-napari + FIJI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Understanding and adjusting parameters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cellpose-FIJI.html">Segmenting in napari, and exporting a mask in FIJI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cellpose-FIJI.html">Segmenting in napari and exporting a mask in FIJI</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="partseg.html">
@@ -663,8 +678,11 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#cellpose-parameters">
-   Cellpose parameters
+  <a class="reference internal nav-link" href="#cellpose-napari-parameters">
+   <em>
+    Cellpose-napari
+   </em>
+   parameters
   </a>
  </li>
 </ul>
@@ -680,24 +698,25 @@ title="Print to PDF"
 <h1>Understanding and adjusting parameters<a class="headerlink" href="#understanding-and-adjusting-parameters" title="Permalink to this headline">#</a></h1>
 <section id="opening-the-cellpose-napari-plugin">
 <h2>Opening the <em>Cellpose-napari</em> plugin<a class="headerlink" href="#opening-the-cellpose-napari-plugin" title="Permalink to this headline">#</a></h2>
+<p>After launching the napari viewer, open the <em>cellpose-napari</em> plugin by clicking on the <strong>Plugins</strong> menu at the top of the screen and selecting <code class="docutils literal notranslate"><span class="pre">cellpose-napari:</span> <span class="pre">cellpose</span></code>. The plugin should open the panel shown below on the right side of the screen.</p>
 <p><img alt="Opening cellpose in the napari menu" src="../_images/cellpose1.png" /></p>
-<p>After you’ve launched the napari viewer, you may open the <em>Cellpose-napari</em> plugin by clicking on the <strong>Plugins</strong> menu at the top of the screen. The plugin should open the panel shown below on the right side of the screen.</p>
-<p><img alt="Opening cellpose in the napari menu" src="../_images/cellpose2.png" /></p>
 </section>
-<section id="cellpose-parameters">
-<h2>Cellpose parameters<a class="headerlink" href="#cellpose-parameters" title="Permalink to this headline">#</a></h2>
-<p>As a reference, here is a description of the Cellpose parameters to assist you in using and optimizing Cellpose for your data.</p>
+<section id="cellpose-napari-parameters">
+<h2><em>Cellpose-napari</em> parameters<a class="headerlink" href="#cellpose-napari-parameters" title="Permalink to this headline">#</a></h2>
+<p>Once <em>cellpose-napari</em> is open, you will see a panel open on the right side of napari, as shown below.
+<img alt="Opening cellpose in the napari menu" src="../_images/cellpose2.png" /></p>
+<p>Here is a description of the Cellpose parameters to assist you in using and optimizing Cellpose for your data.</p>
 <p><strong>Image layer</strong></p>
-<p>Define the layer or image that will be segmented using cellpose.</p>
-<p><strong>Model type for pretrained model</strong></p>
+<p>This is the layer or image that will be segmented using cellpose.</p>
+<p><strong>Model type (for pretrained models)</strong></p>
 <ul class="simple">
-<li><p>the <strong>cyto</strong> model (Cytoplasm), to segment cells stained for their cytoplasm</p></li>
-<li><p>the <strong>nuclei</strong> model (Nuclei) to segment cell nuclei</p></li>
-<li><p>the <strong>cyto2</strong> model (Cytoplasm 2.0), which is the cyto model augmented with user-submitted images</p></li>
-<li><p>the <strong>Custom</strong> model, which lets you specify a custom model you have trained or downloaded. Select this under: <strong>custom model path</strong> &gt; <strong>select file</strong></p></li>
+<li><p>the <strong>cyto</strong> model (cytoplasm), to segment cells stained for their cytoplasm</p></li>
+<li><p>the <strong>nuclei</strong> model (nuclei) to segment cell nuclei</p></li>
+<li><p>the <strong>cyto2</strong> model (cytoplasm 2.0), which is the cyto model augmented with user-submitted images</p></li>
+<li><p>the <strong>custom</strong> model, which lets you specify a custom model you have trained or downloaded. Select this under: <strong>custom model path</strong> &gt; <strong>select file</strong></p></li>
 </ul>
 <p><strong>Channel to segment</strong></p>
-<p>Indicate the channel that will be segmented. If the channel contains cytoplasmic structures, it should be associated with the <strong>cyto</strong> and <strong>cyto2</strong> pretrained models, or nuclei with the <strong>nuclei</strong> model.</p>
+<p>Indicate the channel that will be segmented. If the channel contains cytoplasmic structures, it should be associated with the <strong>cyto</strong> and <strong>cyto2</strong> pretrained models. If it contains nuclei, associate it with the <strong>nuclei</strong> model.</p>
 <p><strong>Segmentation of RGB images</strong></p>
 <ul class="simple">
 <li><p>‘0’ means that cellpose will run on a grayscale combination of all channels.</p></li>
@@ -720,16 +739,16 @@ title="Print to PDF"
 <li><p>channel 2. 0=None (will set to zero), 1=red, 2=green, 3=blue, 4.</p></li>
 </ul>
 <p>The nuclear model in cellpose is trained on two-channel images, where the first channel is the channel to segment, and the second channel is always set to an array of zeros. Therefore, set the first channel as 0=grayscale, 1=red, 2=green, 3=blue; and set the second channel to 0=None</p>
-<p><strong>Diameter (in pixels)</strong> <!-- I am really not sure if this is what I was supposed to do. Originally this was part of the line above and it said, "* Diameter (pixel):" --></p>
-<p>The cellpose models have been trained on images which were rescaled to all have the same diameter (30 pixels in the case of the cyto model and 17 pixels in the case of the nuclei model). Therefore, cellpose needs a user-defined cell diameter (in pixels) as input, or to estimate the object size of an image-by-image basis. If 0 cellpose will estimate for each image, default is 30. <!-- The last sentence doesn't make sense to me. Does it mean that if the user-defined cell diameter (in pixels) is 0, cellpose will estimate for each image with a default of 30 pixels? --></p>
+<p><strong>Diameter (in pixels)</strong></p>
+<p>The cellpose models have been trained on images which were rescaled to all have the same diameter (30 pixels in the case of the cyto model and 17 pixels in the case of the nuclei model). Therefore, cellpose needs a user-defined cell diameter (in pixels) as input, or to estimate the object size of an image-by-image basis. If the diameter is left at 0, cellpose will estimate the diameter for each image with a default value of 30.</p>
 <ul class="simple">
 <li><p>Click <strong>compute diameter from image</strong> to start diameter estimation. However, if this estimate is incorrect, please set the diameter by hand.</p></li>
 </ul>
 <p>OR</p>
 <ul class="simple">
-<li><p>You can also get an estimate from clicking on the image, creating a napari ‘Shapes’ layer and drawing circles or squares around your cells. If you click <strong>compute diameter from shape layer</strong>, the plugin will set the diameter to the average diameter of the drawn shapes. <!-- I couldn't figure out how to draw shapes the size I wanted. I have done it before. This time the shapes came out huge and I couldn't figure out how to resize them or make them come out smaller. --></p></li>
+<li><p>You can also get an estimate from clicking on the image, creating a napari ‘Shapes’ layer and drawing circles or squares around your cells. If you click <strong>compute diameter from shape layer</strong>, the plugin will set the diameter to the average diameter of the drawn shapes.</p></li>
 </ul>
-<p>Changing the diameter will change the results that the algorithm outputs. When the diameter is set smaller than the true size, cellpose may over-split cells. If the diameter is set too big then cellpose may over-merge cells.</p>
+<p>Changing the diameter will change the results of the algorithm. When the diameter is set smaller than the true size, cellpose may over-split cells. If the diameter is set too big then cellpose may over-merge cells.</p>
 <p><strong>Cell probability threshold (number of masks)</strong></p>
 <p>This is the threshold to determine masks. Decrease this threshold if cellpose is not returning as many masks as expected. Increase this threshold if cellpose is returning too many masks, particularly from dim areas.</p>
 <p><strong>Model match threshold (Mask quality threshold)</strong></p>
@@ -791,7 +810,7 @@ Cellpose-napari + FIJI</p>
   <a class='right-next' id="next-link" href="cellpose-FIJI.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Segmenting in napari, and exporting a mask in FIJI</p>
+      <p class="prev-next-title">Segmenting in napari and exporting a mask in FIJI</p>
   </div>
   <i class="fa-solid fa-angle-right"></i>
   </a>
@@ -821,8 +840,11 @@ Cellpose-napari + FIJI</p>
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#cellpose-parameters">
-   Cellpose parameters
+  <a class="reference internal nav-link" href="#cellpose-napari-parameters">
+   <em>
+    Cellpose-napari
+   </em>
+   parameters
   </a>
  </li>
 </ul>

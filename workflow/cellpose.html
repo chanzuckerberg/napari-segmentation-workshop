@@ -193,6 +193,13 @@ const thebe_selector_output = ".output, .cell_output"
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../onboard/gettingstarted-3.html">
                         Installing napari plugins
                       </a>
@@ -356,6 +363,13 @@ Classical segmentation with PartSeg
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../onboard/gettingstarted-3.html">
                         Installing napari plugins
                       </a>
@@ -474,6 +488,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1"><a class="reference internal" href="../onboard/whatisnapari.html">What is napari?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted.html">Getting started with napari and plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted-2.html">Create a virtual environment and install napari</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">napari plugin installation workflow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted-3.html">Installing napari plugins</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Segmentation Workflows</span></p>
@@ -481,7 +496,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">
 Cellpose-napari + FIJI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="cellpose-parameters.html">Understanding and adjusting parameters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cellpose-FIJI.html">Segmenting in napari, and exporting a mask in FIJI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cellpose-FIJI.html">Segmenting in napari and exporting a mask in FIJI</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="partseg.html">
@@ -721,7 +736,7 @@ Cellpose-napari + FIJI<a class="headerlink" href="#samples-of-images-segmented-b
 <td><p>Mandatory</p></td>
 <td><p>In the napari viewer, verify your version of napari by clicking on the <strong>Help</strong> menu, then <strong>napari info</strong>.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference external" href="https://www.napari-hub.org/plugins/cellpose-napari">cellpose v 0.1.4</a></p></td>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.napari-hub.org/plugins/cellpose-napari">cellpose v 0.1.5</a></p></td>
 <td><p>Mandatory</p></td>
 <td><p>Install this plugin from within the napari viewer, by going to the <strong>Plugin</strong> menu, then clicking on <strong>Install/uninstall plugins</strong>. Search for <em>Cellpose-napari</em> and click <strong>install</strong>.</p></td>
 </tr>
@@ -770,6 +785,41 @@ Cellpose-napari + FIJI<a class="headerlink" href="#samples-of-images-segmented-b
 </section>
 <section id="demo-of-cellpose-napari">
 <h2>Demo of <em>Cellpose-napari</em><a class="headerlink" href="#demo-of-cellpose-napari" title="Permalink to this headline">#</a></h2>
+<p>Here are a few recommendations before you watch the video:</p>
+<ul>
+<li><p>Use full screen view</p></li>
+<li><p>Slow the video down by clicking the gear wheel or cog wheel in the lower right corner of the video. Click speed and select a slower speed.</p></li>
+<li><p>Review the parameter setting explanations <span class="xref myst">here</span>. In the video the following parameters and features are used:</p>
+<ul>
+<li><p>In napari:</p>
+<ul class="simple">
+<li><p>contrast limits</p></li>
+<li><p>loading a plugin</p></li>
+</ul>
+</li>
+<li><p>In the cellpose-napari plugin:</p>
+<ul class="simple">
+<li><p>model type</p></li>
+<li><p>channel to segment</p></li>
+<li><p>diameter</p></li>
+<li><p>computer diameter from image</p></li>
+<li><p>average 4 nets</p></li>
+<li><p>resample dynamics</p></li>
+<li><p>clear previous results</p></li>
+<li><p>output flows and cellprob</p></li>
+<li><p>output outlines</p></li>
+<li><p>run segmentation</p></li>
+<li><p>cellprob threshold</p></li>
+<li><p>recompute last masks with new cellprob + model match</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>When any of the buttons are clicked, it may take a few seconds for napari to respond with the new information.  Please be patient.</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
 <center>
 <script src="https://fast.wistia.com/embed/medias/ezh7e1nqr1.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ezh7e1nqr1 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/ezh7e1nqr1/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 </center>

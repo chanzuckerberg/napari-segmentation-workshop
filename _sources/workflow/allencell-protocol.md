@@ -4,10 +4,15 @@
 
 - Begin by importing an image to be analyzed. Drag and drop your image directly into the napari viewer, or locate it on your computer using the main menu **File > Open**. 
 
+- Ensure that the built-in reader plugins are being used, to minimize errors. Verify, under  **File>Preferences>Plugins**, that the *get_reader* plugins are enabled. There is a check in the box on the left end of the line if they are, as shown here:  
+
+    ![File>Preference>Plugins](./images/preferences-plugin.png)  
+
+- In this instance, an image of *actin filaments* is open (which you can download for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)).  
+    
 :::{hint}
-Before proceeding, ensure that the Builtin reader plugin is being used, to minimize errors. You can verify this by going to menu [**File > Preference > Plugins**](images/preferences-plugin.png), then checking that **"Builtin reader plugin"** is enabled. 
+Right click on the playback button on the left end of the slider bar under the image to change the speed at which the image is shown. It can be slowed down to one frame/second. Right click on the `contrast limits:` slider and adjust the upper contrast limit to about 62 to see the image better. 
 :::
-<!-- I am not sure exactly what the previous hint means.  I could not find a "Builtin reader" plugin. -->
 
 - In this instance, an image of *actin filaments* is open (which you can download for yourself [here](https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif)).  
 
@@ -63,4 +68,4 @@ All the intermediate steps between each part of a workflow are displayed as laye
  
 ![Intermediate steps of Allen Cell Segmenter as layers in napari viewer](images/allencell-9.png)
 
-- Your 'image' now needs to be converted into a **binary** (0/1 or 0/255) **mask** if it is to be exported. You can easily convert it into a binary mask by right-clicking the layer in question and selecting **convert image to labels** from the menu that appears. <!-- Where this says "layer in question" which layer is it talking about?  The original image layer? The size filter layer? -->
+- Your 'image' now needs to be converted into a **binary** (0/1 or 0/255) **mask** if it is to be exported. You can easily convert it into a binary mask by right-clicking the layer in question and selecting **convert image to labels** from the menu that appears. Any layer can be converted into labels but in this case we mean the Size Filter layer. 

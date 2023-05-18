@@ -193,6 +193,13 @@ const thebe_selector_output = ".output, .cell_output"
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../onboard/gettingstarted-3.html">
                         Installing napari plugins
                       </a>
@@ -356,6 +363,13 @@ Classical segmentation with PartSeg
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../onboard/gettingstarted-3.html">
                         Installing napari plugins
                       </a>
@@ -474,6 +488,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1"><a class="reference internal" href="../onboard/whatisnapari.html">What is napari?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted.html">Getting started with napari and plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted-2.html">Create a virtual environment and install napari</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">napari plugin installation workflow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted-3.html">Installing napari plugins</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Segmentation Workflows</span></p>
@@ -481,7 +496,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1 has-children"><a class="reference internal" href="cellpose.html">
 Cellpose-napari + FIJI</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="cellpose-parameters.html">Understanding and adjusting parameters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cellpose-FIJI.html">Segmenting in napari, and exporting a mask in FIJI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cellpose-FIJI.html">Segmenting in napari and exporting a mask in FIJI</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="partseg.html">
@@ -725,7 +740,7 @@ title="Print to PDF"
 <td><p>In the napari viewer, verify your version of napari by clicking on the <strong>Help</strong> menu, then <strong>napari info</strong>.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference external" href="https://www.napari-hub.org/plugins/cellpose-napari">napari-allencell-segmenter v 1.1.4</a></p></td>
-<td><p>Mandatory <td>Install this plugin from within the napari viewer: <li>Go to the <strong>Plugin</strong> menu <li> Click <strong>Install/uninstall plugins</strong>.</li> <li  style="margin-left:2em">Search for <em>napari-allencell-segmenter</em> </li> <li style="margin-left:2em"> Click <strong>install</strong>. </li> If the install is not successful, resist the urge to attempt to reinstall it from the menu. Pip install it instead. <li> Open a terminal or console prompt </li> <li> Enter <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">napari==0.4.xx</span></code> where xx is the desired version of napari.</li> </ul> </td></p></td>
+<td><p>Mandatory <td>Install this plugin from within the napari viewer: <li>Go to the <strong>Plugin</strong> menu <li> Click <strong>Install/uninstall plugins</strong>.</li> <li  style="margin-left:2em">Search for <em>napari-allencell-segmenter</em> </li> <li style="margin-left:2em"> Click <strong>install</strong>. </li> If the install is not successful, resist the urge to attempt to reinstall it from the menu. Pip install it instead. <li> Open a terminal or console prompt </li> <li> Enter <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">plugin-name</span></code>.</li> </ul> </td></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><center><strong>Image inputs</strong></center></p></td>
@@ -767,7 +782,7 @@ title="Print to PDF"
 <h2>Demo of <em>Allen Cell Segmenter</em><a class="headerlink" href="#demo-of-allen-cell-segmenter" title="Permalink to this headline">#</a></h2>
 <p>The following video demonstrates how to use the Allen Cell Segmenter plugin.</p>
 <p><strong>Note:</strong> To change the speed of the video, click the cog wheel in the lower right corner, then <em>speed</em>, and select the desired speed.</p>
-<p>A more detailed description of the protocol is given in the <span class="xref myst">Protocol for segmentation workflow</span> article. A summary of the basic steps is:</p>
+<p>A more detailed description of the protocol is given in the <span class="xref myst">Protocol for segmentation workflow</span> article.  A summary of the basic steps is:</p>
 <ul class="simple">
 <li><p>Drag and drop your image into napari or open it from the <strong>File</strong> menu.</p></li>
 <li><p>Use the slider bar at the bottom of the screen to choose the part of the image to examine.</p></li>
@@ -804,7 +819,6 @@ A panel appears on the right side of the screen with a selection of images.</p>
 </ul>
 </li>
 </ul>
-<!--I would put the next article before this one. That way they can read about the process and then the demo video would make more sense. --> 
 <center><script src="https://fast.wistia.com/embed/medias/388imsy9td.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_388imsy9td seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/388imsy9td/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></center>
 <br>
 <p>The above video demonstrates how to complete the <a class="reference internal" href="allencell-protocol.html"><span class="doc std std-doc">Allen Cell segmentation workflow</span></a> within napari, and showcases how adjusting parameters affects the resulting segmentation.</p>

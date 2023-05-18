@@ -193,6 +193,13 @@ const thebe_selector_output = ".output, .cell_output"
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../onboard/gettingstarted-3.html">
                         Installing napari plugins
                       </a>
@@ -356,6 +363,13 @@ Classical segmentation with PartSeg
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../onboard/gettingstarted-3.html">
                         Installing napari plugins
                       </a>
@@ -474,6 +488,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1"><a class="reference internal" href="../onboard/whatisnapari.html">What is napari?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted.html">Getting started with napari and plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted-2.html">Create a virtual environment and install napari</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted2-5-napari-plugin-installation-workflow.html">napari plugin installation workflow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../onboard/gettingstarted-3.html">Installing napari plugins</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Segmentation Workflows</span></p>
@@ -481,7 +496,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1 has-children"><a class="reference internal" href="cellpose.html">
 Cellpose-napari + FIJI</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="cellpose-parameters.html">Understanding and adjusting parameters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cellpose-FIJI.html">Segmenting in napari, and exporting a mask in FIJI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cellpose-FIJI.html">Segmenting in napari and exporting a mask in FIJI</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="partseg.html">
@@ -703,14 +718,17 @@ title="Print to PDF"
 <h1>Protocol for segmentation workflow<a class="headerlink" href="#protocol-for-segmentation-workflow" title="Permalink to this headline">#</a></h1>
 <section id="launch-napari-and-import-your-image">
 <h2>Launch napari and import your image<a class="headerlink" href="#launch-napari-and-import-your-image" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
+<ul>
 <li><p>Begin by importing an image to be analyzed. Drag and drop your image directly into the napari viewer, or locate it on your computer using the main menu <strong>File &gt; Open</strong>.</p></li>
+<li><p>Ensure that the built-in reader plugins are being used, to minimize errors. Verify, under  <strong>File&gt;Preferences&gt;Plugins</strong>, that the <em>get_reader</em> plugins are enabled. There is a check in the box on the left end of the line if they are, as shown here:</p>
+<p><img alt="File&gt;Preference&gt;Plugins" src="../_images/preferences-plugin.png" /></p>
+</li>
+<li><p>In this instance, an image of <em>actin filaments</em> is open (which you can download for yourself <a class="reference external" href="https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif">here</a>).</p></li>
 </ul>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>Before proceeding, ensure that the Builtin reader plugin is being used, to minimize errors. You can verify this by going to menu <a class="reference download internal" download="" href="../_downloads/bfd2af2e2965c2a8c1e698fa1628a72d/preferences-plugin.png"><span class="xref download myst"><strong>File &gt; Preference &gt; Plugins</strong></span></a>, then checking that <strong>“Builtin reader plugin”</strong> is enabled.</p>
+<p>Right click on the playback button on the left end of the slider bar under the image to change the speed at which the image is shown. It can be slowed down to one frame/second. Right click on the <code class="docutils literal notranslate"><span class="pre">contrast</span> <span class="pre">limits:</span></code> slider and adjust the upper contrast limit to about 62 to see the image better.</p>
 </div>
-<!-- I am not sure exactly what the previous hint means.  I could not find a "Builtin reader" plugin. -->
 <ul class="simple">
 <li><p>In this instance, an image of <em>actin filaments</em> is open (which you can download for yourself <a class="reference external" href="https://github.com/chanzuckerberg/napari-segmentation-workshop/raw/main/content/workflow/images/Allen-Cell-Segmenter-Sample-Data.tif">here</a>).</p></li>
 </ul>
@@ -771,7 +789,7 @@ title="Print to PDF"
 </ul>
 <p><img alt="Intermediate steps of Allen Cell Segmenter as layers in napari viewer" src="../_images/allencell-9.png" /></p>
 <ul class="simple">
-<li><p>Your ‘image’ now needs to be converted into a <strong>binary</strong> (0/1 or 0/255) <strong>mask</strong> if it is to be exported. You can easily convert it into a binary mask by right-clicking the layer in question and selecting <strong>convert image to labels</strong> from the menu that appears. <!-- Where this says "layer in question" which layer is it talking about?  The original image layer? The size filter layer? --></p></li>
+<li><p>Your ‘image’ now needs to be converted into a <strong>binary</strong> (0/1 or 0/255) <strong>mask</strong> if it is to be exported. You can easily convert it into a binary mask by right-clicking the layer in question and selecting <strong>convert image to labels</strong> from the menu that appears. Any layer can be converted into labels but in this case we mean the Size Filter layer.</p></li>
 </ul>
 </section>
 </section>

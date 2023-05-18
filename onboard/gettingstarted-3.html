@@ -61,7 +61,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Cellpose-napari + FIJI" href="../workflow/cellpose.html" />
-    <link rel="prev" title="Create a virtual environment and install napari" href="gettingstarted-2.html" />
+    <link rel="prev" title="napari plugin installation workflow" href="gettingstarted2-5-napari-plugin-installation-workflow.html" />
     <script async defer data-domain="czi-napari-segmentation-workshop" src="https://plausible.io/js/plausible.js"></script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -188,6 +188,13 @@ const thebe_selector_output = ".output, .cell_output"
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="gettingstarted-2.html">
                         Create a virtual environment and install napari
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
                       </a>
                     </li>
                 
@@ -355,6 +362,13 @@ Classical segmentation with PartSeg
                     </li>
                 
 
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="gettingstarted2-5-napari-plugin-installation-workflow.html">
+                        napari plugin installation workflow
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
                         Installing napari plugins
@@ -474,6 +488,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1"><a class="reference internal" href="whatisnapari.html">What is napari?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting started with napari and plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted-2.html">Create a virtual environment and install napari</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gettingstarted2-5-napari-plugin-installation-workflow.html">napari plugin installation workflow</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Installing napari plugins</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Segmentation Workflows</span></p>
@@ -481,7 +496,7 @@ Classical segmentation with PartSeg
 <li class="toctree-l1 has-children"><a class="reference internal" href="../workflow/cellpose.html">
 Cellpose-napari + FIJI</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../workflow/cellpose-parameters.html">Understanding and adjusting parameters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../workflow/cellpose-FIJI.html">Segmenting in napari, and exporting a mask in FIJI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/cellpose-FIJI.html">Segmenting in napari and exporting a mask in FIJI</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../workflow/partseg.html">
@@ -746,7 +761,7 @@ title="Print to PDF"
 <p><img alt="napari install uninstall menu" src="../_images/plugin1.png" /></p>
 <ul class="simple">
 <li><p>The subsequent window will display plugins that are previously installed (top portion of the window), as well as a list of plugins that are available (lower portion).</p></li>
-<li><p>While the user is free to scroll through the list of plugins, it may be more efficient to type a keyword related to the function or plugin name they are looking for in the filter box (at top).</p></li>
+<li><p>The user is free to scroll through the list of plugins, but it may be more efficient to type a keyword related to the function or plugin in the filter box at the top of the list.</p></li>
 </ul>
 <p><img alt="napari plugin menu" src="../_images/plugin2.png" /></p>
 <ul class="simple">
@@ -770,17 +785,20 @@ title="Print to PDF"
 </ul>
 <p><img alt="napari nikon nd2 opener plugin" src="../_images/plugin4.png" /></p>
 <ul class="simple">
-<li><p>By clicking the blue “install” button to the right of it, we can add it to our list of installed plugins:</p></li>
+<li><p>Click the blue “install” button to the right of the plugin to add it to the list of installed plugins.<br />
+<br>
+<strong>Note:</strong> If the plugin does not show up in the list of installed plugins, close and re-open napari. If it still does not show up, try to refrain from attempting to install it from the plugin menu more than once. Rather, efer to the documentation on <a class="reference external" href="https://www.napari-hub.org/">napari-hub</a> for that plugin. There may be another way to install it.<br />
+<br></p></li>
 <li><p>Upon attempting to open the same [.nd2] dataset again, we are successful!</p></li>
 </ul>
 <p><img alt="napari canvas showing opened nd2 image" src="../_images/plugin6.png" /></p>
 <ul class="simple">
-<li><p>Of course, not all plugin installations are perfect and may have either errors or bugs that pop up.  This is why it is important to visit <span class="xref myst">napari hub</span> and read the available documentation in order to review any suggested installation notes that would differ from the aforementioned.</p></li>
+<li><p>Of course, not all plugin installations are perfect and may have either errors or bugs that pop up.  This is why it is important to visit [napari hub](<a class="reference external" href="https://www.napari-hub.org/">https://www.napari-hub.org/</a> and read the available documentation in order to review any suggested installation notes that would differ from the aforementioned.</p></li>
 </ul>
 </section>
 <section id="updating-plugins">
 <h3>Updating Plugins<a class="headerlink" href="#updating-plugins" title="Permalink to this headline">#</a></h3>
-<p>Periodically, updates to installed plugins may become available.  This will be displayed in the “Install/Uninstall Plugins” dialogue as seen below. Update your plugins as desired.</p>
+<p>There may be updates to installed plugins. Look for a blue button towards the right end of the bar for that plugin, as shown below. Update the plugin as desired.</p>
 <p><img alt="napari install uninstall menu showing option to update plugins" src="../_images/plugin7.png" /></p>
 </section>
 </section>
@@ -814,11 +832,11 @@ title="Print to PDF"
             <footer class="bd-footer-article">
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-  <a class='left-prev' id="prev-link" href="gettingstarted-2.html" title="previous page">
+  <a class='left-prev' id="prev-link" href="gettingstarted2-5-napari-plugin-installation-workflow.html" title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
           <p class="prev-next-subtitle">previous</p>
-          <p class="prev-next-title">Create a virtual environment and install napari</p>
+          <p class="prev-next-title">napari plugin installation workflow</p>
       </div>
   </a>
   <a class='right-next' id="next-link" href="../workflow/cellpose.html" title="next page">

@@ -2,11 +2,11 @@
 
 ### Our Website Analytics Tool Does Not Collect Personal Information About You
 
-We use the privacy-friendly Plausible as our website analytics tool. Learn more about Plausible’s data and privacy practices [here](https://plausible.io/data-policy) and view the public dashboard for website [here](). <!-- Need the correct link for this. -->
+We use privacy-friendly Plausible as our website analytics tool. Learn more about Plausible’s data and privacy practices [here](https://plausible.io/data-policy) and view the public dashboard for the website [here](https://plausible.io/). 
 
 ### License
 
-This website and all its contents are made available under the [MIT License](https://opensource.org/license/mit/). <!-- Is this website the right one for the MIT License? -->
+This website and all its contents are made available under the [MIT License](https://opensource.org/license/mit/). A plain English explanation of the MIT license can be found [here](https://www.tldrlegal.com/search?query=MIT).
 
 Copyright (c) 2022 Chan Zuckerberg Initiative
 
