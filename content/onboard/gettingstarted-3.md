@@ -63,13 +63,13 @@ Installation of plugins into napari is usually a very straightforward process. P
 
 - Click the blue “install” button to the right of the plugin to add it to the list of installed plugins.  
 <br>
-**Note:** If the plugin does not show up in the list of installed plugins, close and re-open napari. If it still does not show up, try to refrain from attempting to install it from the plugin menu more than once. Rather, efer to the documentation on [napari-hub](https://www.napari-hub.org/) for that plugin. There may be another way to install it.   
+**Note:** If the plugin does not show up in the list of installed plugins, close and re-open napari. If it still does not show up, try to refrain from attempting to install it from the plugin menu more than once. Rather, refer to the documentation on [napari-hub](https://www.napari-hub.org/) for that plugin. There may be another way to install it.   
 <br>
 - Upon attempting to open the same [.nd2] dataset again, we are successful!
 
 ![napari canvas showing opened nd2 image](images/plugin6.png)
 
-- Of course, not all plugin installations are perfect and may have either errors or bugs that pop up.  This is why it is important to visit [napari hub](https://www.napari-hub.org/ and read the available documentation in order to review any suggested installation notes that would differ from the aforementioned.
+- Of course, not all plugin installations are perfect and may have either errors or bugs that pop up.  This is why it is important to visit [napari hub](https://www.napari-hub.org/) and read the available documentation in order to review any suggested installation notes that would differ from the aforementioned.
 
 ### Updating Plugins
 
