@@ -1,7 +1,7 @@
 # napari plugin installation workflow
 Sometimes you may need to perform a task that isn’t currently done in napari. napari can be extended using plugins written by the napari community. This is a fairly detailed flowchart of the steps needed to install a plugin into napari. [Written steps summarizing the flowchart](#written-steps-summarizing-the-flowchart) follow.  
 
-![plugin installation workflow](.\images\plugin-installation-workflow.png)  
+![plugin installation workflow](./images/plugin-installation-workflow.png) 
 
 ## Written steps summarizing the flowchart  
 
